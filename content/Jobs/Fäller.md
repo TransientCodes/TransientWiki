@@ -1,33 +1,30 @@
-[[Jobs Allgemein]]
-
-## Beschreibung
-
-Fällt bäume
+[[‎‎‎‎‎‎! Jobs-Allgemein‎‎]]
 
 
-## Tools
+## **Beschreibung**
+
+Der **Fäller** ist ein Beruf, der sich auf das Fällen von Bäumen und das Sammeln von Holz spezialisiert. Holz ist ein wichtiger Rohstoff, der in vielen anderen Berufen und für den Bau verwendet wird.
 
 
+---
+
+## **Tools**
+
+- **Spezial-Axt:** Baut einen Ganzen Baum ab.
+
+---
+
+## **Fähigkeiten**
 
 
-## Fähigkeiten
+- **Seltene Holz Drops:** Chance, besondere Holzarten oder Baumharz zu finden Etc. (Coming Soon!)
 
 
+---
 
+## **Aufgaben**
 
-## Aufgaben
+- Fällt Bäume in der **Farm-Welt**, um Holz zu sammeln.
+- Suche nach seltenen Bäumen in der **RPG-Welt**, um hochwertige Materialien zu gewinnen. (Coming Soon!)
 
-
-
-## Anderes
-
-
-
-
-
-```java
-jobXP(event.getPlayer(), 1.89, 2, 1, blockMats, Material.OAK_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 2.18, 3, 1, blockMats, Material.SPRUCE_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 1.65, 2.3, 1, blockMats, Material.BIRCH_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 2.69, 3.1, 1, blockMats, Material.ACACIA_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 2.55, 2.6, 1, blockMats, Material.JUNGLE_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 2.9, 3.6, 1, blockMats, Material.MANGROVE_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 1.97, 1.9, 1, blockMats, Material.WARPED_STEM, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 1.99, 1.91, 1, blockMats, Material.CRIMSON_STEM, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 0.16, 0.19, 1, blockMats, Material.BAMBOO, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 0.64, 0.98, 1, blockMats, Material.MANGROVE_ROOTS, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 3.1, 4.4, 1, blockMats, Material.DARK_OAK_LOG, "§6§l\ud83e\ude93"); jobXP(event.getPlayer(), 3.64, 5.68, 1, blockMats, Material.CHERRY_LOG, "§6§l\ud83e\ude93");
-
-//Vorlage;
-jobXP(event.getPlayer(), xp, pfundXP, 1, blockMats, actualMaterial, "§6§l\ud83e\ude93")
-```
+---

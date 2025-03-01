@@ -1,1 +1,0 @@
-[[Lizenzen Allgemein]]

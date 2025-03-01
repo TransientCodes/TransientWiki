@@ -1,27 +1,23 @@
-[[Jobs Allgemein]]
+[[‎‎‎‎‎‎! Jobs-Allgemein‎‎]]
 
-## Beschreibung
+---
 
-Baut alle wichtigen sachen für den koch an (später) aber auch alle normalen sachen
+## **Beschreibung**
 
-## Tools
+Der Farmer ist ein zentraler Beruf, der sich auf den Anbau von Pflanzen und die Versorgung der Spielwelt mit wichtigen Ressourcen konzentriert. Er baut sowohl grundlegende Nahrungsmittel als auch spezielle Zutaten an, die für den Koch und andere Berufe von entscheidender Bedeutung sind.
 
+---
 
+## **Tools**
 
-
-## Fähigkeiten
-
-
-
-
-## Aufgaben
+- **Auto Hacke:** Pflanzt automatisch die Felder nach.
+- **Erntekorb:** Ein Korb in dem eine große Menge an Saatgut reinpassen. (Coming Soon!)
 
 
+---
 
-## Anderes
+## **Aufgaben**
 
+- Versorgung des [[Gastronom (Coming Soon!)]] Berufs mit Zutaten.
 
-
-````Java
-public void executeJobXP(Player player, Block block){ jobXP(player, 2.3, 3, 14, WHEAT, block, "§6§l\uD83C\uDF3E"); jobXP(player, 3.12, 3.3, 14, BEETROOT, block, "§6§l\uD83C\uDF3E"); jobXP(player, 2.6, 3.5, 14, CARROT, block, "§6§l\uD83C\uDF3E"); jobXP(player, 2.4, 3.2, 14, POTATOES, block, "§6§l\uD83C\uDF3E"); jobXP(player, 2.88, 3, 14, MELON, block, "§6§l\uD83C\uDF3E"); jobXP(player, 2.87, 2.99, 14, PUMPKIN, block, "§6§l\uD83C\uDF3E"); }
-```
+---
