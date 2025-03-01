@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: rrzfp-wmtze
+created: 2025-01-16T18:07:50+01:00
