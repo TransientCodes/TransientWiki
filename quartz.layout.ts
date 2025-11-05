@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/Chaosgh/TransientWiki",
+      // GitHub: "https://github.com/Chaosgh/TransientWiki",
       "Unser Discord": "https://discord.gg/gvTTEhhZT2",
+      "Privatsphäre": "https://wiki.transientrealm.de/privacy"
     },
   }),
 }
