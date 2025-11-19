@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
 /* Carbon + Neuromorphism Theme Variables */
 :root {
     /* Colors */
@@ -37,5 +39,3 @@
     --shadow-neu-pressed: inset 4px 4px 8px #0d0d0d;
     --shadow-neu-card: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap');
