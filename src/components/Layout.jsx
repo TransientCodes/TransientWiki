@@ -21,8 +21,11 @@ const Layout = () => {
         <button className={styles.menuButton} onClick={toggleSidebar} aria-label="Toggle Menu">
           {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
-        <h1 className={styles.title}>SteamWiki</h1>
-        <div style={{ width: 24 }}></div> {/* Spacer for centering if needed */}
+        <div className={styles.branding}>
+          <img src="/logo.png" alt="Transient Wiki Logo" className={styles.logo} />
+          <h1 className={styles.title}>Transient Wiki</h1>
+        </div>
+        <div style={{ width: 24 }}></div>
       </header>
 
       <div className={styles.main}>
