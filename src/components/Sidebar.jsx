@@ -125,12 +125,12 @@ const Sidebar = ({ isOpen, onClose }) => {
                     </div>
 
                     <div className={styles.socialLinks}>
-                        <a href="https://discord.gg/transientrealm" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} title="Discord">
+                        <a href="https://discord.gg/9ccpRrWejj" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} title="Discord">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                             </svg>
                         </a>
-                        <a href="https://youtube.com/@TransientRealm" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} title="YouTube">
+                        <a href="https://www.youtube.com/@TransientRealmDE" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} title="YouTube">
                             <Youtube size={18} />
                         </a>
                         <a href="https://github.com/TransientCodes" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} title="GitHub">
