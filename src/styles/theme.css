@@ -1,0 +1,41 @@
+/* Carbon + Neuromorphism Theme Variables */
+:root {
+    /* Colors */
+    --color-bg-page: #161616;
+    --color-bg-surface: #1f1f1f;
+    /* Slightly lighter for depth */
+    --color-bg-surface-hover: #2a2a2a;
+    --color-text-primary: #f4f4f4;
+    --color-text-secondary: #a8a8a8;
+
+    /* Accent Colors (Purple) */
+    --color-accent: #ce72cc;
+    --color-accent-hover: #e08ce0;
+    --color-accent-dark: #4f1e4c;
+
+    --color-border: #333333;
+    --color-border-subtle: #404040;
+
+    /* Glassmorphism */
+    --glass-bg: rgba(31, 31, 31, 0.7);
+    --glass-blur: 12px;
+    --glass-border: rgba(255, 255, 255, 0.08);
+
+    /* Fonts */
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+
+    /* Neuromorphism (Dark, Inner Only) */
+    --shadow-neu-flat: none;
+    --shadow-neu-pressed: inset 4px 4px 8px #0d0d0d;
+    --shadow-neu-card: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap');
