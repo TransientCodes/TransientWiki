@@ -18,13 +18,12 @@ const WikiPage = () => {
 
             try {
                 // Dynamically import markdown files
-                const modules = import.meta.glob('/src/content/**/*.md', { as: 'raw' });
+                const modules = import.meta.glob('/src/content/**/*.md', { query: '?raw', import: 'default' });
 
                 // Helper to normalize paths for comparison (removes special chars, spaces, invisible marks)
                 const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
 
-                const cleanSlug = pageSlug;
-                const normalizedTarget = normalize(cleanSlug);
+                const normalizedTarget = normalize(pageSlug);
 
                 // Find matching file
                 const modulePath = Object.keys(modules).find(path => {
