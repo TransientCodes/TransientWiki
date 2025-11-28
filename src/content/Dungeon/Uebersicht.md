@@ -9,7 +9,7 @@ Ein riesiges Labyrinth-System mit Fallen, Räumen und Loot. Dient als Endgame- u
 Unterschiedliche Layouts und Herausforderungen.
 
 ### Raid-Chambers
-Wettereinschlagende Bossräume für Gruppen.
+Bossräume für Gruppen.
 
 ### Fallen & Mechaniken
 Druckplatten, Pfeile, Überraschungsfallen.
