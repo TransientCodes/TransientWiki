@@ -1,4 +1,4 @@
-const e=`# Dungeon- & Maze-System
+const n=`# Dungeon- & Maze-System
 
 ## Erklärung
 Ein riesiges Labyrinth-System mit Fallen, Räumen und Loot. Dient als Endgame- und Progression-Content.
@@ -9,7 +9,7 @@ Ein riesiges Labyrinth-System mit Fallen, Räumen und Loot. Dient als Endgame- u
 Unterschiedliche Layouts und Herausforderungen.
 
 ### Raid-Chambers
-Wettereinschlagende Bossräume für Gruppen.
+Bossräume für Gruppen.
 
 ### Fallen & Mechaniken
 Druckplatten, Pfeile, Überraschungsfallen.
@@ -19,4 +19,4 @@ Thematische Bereiche & Atmosphären.
 
 ### Belohnungen
 Loot, Essenzen, seltene Materialien.
-`;export{e as default};
+`;export{n as default};
