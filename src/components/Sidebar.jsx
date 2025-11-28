@@ -118,9 +118,9 @@ const Sidebar = ({ isOpen, onClose }) => {
                             <Mail size={18} />
                             <span>Kontakt</span>
                         </a>
-                        <a href="/wiki/privacy" className={styles.footerLink} title="Privacy">
+                        <a href="/wiki/impressum" className={styles.footerLink} title="Impressum">
                             <Shield size={18} />
-                            <span>Datenschutz</span>
+                            <span>Impressum</span>
                         </a>
                     </div>
 
