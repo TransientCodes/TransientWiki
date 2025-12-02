@@ -1,19 +1,21 @@
-[[‎‎‎‎‎‎! Kult-Allgemein‎‎]]
+<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #55ff55; margin-bottom: 20px;">
+    <h1 style="color: #ffffff; margin: 0;">Wochenmarkt</h1>
+</div>
 
-Der **Wochenmarkt** ist ein besonderes Event, das **einmal pro Woche** an einem zufälligen Tag stattfindet. Hier können Gildenmitglieder seltene und wertvolle Items erwerben, die sonst schwer zu finden sind. Die verfügbaren Items unterscheiden sich jedoch, basieren jedoch auf dem Gilden-Level und der gewählten Fraktion. 
+Der Wochenmarkt ist eine exklusive Handelsmöglichkeit für Kulte ab **Level 5**. Hier könnt ihr Rubine gegen seltene Gegenstände tauschen.
 
-### Funktionsweise
+## Wie funktioniert es?
 
-- **Gilden-Level:** Jedes Gilden-Level hat seine **eigene Liste** an Items, sodass höhere Level bessere und exklusivere Items freischalten.
-- **[[Fraktionen (Coming Soon!)]]:** Die gewählte Fraktion beeinflusst ebenfalls die verfügbaren Items, wodurch jede Fraktion ihre **eigenen Vorteile** auf dem Markt bietet.
+*   **Rotation:** Das Angebot wechselt jede Woche (Realzeit).
+*   **Währung:** Bezahlt wird mit Pfund.
+*   **Zugriff:** Alle Mitglieder eines Kults (ab Level 5) können den Markt nutzen.
 
-- Je höher das Gilden-Level, desto hochwertiger und seltener sind die angebotenen Items.
+## Angebot
 
+Das Angebot ist zufällig und kann alles enthalten, von seltenen Baumaterialien bis hin zu magischen Gegenständen. Schaut regelmäßig vorbei, um keine Schnäppchen zu verpassen!
 
-### Vorteile des Wochenmarkts
+**Befehl:** `/kult wochenmarkt` (oder über das Kult-Menü)
 
-- Zugang zu **exklusiven Items**, die es nirgendwo anders gibt.
-- Möglichkeit, Ressourcen zu erwerben, die für die Weiterentwicklung eurer Gilde wichtig sind.
-
-
-Plant eure Einkäufe strategisch und achtet darauf, regelmäßig den Wochenmarkt zu besuchen, um das Beste aus diesem Feature herauszuholen!
+<br>
+<hr>
+<p align="center"><strong>[Zurück zur Übersicht|Allgemein]</strong></p>

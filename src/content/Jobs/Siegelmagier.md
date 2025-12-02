@@ -1,23 +1,21 @@
+<div style="background-color: #2b2b3d; padding: 15px; border-left: 5px solid #aa55ff; border-radius: 5px;">
+    <h1 style="margin: 0; color: #d4aaff;">Siegelmagier</h1>
+</div>
 
 
-[[‎‎‎‎‎‎! Jobs-Allgemein‎‎]]
+## Der Siegelaltar
 
-## **Beschreibung**
+Der **Siegelaltar** ist dazu da um mächtige Siegel herzustellen die deine Ausrüstung verstärken.
+Es gibt verschiedene Arten von Siegeln, darunter:
+- Giftsiegel
+- Luftseigel
+- Erdsiegel
+- Wassersiegel
 
-Der **Siegelmagier** nutzt eine Kombination aus **Siegeln** und **Katalysations Gegenständen**, um magische **Siegel** Herzustellen.  
+Diese Siegel können durch verschiedene arten gewonnen werden.
 
-<font color="#ff0000">Hinweis!: Die Rezepte dieses Berufes befindet sich noch in der Entwicklung und werden in Zukunft verändert.</font>
 
----
 
-## **Tools**
 
-- **Siegelaltar:** Ermöglicht die Herstellung und Aktivierung von magischen Siegeln.
-- **Siegel:** Basis für alle Rezepte
 
----
-
-## **Aufgaben**
-
-- **Erstellung von Siegeln:** Herstellung neuer magischer Siegel mit dem Siegelaltar.
-- **Kooperation mit anderen Berufen:** Nutzung von Materialien des [[Runenmechaniker (Coming Soon!)]], um magische Artefakte zu verbessern.
+[Zurück zur Übersicht|Allgemein]
