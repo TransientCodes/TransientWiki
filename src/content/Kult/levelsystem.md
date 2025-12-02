@@ -35,7 +35,3 @@ Hier siehst du, was du auf welchem Level freischaltest:
 1.  Sammle Rubine in deiner Kult-Bank.
 2.  Öffne das Level-Menü über `/kult menu` -> Level.
 3.  Klicke auf das Upgrade-Item, wenn du genügend Rubine hast.
-
-<br>
-<hr>
-<p align="center"><strong>[Zurück zur Übersicht|Allgemein]</strong></p>

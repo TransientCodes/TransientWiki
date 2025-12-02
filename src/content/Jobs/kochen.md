@@ -15,4 +15,3 @@ Manche Gerichte geben dir:
 - Heilung
 - Sättigung
 
-[Zurück zur Übersicht|Allgemein]

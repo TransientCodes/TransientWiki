@@ -23,5 +23,3 @@ Hier ist eine Liste aller verfügbaren Berufe auf dem Server:
 
 ## Wie trete ich einem Job bei?
 Nutze den Befehl `/job` oder `/berufe`, um das Job-Menü zu öffnen.
-
-[Zurück zur Übersicht|Allgemein]
