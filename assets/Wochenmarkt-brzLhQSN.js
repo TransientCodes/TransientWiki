@@ -16,7 +16,4 @@ Das Angebot ist zufällig und kann alles enthalten, von seltenen Baumaterialien 
 
 **Befehl:** \`/kult wochenmarkt\` (oder über das Kult-Menü)
 
-<br>
-<hr>
-<p align="center"><strong>[Zurück zur Übersicht|Allgemein]</strong></p>
 `;export{e as default};

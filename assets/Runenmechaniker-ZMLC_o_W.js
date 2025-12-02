@@ -12,5 +12,4 @@ Am **Runentisch** kannst du deine Ausrüstung mit speziellen Runen versehen.
 ## Nutzung
 Nutze den Befehl \`/runentable\`, um den Runentisch zu öffnen.
 
-[Zurück zur Übersicht|Allgemein]
 `;export{n as default};

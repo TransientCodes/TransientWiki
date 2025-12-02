@@ -15,8 +15,4 @@ Es gibt verschiedene Arten von Siegeln, darunter:
 Diese Siegel können durch verschiedene arten gewonnen werden.
 
 
-
-
-
-[Zurück zur Übersicht|Allgemein]
 `;export{e as default};

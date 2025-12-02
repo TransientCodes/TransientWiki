@@ -10,5 +10,4 @@ Verkaufe deinen Fang beim speziellen **Angel-Trader**. Manche Fische sind sehr w
 ## Anglerbuch
 Halte deine Fänge im **Anglerbuch** fest. Sammle alle Fischarten.
 
-[Zurück zur Übersicht|Allgemein]
 `;export{e as default};

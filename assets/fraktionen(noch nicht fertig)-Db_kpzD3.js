@@ -23,7 +23,4 @@ Ab **Kult-Level 10** steht euer Kult vor einer entscheidenden Wahl: Welcher Frak
 Sobald euer Kult Level 10 erreicht hat, kann der Herrscher im Kult-Menü eine Fraktion wählen.
 **Achtung:** Wählt weise, denn ein Wechsel ist nicht einfach möglich!
 
-<br>
-<hr>
-<p align="center"><strong>[Zurück zur Übersicht|Allgemein]</strong></p>
 `;export{e as default};
