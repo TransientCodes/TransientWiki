@@ -21,5 +21,5 @@ Hier ist eine Liste aller verfügbaren Berufe auf dem Server:
 - **Farmer**: Bestelle Felder und ernte Pflanzen.
 
 
-## Wie trete ich einem Job bei?
+## Wie sehe ich meinn Job Progress?
 Nutze den Befehl `/job` oder `/berufe`, um das Job-Menü zu öffnen.

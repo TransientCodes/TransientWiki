@@ -33,5 +33,5 @@ Hier siehst du, was du auf welchem Level freischaltest:
 ## Wie steige ich auf?
 
 1.  Sammle Rubine in deiner Kult-Bank.
-2.  Öffne das Level-Menü über `/kult menu` -> Level.
+2.  Öffne das Level-Menü über `/kult` -> Level.
 3.  Klicke auf das Upgrade-Item, wenn du genügend Rubine hast.

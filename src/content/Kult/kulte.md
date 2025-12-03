@@ -10,7 +10,7 @@ Jeder Spieler kann einen eigenen Kult gründen. Dies ist der erste Schritt, um Z
 
 **Befehl:** `/kult create <Name> <Tag>`
 *   **Name:** Der vollständige Name deines Kults (z.B. "DieWächter").
-*   **Tag:** Ein kurzes Kürzel (2-6 Zeichen), das im Chat angezeigt wird (z.B. "WÄCHTER").
+*   **Tag:** Ein kurzes Kürzel (3-4 Zeichen), das im Chat angezeigt wird (z.B. "WACH").
 
 ## Wichtige Befehle
 

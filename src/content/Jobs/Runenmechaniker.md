@@ -9,6 +9,5 @@ Am **Runentisch** kannst du deine Ausrüstung mit speziellen Runen versehen.
 - Wende Runen auf Waffen und Rüstungen an.
 - Kombiniere Runen für stärkere Effekte.
 
-## Nutzung
-Nutze den Befehl `/runentable`, um den Runentisch zu öffnen.
+
 

@@ -7,7 +7,6 @@ Hier ist eine Liste der wichtigsten Befehle für Spieler.
 | Befehl | Beschreibung |
 | :--- | :--- |
 | `/job`,`/beruf`,`/berufe` | Öffnet das Job-Menü |
-| `/artifactmenu` | Zeigt deine Artefakte |
 | `/biom` | Zeigt Biom-Informationen. Sehr Hilfreich fürs Fischen! |
 | `/anglerbuch` | Öffnet dein Anglerbuch |
 | `/rezepte` | Zeigt verfügbare Crafting-Rezepte |

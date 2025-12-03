@@ -14,5 +14,5 @@ Der Wochenmarkt ist eine exklusive Handelsmöglichkeit für Kulte ab **Level 5**
 
 Das Angebot ist zufällig und kann alles enthalten, von seltenen Baumaterialien bis hin zu magischen Gegenständen. Schaut regelmäßig vorbei, um keine Schnäppchen zu verpassen!
 
-**Befehl:** `/kult wochenmarkt` (oder über das Kult-Menü)
+**Befehl:** `/kult markt` (oder über das Kult-Menü)
 
