@@ -56,7 +56,7 @@ Einzelne integrierte Module darin können **trotzdem verboten** sein und müssen
 
 
 
-&nbsp; *Nur visuell. Alles, was Höhlen sichtbar macht, obwohl sie es nicht sein sollten: verboten.*
+*Nur visuell. Alles, was Höhlen sichtbar macht, obwohl sie es nicht sein sollten: verboten.*
 
 
 
@@ -69,14 +69,12 @@ Einzelne integrierte Module darin können **trotzdem verboten** sein und müssen
 
 
 - **Inventar-Organisations-Mods**  
-
-&nbsp; *Kein Auto-Unterstützen, das Aktionen für dich „drückt“. Nur Sortierung.*
+*Kein Auto-Unterstützen, das Aktionen für dich „drückt“. Nur Sortierung.*
 
 
 
 - **Minimaps**  
-
-&nbsp; *ohne Höhlen-Scan.*
+*ohne Höhlen-Scan.*
 
 
 
@@ -101,8 +99,7 @@ Einzelne integrierte Module darin können **trotzdem verboten** sein und müssen
 
 
 - **Litematica**  
-
-&nbsp; *Nur Anzeige. Kein Auto-Build, keine Printer-Funktionen.*
+*Nur Anzeige. Kein Auto-Build, keine Printer-Funktionen.*
 
 
 
