@@ -1,4 +1,4 @@
-\# Erlaubte Mods — Serverrichtlinie
+# Erlaubte Mods — Serverrichtlinie
 
 
 
@@ -10,53 +10,25 @@
 
 
 
-\## Clients (erlaubt)
+## Clients (erlaubt)
 
 
 
 Folgende Komplett-Clients sind erlaubt.  
 
-Einzelne integrierte Module darin können \*\*trotzdem verboten\*\* sein und müssen deaktiviert bleiben.
+Einzelne integrierte Module darin können **trotzdem verboten** sein und müssen deaktiviert bleiben.
 
 
 
-\- \*\*Labymod\*\*
+- **Labymod**
 
-\- \*\*Badlion\*\*
+- **Badlion**
 
-\- \*\*Lunar\*\*
+- **Lunar**
 
-\- \*\*Feather\*\*
+- **Feather**
 
-\- \*\*Norisk\*\*
-
-
-
----
-
-
-
-\## Grafik \& Performance (erlaubt)
-
-
-
-\- \*\*Optifine\*\*
-
-\- \*\*Sodium\*\*
-
-\- \*\*Shaderpacks\*\* (keine X-Ray Shader oder so ihr Schlingel)
-
-\- \*\*Dynamic Lights\*\*
-
-\- \*\*Distant Horizons\*\*
-
-\- \*\*Bobby\*\*
-
-\- \*\*Fullbright\*\*  
-
-
-
-&nbsp; \*Nur visuell. Alles, was Höhlen sichtbar macht, obwohl sie es nicht sein sollten: verboten.\*
+- **Norisk**
 
 
 
@@ -64,53 +36,27 @@ Einzelne integrierte Module darin können \*\*trotzdem verboten\*\* sein und mü
 
 
 
-\## UI \& Quality of Life (erlaubt)
+## Grafik & Performance (erlaubt)
 
 
 
-\- \*\*Inventar-Organisations-Mods\*\*  
+- **Optifine**
 
-&nbsp; \*Kein Auto-Unterstützen, das Aktionen für dich „drückt“. Nur Sortierung.\*
+- **Sodium**
 
+- **Shaderpacks** (keine X-Ray Shader oder so ihr Schlingel)
 
+- **Dynamic Lights**
 
-\- \*\*Minimaps\*\*  
+- **Distant Horizons**
 
-&nbsp; \*ohne Höhlen-Scan.\*
+- **Bobby**
 
-
-
-\- \*\*JEI / REI\*\*
-
-
-
-\- \*\*ShulkerBoxTooltip\*\*
+- **Fullbright**  
 
 
 
-\- \*\*MapTooltip\*\*
-
-
-
-\- \*\*Armor- und Effekt-Statusanzeigen\*\*
-
-
-
-\- \*\*Pixel-Hud\*\*
-
-
-
-\- \*\*Litematica\*\*  
-
-&nbsp; \*Nur Anzeige. Kein Auto-Build, keine Printer-Funktionen.\*
-
-
-
-\- \*\*Do a Barrel Roll\*\*
-
-
-
-\- \*\*Moon Phase Display\*\*
+&nbsp; *Nur visuell. Alles, was Höhlen sichtbar macht, obwohl sie es nicht sein sollten: verboten.*
 
 
 
@@ -118,7 +64,61 @@ Einzelne integrierte Module darin können \*\*trotzdem verboten\*\* sein und mü
 
 
 
-\## Nicht erlaubt
+## UI & Quality of Life (erlaubt)
+
+
+
+- **Inventar-Organisations-Mods**  
+
+&nbsp; *Kein Auto-Unterstützen, das Aktionen für dich „drückt“. Nur Sortierung.*
+
+
+
+- **Minimaps**  
+
+&nbsp; *ohne Höhlen-Scan.*
+
+
+
+- **JEI / REI**
+
+
+
+- **ShulkerBoxTooltip**
+
+
+
+- **MapTooltip**
+
+
+
+- **Armor- und Effekt-Statusanzeigen**
+
+
+
+- **Pixel-Hud**
+
+
+
+- **Litematica**  
+
+&nbsp; *Nur Anzeige. Kein Auto-Build, keine Printer-Funktionen.*
+
+
+
+- **Do a Barrel Roll**
+
+
+
+- **Moon Phase Display**
+
+
+
+---
+
+
+
+## Nicht erlaubt
 
 
 
@@ -128,17 +128,17 @@ Damit niemand behauptet, er hätte „aus Versehen“ gecheatet:
 
 
 
-\- X-Ray jeglicher Art
+- X-Ray jeglicher Art
 
-\- Cave-Finder / Ore-Scanner
+- Cave-Finder / Ore-Scanner
 
-\- Auto-Fishing, Auto-Mining, Auto-PvP, Makro-Bots
+- Auto-Fishing, Auto-Mining, Auto-PvP, Makro-Bots
 
-\- Alles, was Blöcke sichtbar macht, die man laut Minecraft eigentlich nicht sehen soll
+- Alles, was Blöcke sichtbar macht, die man laut Minecraft eigentlich nicht sehen soll
 
-\- Litematica Printer / Auto-Placer
+- Litematica Printer / Auto-Placer
 
-\- Mod-Features der Clients, die gegen diese Regeln verstoßen
+- Mod-Features der Clients, die gegen diese Regeln verstoßen
 
 
 
@@ -146,7 +146,7 @@ Damit niemand behauptet, er hätte „aus Versehen“ gecheatet:
 
 
 
-\## Neue Mods einreichen
+## Neue Mods einreichen
 
 
 
