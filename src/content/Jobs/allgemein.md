@@ -1,7 +1,7 @@
+<div style="background-color: #2b3d3d; padding: 15px; border-left: 5px solid #55ffff; border-radius: 5px;">
+    <h1 style="margin: 0; color: #aaffff;">Features</h1>
+</div>
 
-Willkommen im offiziellen Wiki für **TransientJobs**! Hier findest du alle Informationen zu den verschiedenen Systemen und Features, die dir auf deiner Reise helfen werden.
-
-## Features
 
 Klicke auf eine Kategorie, um mehr zu erfahren:
 
