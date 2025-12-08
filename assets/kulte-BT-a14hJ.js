@@ -37,7 +37,7 @@ Im Kult-Menü (\`/kult\`) kannst du verschiedene Einstellungen vornehmen:
 <br>
 
 <div style="background-color: #222; padding: 10px; border-left: 3px solid #888;">
-    <strong>Tipp:</strong> Nutze <code>@cult</code> oder <code>@clan</code> vor deiner Chatnachricht, um schnell in den Kult-Chat zu schreiben! (wird ab Level 4 freigeschaltet)
+    <strong>Tipp:</strong> Nutze <code>@kult</code> oder <code>@clan</code> vor deiner Chatnachricht, um schnell in den Kult-Chat zu schreiben! (wird ab Level 4 freigeschaltet)
 </div>
 
 `;export{e as default};
