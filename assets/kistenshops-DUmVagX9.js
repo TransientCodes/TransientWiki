@@ -10,7 +10,7 @@ Das Schild muss exakt in einem bestimmten Format beschrieben sein, damit das Sys
 Ein Shop-Schild besteht aus **vier Zeilen**, die jeweils eine bestimmte Funktion haben:
 
 1. **Erste Zeile:**  
-   \`--\`  
+   \`Leere Zeile\`  
    Sobald du den Shop bestätigst (also das Schild schließt), ersetzt das System diese Zeile durch deinen Spielernamen.  
    Dadurch ist sichtbar, wem der Shop gehört.
 
