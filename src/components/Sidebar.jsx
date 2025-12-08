@@ -22,8 +22,8 @@ const Sidebar = ({ isOpen, onClose }) => {
             if (parts.length === 1) {
                 // Top level file
                 const name = parts[0];
-                // Skip home as we'll add it manually or handle it specifically
-                if (name !== 'home') {
+                // Skip home, impressum, and privacy as we handle them specifically
+                if (!['home', 'impressum', 'privacy'].includes(name.toLowerCase())) {
                     structure.topLevel.push({
                         name: name.charAt(0).toUpperCase() + name.slice(1),
                         path: `/wiki/${name}`
