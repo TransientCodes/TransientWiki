@@ -191,7 +191,7 @@ const e=`**Regelwerk TransientRealm.de**
 
 - **Alle verbundenen Accounts werden gesperrt**.
 
- *§5 – Schlussbestimmungen*
+ *§4 – Schlussbestimmungen*
 
 - **Mit der Nutzung von TransientRealm** erklärst du dich mit diesem Regelwerk einverstanden.
 - **Unkenntnis** oder **Missverständnisse** schützen nicht vor Sanktionen.
