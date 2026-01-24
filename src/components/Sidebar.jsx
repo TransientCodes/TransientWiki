@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                 // Top level file
                 const name = parts[0];
                 // Skip home, impressum, and privacy as we handle them specifically
-                if (!['home', 'impressum', 'privacy'].includes(name.toLowerCase())) {
+                if (!['home', 'impressum', 'privacy', 'regelwerk'].includes(name.toLowerCase())) {
                     structure.topLevel.push({
                         name: name.charAt(0).toUpperCase() + name.slice(1),
                         path: `/wiki/${name}`
@@ -114,7 +114,7 @@ const Sidebar = ({ isOpen, onClose }) => {
 
                 <div className={styles.footer}>
                     <div className={styles.footerLinks}>
-                        <a href="mailto:support@transientrealm.de" className={styles.footerLink} title="Contact">
+                        <a href="mailto:business@transientcodes.de" className={styles.footerLink} title="Contact">
                             <Mail size={18} />
                             <span>Kontakt</span>
                         </a>
@@ -122,6 +122,10 @@ const Sidebar = ({ isOpen, onClose }) => {
                             <Shield size={18} />
                             <span>Impressum</span>
                         </NavLink>
+                        <NavLink to="/wiki/Regelwerk/Regelwerk" className={styles.footerLink} title="Regelwerk">
+                            <Shield size={18} />
+                            <span>Regelwerk</span>
+                        </NavLink>                       
                     </div>
 
                     <div className={styles.socialLinks}>
@@ -139,7 +143,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                     </div>
 
                     <div className={styles.copyright}>
-                        © 2025 Transient Realm
+                        © 2026 Transient Realm
                     </div>
                 </div>
             </aside>
