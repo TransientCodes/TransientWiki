@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Github, Youtube, Mail, Shield } from 'lucide-react';
+import { Github, Youtube, Mail, Shield, Book } from 'lucide-react';
 import styles from './Sidebar.module.css';
 
 const Sidebar = ({ isOpen, onClose }) => {
@@ -122,8 +122,8 @@ const Sidebar = ({ isOpen, onClose }) => {
                             <Shield size={18} />
                             <span>Impressum</span>
                         </NavLink>
-                        <NavLink to="/wiki/Regelwerk/Regelwerk" className={styles.footerLink} title="Regelwerk">
-                            <Shield size={18} />
+                        <NavLink to="/wiki/Regelwerk" className={styles.footerLink} title="Regelwerk">
+                            <Book size={18} />
                             <span>Regelwerk</span>
                         </NavLink>                       
                     </div>
