@@ -1,4 +1,4 @@
-const e=`**Regelwerk TransientRealm.de**
+**Regelwerk TransientRealm.de**
 
 # **§1 – Allgemein**
 
@@ -121,7 +121,7 @@ const e=`**Regelwerk TransientRealm.de**
 	
 	**Erlaubt:**
 	
-	- In **ausgewiesenen PvP-Zonen** (werden im Wiki und per Schild markiert).
+	- In **ausgewiesenen PvP-Zonen** wie z.B. dem Ender Dragon Fight. []()
 	- Bei **gegenseitigem Einverständnis** (z. B. Duelle, Events, Kriege).
 	- In **geplanten Events** (Turniere, Team-Kämpfe etc.).
 	
@@ -199,4 +199,4 @@ const e=`**Regelwerk TransientRealm.de**
 
 **Das TransientRealm-Team wünscht allen Spielern viel Spaß und ein faires Miteinander!**
 
-🎮 **Viel Erfolg auf TransientRealm!**`;export{e as default};
+🎮 **Viel Erfolg auf TransientRealm!**
