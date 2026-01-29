@@ -121,7 +121,7 @@
 	
 	**Erlaubt:**
 	
-	- In **ausgewiesenen PvP-Zonen** wie z.B. dem Ender Dragon Fight. []()
+	- In **ausgewiesenen PvP-Zonen** wie z.B. dem Ender Dragon Fight.
 	- Bei **gegenseitigem Einverständnis** (z. B. Duelle, Events, Kriege).
 	- In **geplanten Events** (Turniere, Team-Kämpfe etc.).
 	
