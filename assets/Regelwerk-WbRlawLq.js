@@ -143,6 +143,7 @@ const e=`**Regelwerk TransientRealm.de**
 	   - Das Dragon Egg in die Enderchest zu legen, während man im Fight ist
 	   - Bett Bomben gegen Spieler verwenden - Jediglich gegen den Drachen sind sie erlaubt.
 	   - Weiterhin Traps & End Crystals
+	   - Combat Logging
 
 *§3.3 Hacks, Mods & Cheating*
 
