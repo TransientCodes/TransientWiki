@@ -186,7 +186,7 @@ const e=`**Regelwerk TransientRealm.de**
 **Verboten ist:**
 
 - Nutzung von Zweitaccounts zur **Umgehung von Sperren**.
-- **Unfaire Vorteile** (z. B. doppelte Votes, mehrfache Event-Teilnahme, AFK-Farming).
+- **Unfaire Vorteile** (z. B. doppelte Votes ohne Rang via Multiaccounting, mehrfache Event-Teilnahme, AFK-Farming).
 - **Manipulation von Statistiken** oder Ranglisten.
 
 **Erlaubt (mit vorheriger Genehmigung):**
