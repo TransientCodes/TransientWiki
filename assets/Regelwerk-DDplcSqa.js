@@ -1,4 +1,4 @@
-**Regelwerk TransientRealm.de**
+const e=`**Regelwerk TransientRealm.de**
 
 # **§1 – Allgemein**
 
@@ -137,6 +137,13 @@
 	- End-Crystals sind **nur in PvP-Zonen und mit Einverständnis** erlaubt.
 	- **TNT, Withers und andere zerstörerische Items** dürfen nicht zum Griefing verwendet werden.
 
+	**End Fight:**
+
+	- Einmal im Monat können Spieler gegen den Enderdrachen kämpfen um das Drachenei zu erhalten - Im Enderdragon Fight sind folgende Dinge verboten;
+	   - Das Dragon Egg in die Enderchest zu legen, während man im Fight ist
+	   - Bett Bomben gegen Spieler verwenden - Jediglich gegen den Drachen sind sie erlaubt.
+	   - Weiterhin Traps & End Crystals
+
 *§3.3 Hacks, Mods & Cheating*
 
 - *§3.3.1 Erlaubte Clients & Mods*
@@ -200,3 +207,4 @@
 **Das TransientRealm-Team wünscht allen Spielern viel Spaß und ein faires Miteinander!**
 
 🎮 **Viel Erfolg auf TransientRealm!**
+`;export{e as default};
