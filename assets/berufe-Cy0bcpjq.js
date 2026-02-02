@@ -10,13 +10,12 @@ Hier ist eine Liste aller verfügbaren Berufe auf dem Server:
 
 - **Fäller**: Der klassische Holzfäller.
 - **Schürfer**: Für alle, die gerne in Minen arbeiten.
-- **Magnetfischer**: Eine spezielle Art des [Angelns|Angeln].
+- **Magnetfischer**: Eine spezielle Art des [Angelns](#/wiki/jobs/angeln).
 - **Forscher**: Entdecke die Geheimnisse der Welt.
 - **Paladin**: Ein heiliger Krieger.
-- **[Runenmechaniker|Runenmechaniker]**: Arbeite mit Runen und Technik.
-- **Alchemist**: Braue mächtige Tränke.
-- **[Siegelmagier|Siegelmagier]**: Nutze die Macht der Siegel.
-- **[Gastronom|Kochen]**: Versorge andere mit Nahrung.
+- **[Runenmechaniker](#/wiki/jobs/runenmechaniker)**: Arbeite mit Runen und Technik.
+- **[Siegelmagier](#/wiki/jobs/siegelmagier)**: Nutze die Macht der Siegel.
+- **[Gastronom](#/wiki/jobs/kochen)**: Versorge andere mit Nahrung.
 - **Fleischer**: Tötet Tiere.
 - **Farmer**: Bestelle Felder und ernte Pflanzen.
 

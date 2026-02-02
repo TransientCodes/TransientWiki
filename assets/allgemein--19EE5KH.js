@@ -9,11 +9,6 @@ const e=`Hier findest du alle Informationen zu den verschiedenen Jobs und Berufe
         <p><strong><a href="#/wiki/jobs/berufe" style="color: inherit; text-decoration: none;">Mehr erfahren</a></strong></p>
     </div>
     <div style="background-color: #333; padding: 15px; border-radius: 5px;">
-        <h3 style="color: #ff8855; margin-top: 0;">Kochen</h3>
-        <p>Entdecke Rezepte und nutze Kochstationen für mächtige Buffs.</p>
-        <p><strong><a href="#/wiki/jobs/kochen" style="color: inherit; text-decoration: none;">Mehr erfahren</a></strong></p>
-    </div>
-    <div style="background-color: #333; padding: 15px; border-radius: 5px;">
         <h3 style="color: #aa55ff; margin-top: 0;">Siegelmagier</h3>
         <p>Opfere Gegenstände und erschaffe mächtige Siegel.</p>
         <p><strong><a href="#/wiki/jobs/siegelmagier" style="color: inherit; text-decoration: none;">Mehr erfahren</a></strong></p>
