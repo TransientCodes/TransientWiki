@@ -1,4 +1,4 @@
-const a=`<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #55aaff; margin-bottom: 20px;">
+const e=`<div style="background-color: #333; padding: 15px; border-left: 5px solid #55aaff; border-radius: 5px; margin-bottom: 20px;">
     <h1 style="color: #ffffff; margin: 0;">Levelsystem</h1>
 </div>
 
@@ -35,4 +35,4 @@ Hier siehst du, was du auf welchem Level freischaltest:
 1.  Sammle Rubine in deiner Kult-Bank.
 2.  Öffne das Level-Menü über \`/kult\` -> Level.
 3.  Klicke auf das Upgrade-Item, wenn du genügend Rubine hast.
-`;export{a as default};
+`;export{e as default};
