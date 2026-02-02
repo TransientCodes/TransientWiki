@@ -1,5 +1,5 @@
-const e=`<div style="background-color: #3d3d2b; padding: 15px; border-left: 5px solid #ffff55; border-radius: 5px;">
-    <h1 style="margin: 0; color: #ffffaa;">Kochen</h1>
+const e=`<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #ff8855; margin-bottom: 20px;">
+    <h1 style="color: #ffffff; margin: 0;">Kochen</h1>
 </div>
 
 Werde zum Meisterkoch und versorge dich und deine Freunde mit nahrhaften Mahlzeiten.

@@ -1,5 +1,5 @@
-const e=`<div style="background-color: #3d2b2b; padding: 15px; border-left: 5px solid #ff5555; border-radius: 5px;">
-    <h1 style="margin: 0; color: #ffaaaa;">Jobs & Berufe</h1>
+const e=`<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #55ffff; margin-bottom: 20px;">
+    <h1 style="color: #ffffff; margin: 0;">Jobs & Berufe</h1>
 </div>
 
 Wähle einen Beruf, um Spezialfähigkeiten freizuschalten und Geld zu verdienen.

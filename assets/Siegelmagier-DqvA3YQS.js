@@ -1,5 +1,5 @@
-const e=`<div style="background-color: #2b2b3d; padding: 15px; border-left: 5px solid #aa55ff; border-radius: 5px;">
-    <h1 style="margin: 0; color: #d4aaff;">Siegelmagier</h1>
+const e=`<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #aa55ff; margin-bottom: 20px;">
+    <h1 style="color: #ffffff; margin: 0;">Siegelmagier</h1>
 </div>
 
 
