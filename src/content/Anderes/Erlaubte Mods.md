@@ -1,4 +1,4 @@
-<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #88ff55; margin-bottom: 20px;">
+<div style="background-color: #333; padding: 15px; border-left: 5px solid #88ff55; border-radius: 5px; margin-bottom: 20px;">
     <h1 style="color: #ffffff; margin: 0;">Erlaubte Mods</h1>
 </div>
 

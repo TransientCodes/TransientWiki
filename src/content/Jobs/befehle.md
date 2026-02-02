@@ -1,4 +1,4 @@
-<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #aaaaaa; margin-bottom: 20px;">
+<div style="background-color: #333; padding: 15px; border-left: 5px solid #aaaaaa; border-radius: 5px; margin-bottom: 20px;">
     <h1 style="color: #ffffff; margin: 0;">Befehle</h1>
 </div>
 
