@@ -6,7 +6,7 @@ Hier findest du eine Übersicht aller Teleportationspunkte auf dem Server.
 
 ## Wichtige Warps
 
-| Befehl | Beschreibung |
-| :--- | :--- |
-| `/spawn` | Teleportiert dich zum Spawn |
-| `/warp` | Zeigt alle verfügbaren Warps |
+| Befehl | Beschreibung                                                                              |
+| :--- |:------------------------------------------------------------------------------------------|
+| `/spawn` | Teleportiert dich zum Spawn                                                               |
+| `/warp` | Zeigt alle verfügbaren Spieler Warps,<br/>diese sind durch Ränge und Pfund<br/>erhältlich |
