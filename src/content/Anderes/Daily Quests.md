@@ -1,4 +1,6 @@
-<font color="#ffff00"><div style="background-color: #333; padding: 15px; border-bottom: 3px solid #9C5008; margin-bottom: 20px;"> <h1 style="color: #ffffff; margin: 0;">Tägliche Quests</h1> </div></font>
+<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #ffcc00; margin-bottom: 20px;">
+    <h1 style="color: #ffffff; margin: 0;">Tägliche Quests</h1>
+</div>
 
 Die täglichen Quests kannst du dir entweder bei Simon am `/spawn` ansehen oder von überall per `/quests` öffnen.
 

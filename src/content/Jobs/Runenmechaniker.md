@@ -1,5 +1,5 @@
-<div style="background-color: #2b3d3d; padding: 15px; border-left: 5px solid #55aaff; border-radius: 5px;">
-    <h1 style="margin: 0; color: #aaddff;">Runenmechaniker</h1>
+<div style="background-color: #333; padding: 15px; border-bottom: 3px solid #ffff55; margin-bottom: 20px;">
+    <h1 style="color: #ffffff; margin: 0;">Runenmechaniker</h1>
 </div>
 
 Verbinde Technologie mit Magie durch die Kunst der Runen.
