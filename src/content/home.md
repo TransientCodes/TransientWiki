@@ -8,7 +8,7 @@ Hier findest du alle Informationen über die Inhalte, Systeme und Features unser
 ## **Was ist TransientRealm?**
 
 TransientRealm ist ein deutscher Minecraft-Server mit Schwerpunkt auf **Citybuild**, ergänzt durch **eigene Systeme**, **magische Berufe**, **Dungeons**, **Spezial-Crafting** und einer stetig wachsenden, atmosphärischen Welt.
-Der Server kombiniert klassisches Bauen mit ersten RPG-Elementen und individuellen Gameplay-Mechaniken.
+Der Server kombiniert klassisches Bauen mit ersten RPG-Elementen und auch einer custom Farmwelt.
 
 Unser Ziel ist eine einzigartige Welt, die kreatives Bauen, Fortschritt, Erkundung und Handel miteinander verbindet.
 
@@ -20,10 +20,9 @@ Dieses Wiki beschreibt alle aktuellen Spielsysteme, darunter:
 
 * Citybuild-System
 * Jobs-System
-* Siegelmagier-System & Siegelaltar
-* Dungeon- & Maze-System
+* Siegelmagier-System \& Siegelaltar
+* Labyrinth-System
 * Clan-System
-* Fortschritts- und Belohnungssystem
 
 Ebenso findest du Informationen zu:
 
