@@ -33,4 +33,27 @@ Bereits ab **Level 1** kannst du mit den Basis-Siegeln folgende Siegel herstell
 * **Smelting Touch** – Abgebaute Erze werden direkt geschmolzen.
 * **Reinforcement** – Erhöht die durability des Items.
 * **Magnet** – Legt gedroppte Items automatisch in dein Inventar.
+
+## Verfügbare Siegel ab Level 2
+
+* **Poison** – Vergiftet deinen Gegner wenn du ihn schlägst.
+* **Vein-Mining** – Baut eine ganze Ader Erze auf einmal ab.
+* **Freeze** – Friert deinen Gegner ein wenn du ihn schlägst.
+* **Lava Walker** – Lässt dich über Lava laufen.
+
+## Verfügbare Siegel ab Level 3
+
+* **Drill** – Lässt dich einen 3x3 Bereich auf einmal abbauen.
+* **Timber** – Lässt dich einen ganzen Baum auf einmal abbauen.
+
+## Verfügbare Siegel ab Level 4
+
+* **Vampire** – Fügst du einem Gegner Schaden zu, wirst du um einen prozentualen Anteil dieses Schadens geheilt.
+
+
+## Verfügbare Siegel ab Level 5
+
+* **Gold Hook** – Lässt dich fische mit einer höheren Qualität angeln.
+
+
 `;export{e as default};
