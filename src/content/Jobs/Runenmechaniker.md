@@ -4,8 +4,8 @@
 
 Verbinde Technologie mit Magie durch die Kunst der Runen.
 
-## Der Runentisch
-Am **Runentisch** kannst du deine Ausrüstung mit speziellen Runen versehen.
+## Der Runenmechanikertisch
+Am **Runenmechanikertisch** kannst du deine Ausrüstung mit speziellen Runen versehen.
 - Wende Runen auf Waffen und Rüstungen an.
 - Kombiniere Runen für stärkere Effekte.
 
