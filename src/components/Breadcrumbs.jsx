@@ -4,7 +4,7 @@ import styles from './Breadcrumbs.module.css';
 
 const Breadcrumbs = () => {
     const { pathname } = useLocation();
-    const parts = pathname.replace(/^\/wiki\//, '').split('/').filter(Boolean);
+    const parts = pathname.replace(/^\/wiki\//, '').split('/').filter(Boolean).map(decodeURIComponent);
 
     // Only show for nested paths (Folder/Page)
     if (parts.length < 2) return null;

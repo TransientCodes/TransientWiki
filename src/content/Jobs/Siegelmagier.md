@@ -6,14 +6,18 @@
 
 Der **Siegelaltar** dient dazu, mächtige Siegel herzustellen, die deine Ausrüstung dauerhaft verstärken.
 
-Es gibt verschiedene Arten von **Basis-Siegeln**, aus denen vollwertige Siegel gefertigt werden können. Dazu gehören:
+Es gibt verschiedene Arten von **Basis-Siegeln**, aus denen vollwertige Siegel gefertigt werden können. Der Ablauf ist immer gleich:
 
-* Giftsiegel
-* Luftsiegel
-* Erdsiegel
-* Wassersiegel
+1. Sammle die passende **Aura** — ein seltener Drop aus einer bestimmten Aktivität.
+2. Stelle daraus ein **Basis-Siegel** am normalen **Crafting Table** her.
+3. Verarbeite das Basis-Siegel am **Siegelaltar** zu einem vollwertigen Siegel.
 
-Diese Basis-Siegel können auf unterschiedliche Weise erlangt und anschließend am Siegelaltar weiterverarbeitet werden.
+| Basis-Siegel | Aura | Woher die Aura |
+| :--- | :--- | :--- |
+| **Erdsiegel** | Erd Aura | Gelegentlicher Drop beim **Forscher**-Job |
+| **Wassersiegel** | Wasser Aura | Drop beim **Angeln** |
+| **Giftsiegel** | Gift Aura | Drop aus dem **Labyrinth** |
+| **Luftsiegel** | Luft Aura | *Coming Soon* |
 
 ---
 

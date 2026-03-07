@@ -14,27 +14,47 @@ Unser Ziel ist eine einzigartige Welt, die kreatives Bauen, Fortschritt, Erkundu
 
 ---
 
-## **Welche Inhalte bietet TransientRealm?**
+## **Währungen**
 
-Dieses Wiki beschreibt alle aktuellen Spielsysteme, darunter:
+Auf TransientRealm gibt es drei Währungen:
 
-* Citybuild-System
-* Jobs-System
-* Siegelmagier-System \& Siegelaltar
-* Labyrinth-System
-* Clan-System
-
-Ebenso findest du Informationen zu:
-
-* Währungen
-* Items und Materialien
-* Wichtigen Befehlen
-* Zukünftigen Erweiterungen
+* **Pfund** – Die Standard-Spielerwährung. Du verdienst Pfund durch Jobs und kannst sie für Warps, Shops und vieles mehr ausgeben.
+* **Rubine** – Die Kult-Währung. Kult-Mitglieder zahlen Pfund in die Kult-Bank ein, welche sich in Rubine umwandeln. Mit Rubinen finanziert ihr Kult-Level-Aufstiege.
+* **Ectoplasma** – Eine seltene Premium-Währung. Du kannst sie mit echtem Geld erwerben oder schwer im Spiel verdienen. Ectoplasma wird verwendet um Crates zu öffnen. Auch **Spielerränge** sind nur über den Shop erhältlich: [store.transientrealm.de](https://store.transientrealm.de)
 
 ---
 
-## **Zweck dieses Wikis**
+## **Spielsysteme**
 
-Dieses Wiki dient als zentraler Einstiegspunkt in die Welt von TransientRealm.
-Von hier aus gelangst du zu allen Unterseiten, die die Systeme und Mechaniken im Detail erklären.
-
+<div class="md-card-grid">
+    <div class="md-card">
+        <h3>Jobs & Berufe</h3>
+        <p>Wähle einen Beruf, verdiene Pfund und schalte einzigartige Fähigkeiten frei.</p>
+        <p><a href="#/wiki/Jobs/allgemein">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Siegelmagier</h3>
+        <p>Verarbeite mächtige Siegel am Siegelaltar und verstärke deine Ausrüstung dauerhaft.</p>
+        <p><a href="#/wiki/Jobs/Siegelmagier">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Kulte</h3>
+        <p>Gründe oder tritt einem Kult bei. Steige im Kult-Level auf und wähle eine Fraktion.</p>
+        <p><a href="#/wiki/Kult/allgemein">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Angeln</h3>
+        <p>Nutze das custom Angelsystem, sammle seltene Fische und verkaufe sie beim Angel-Trader.</p>
+        <p><a href="#/wiki/Jobs/angeln">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Tägliche Quests</h3>
+        <p>Erhalte täglich drei neue Aufgaben für Pfund und Ectoplasma.</p>
+        <p><a href="#/wiki/Anderes/Daily Quests">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Befehle</h3>
+        <p>Eine Übersicht der wichtigsten Server-Befehle.</p>
+        <p><a href="#/wiki/Jobs/befehle">Mehr erfahren</a></p>
+    </div>
+</div>

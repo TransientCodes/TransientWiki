@@ -10,7 +10,7 @@
  - **Unwissenheit schützt nicht vor Strafe** – jeder ist selbst dafür verantwortlich, sich über die Regeln zu informieren.
 
 *§1.2 Änderungen & Aktualisierungen*
-- Das Regelwerk kann **jederzeit ohne Vorankündigung** erweitert, angepasst oder geändert. werden
+- Das Regelwerk kann **jederzeit ohne Vorankündigung** erweitert, angepasst oder geändert werden.
 - Änderungen werden im Discord-Server bekannt gegeben.
 - Mit der weiteren Nutzung der TransientRealm-Dienste akzeptierst du automatisch die aktuelle Fassung.
 
@@ -43,7 +43,8 @@
 - Dies gilt für alle Kommunikationsformen: Chat, Voice, Schilder, Bücher, Bauwerke etc.
 - **Provokation und toxisches Verhalten** werden ebenfalls sanktioniert.
 
-/
+---
+
 # **§2 – Discord-spezifische Regeln**
 
 *§2.1 Chatverhalten*

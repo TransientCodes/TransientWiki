@@ -1,46 +1,87 @@
 <div class="md-banner" style="border-left: 4px solid #aa5500;">
-    <h1 style="margin: 0;">Container Shops</h1>
+    <h1 style="margin: 0;">Kistenshops</h1>
 </div>
 
-### Anleitung: Einen Shop per Schild erstellen
+Verkaufe Items direkt von einer Kiste, einem Barrel oder einer Trapped-Kiste — mit einem einfachen Schild.
 
-Um einen ContainerShop anzulegen, platzierst du ein Schild an einem gültigen Container.
-Das Schild muss exakt in einem bestimmten Format beschrieben sein, damit das System es als Shop erkennt.
+## Shop erstellen
 
-### Aufbau des Schildes
+Platziere ein **Schild** direkt neben, über oder unter einem Container und beschrifte es in diesem Format:
 
-Ein Shop-Schild besteht aus **vier Zeilen**, die jeweils eine bestimmte Funktion haben:
+```
+[leer lassen]
+[Menge]
+[Preis]
+?
+```
 
-1. **Erste Zeile:**
-   `Leere Zeile`
-   Sobald du den Shop bestätigst (also das Schild schließt), ersetzt das System diese Zeile durch deinen Spielernamen. Dadurch ist sichtbar, wem der Shop gehört.
+| Zeile | Inhalt | Beispiel |
+|---|---|---|
+| 1 | Leer lassen — wird automatisch zu deinem Namen | — |
+| 2 | Menge pro Transaktion | `16` |
+| 3 | Handelsart + Preis | `B250` |
+| 4 | `?` — wird automatisch zum Item im Container | `?` |
 
-2. **Zweite Zeile:**
-   Die **Menge** des Items, das pro Transaktion gehandelt werden soll.
-   Beispiele: `1`, `16`, `64`
+Das Schild schließen bestätigt die Erstellung. Du erhältst eine Bestätigung im Chat.
 
-3. **Dritte Zeile:**
-   Die **Handelsart inklusive Preis**. Das System kombiniert dafür einen Buchstaben mit einer Zahl:
-   - `B` → **Verkaufsshop** (Shop verkauft Items an Spieler)
-   - `S` → **Ankaufsshop** (Shop kauft Items vom Spieler)
+## Handelsarten
 
-   Direkt dahinter schreibst du den **Preis**, ohne Leerzeichen.
-   Beispiele:
-   - `B250` → Shop **verkauft** Items für **250**
-   - `S120` → Shop **kauft** Items für **120**
+Die dritte Zeile bestimmt, ob du **verkaufst** oder **ankaufst**:
 
-4. **Vierte Zeile:**
-   `?`
-   Ein Platzhalter, der vom System zu dem Item gemacht wird, das sich im Container befindet.
+| Präfix | Bedeutung |
+|---|---|
+| `B` | **Verkaufsshop** — Shop verkauft Items an Spieler |
+| `S` | **Ankaufsshop** — Shop kauft Items von Spielern |
 
----
+Du kannst **beide Modi gleichzeitig** auf einem Schild einrichten:
 
-### Valide Container
+```
+[Name]
+16
+B250/S120
+?
+```
 
-Ein ContainerShop kann an folgenden Blöcken erstellt werden:
+Hier verkauft der Shop für 250 Pfund, und kauft für 120 Pfund an — alles auf einem Schild.
 
+## Mit einem Shop handeln
+
+- **Linksklick** auf das Schild → Items **kaufen**
+- **Rechtsklick** auf das Schild → Items **verkaufen**
+- **Shift + Klick** → gesamten Stack auf einmal kaufen/verkaufen
+
+## Shop entfernen
+
+Um deinen Shop zu entfernen:
+
+1. **Schleiche** (Shift gedrückt halten)
+2. **Brich das Schild** ab
+
+Der Container selbst kann **nicht** abgebaut werden, solange ein Shop daran befestigt ist.
+
+<div class="md-note">
+Bestehende Shops können nicht bearbeitet werden. Um Preis oder Menge zu ändern, entferne das Schild und erstelle den Shop neu.
+</div>
+
+## Vertrauensspieler
+
+Mit `/trustshop <Spieler>` gibst du einem anderen Spieler Zugriff auf deinen Shop-Container. Nochmals ausführen entfernt den Zugriff wieder.
+
+## Einnahmen teilen
+
+Mit `/shareincome <Spieler> <Prozent>` kannst du einen Anteil deiner Shop-Einnahmen automatisch an einen anderen Spieler weitergeben. Praktisch für gemeinsam betriebene Shops.
+
+## Valide Container
+
+Kistenshops funktionieren mit:
 - Kiste
 - Trapped-Kiste
 - Barrel
 
-Andere Container werden nicht unterstützt.
+## Befehle
+
+| Befehl | Funktion |
+|---|---|
+| `/trustshop <Spieler>` | Spieler Zugriff auf den Shop-Container geben/entziehen |
+| `/shareincome <Spieler> <Prozent>` | Einnahmen prozentual teilen |
+| `/shopinfo` | Informationen über einen Shop anzeigen |

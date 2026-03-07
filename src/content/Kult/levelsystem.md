@@ -2,7 +2,7 @@
     <h1 style="margin: 0;">Levelsystem</h1>
 </div>
 
-Dein Kult kann im Level aufsteigen, um neue Funktionen und Plätze für Mitglieder freizuschalten. Levelaufstiege kosten **Rubine**, die Währung des Kults.
+Dein Kult kann im Level aufsteigen, um neue Funktionen und Plätze für Mitglieder freizuschalten. Levelaufstiege kosten **Rubine** — die Kult-eigene Währung. Rubine erhält der Kult, wenn Mitglieder **Pfund** über `/kult donate` spenden.
 
 ## Level-Übersicht
 
@@ -30,6 +30,6 @@ Dein Kult kann im Level aufsteigen, um neue Funktionen und Plätze für Mitglied
 
 ## Wie steige ich auf?
 
-1. Sammle Rubine in deiner Kult-Bank.
+1. Spende Pfund mit `/kult donate <Betrag>` — diese werden zu Rubinen.
 2. Öffne das Level-Menü über `/kult` → Level.
 3. Klicke auf das Upgrade-Item, wenn du genügend Rubine hast.

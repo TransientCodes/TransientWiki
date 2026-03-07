@@ -8,6 +8,8 @@ Ein erfolgreicher Kult braucht eine klare Hierarchie. Das Rangsystem ermöglicht
 
 Jeder Kult startet mit diesen Rängen (von niedrig nach hoch):
 
+Der **Macht**-Wert bestimmt, wie hoch ein Mitglied in der internen Kult-Mitgliederliste angezeigt wird — höhere Macht = weiter oben.
+
 | Rang | Beschreibung | Macht |
 | :--- | :--- | :---: |
 | **Gehilfe** | Neue Mitglieder ohne besondere Rechte. | 0 |

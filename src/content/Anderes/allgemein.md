@@ -23,6 +23,26 @@ Hier findest du verschiedene nützliche Informationen rund um den Server, die in
         <p>Erstelle eigene Shops mit Kisten und Schildern.</p>
         <p><a href="#/wiki/anderes/kistenshops">Mehr erfahren</a></p>
     </div>
+    <div class="md-card">
+        <h3 style="color: #55aa00;">Farmwelt</h3>
+        <p>Baue Farmen und sammle Ressourcen in einer separaten Welt — in drei Varianten.</p>
+        <p><a href="#/wiki/anderes/farmwelt">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3 style="color: #55aaff;">Citybuild</h3>
+        <p>Dein eigenes Plot im Citybuild — bau, gestalte und eröffne Shops.</p>
+        <p><a href="#/wiki/anderes/citybuild">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3 style="color: #55ff55;">Labyrinth</h3>
+        <p>Ein prozedurales Maze voller Fallen, Schätze und Herausforderungen.</p>
+        <p><a href="#/wiki/anderes/labyrinth">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3 style="color: #ffaa00;">Kisten</h3>
+        <p>Öffne Kisten für Pfund, Items, Ränge und exklusive Belohnungen.</p>
+        <p><a href="#/wiki/anderes/kisten">Mehr erfahren</a></p>
+    </div>
 </div>
 
 <div class="md-note">

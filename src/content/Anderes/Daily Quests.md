@@ -2,7 +2,7 @@
     <h1 style="margin: 0;">Tägliche Quests</h1>
 </div>
 
-Die täglichen Quests kannst du dir entweder bei Simon am `/spawn` ansehen oder von überall per `/quests` öffnen.
+Die täglichen Quests kannst du dir entweder bei **Simon** ansehen — einem NPC am `/spawn`, den du einfach ansprechen kannst — oder von überall per `/quests` öffnen.
 
 Jeden Tag erhält jeder Spieler **drei neue Tägliche Quests**, die **Pfund** und **Ectoplasma** einbringen können. Um **0:00 Uhr** werden alle täglichen Aufgaben automatisch zurückgesetzt und neu verteilt.
 

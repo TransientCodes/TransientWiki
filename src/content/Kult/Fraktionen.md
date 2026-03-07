@@ -10,14 +10,14 @@ Ab **Kult-Level 10** steht euer Kult vor einer entscheidenden Wahl: Welcher Frak
 
 * **Beschreibung:** Ein traditionsreicher Bund von Paladinen. Sie verteidigen das Reich mit Disziplin und Licht.
 * **Fokus:** Ordnung, Verteidigung, Ehre.
-* **Bonus:** 10% mehr Schaden gegen Untote (ab Level 12).
+* **Bonus:** 10% mehr Schaden gegen Untote (ab Kult-Level 12).
 * **Ränge:** Ordensnovize → Ordensbruder → Ritter → Großmeister → Hochmeister.
 
 ### <span style="color: #ff5555;">Die Söldner</span>
 
 * **Beschreibung:** Ein locker organisierter Trupp kampferprobter Veteranen. Sie setzen auf Flexibilität und rohe Stärke.
 * **Fokus:** Stärke, Unabhängigkeit, Kampf.
-* **Bonus:** 2% mehr Gesamtschaden (ab Level 12).
+* **Bonus:** 2% mehr Gesamtschaden (ab Kult-Level 12).
 * **Ränge:** Rekrut → Söldner → Truppführer → Kriegsrat → Hauptmann.
 
 ## Beitritt

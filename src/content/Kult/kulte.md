@@ -22,7 +22,7 @@ Jeder Spieler kann einen eigenen Kult gründen. Dies ist der erste Schritt, um Z
 | `/kult leave` | Verlässt den aktuellen Kult. |
 | `/kult chat <Nachricht>` | Sendet eine Nachricht nur an Kult-Mitglieder. |
 | `/kult setmotd <Nachricht>` | Setzt die "Nachricht des Tages", die beim Login angezeigt wird. |
-| `/kult bank` | Öffnet die Kult-Bank (Rubine einzahlen/auszahlen). |
+| `/kult donate <Betrag>` | Spendet Pfund in die Kult-Kasse, die sich in Rubine für Level-Aufstiege umwandeln. |
 | `/kult menu` | Öffnet das Hauptmenü des Kults. |
 
 ## Einstellungen

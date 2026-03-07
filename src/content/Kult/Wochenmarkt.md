@@ -2,7 +2,7 @@
     <h1 style="margin: 0;">Wochenmarkt</h1>
 </div>
 
-Der Wochenmarkt ist eine exklusive Handelsmöglichkeit für Kulte ab **Level 5**. Hier könnt ihr Rubine gegen seltene Gegenstände tauschen.
+Der Wochenmarkt ist eine exklusive Handelsmöglichkeit für Kulte ab **Level 5**. Hier könnt ihr mit **Pfund** seltene Gegenstände kaufen.
 
 ## Wie funktioniert es?
 
