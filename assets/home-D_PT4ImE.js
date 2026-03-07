@@ -48,6 +48,21 @@ Auf TransientRealm gibt es drei Währungen:
         <p><a href="#/wiki/Jobs/angeln">Mehr erfahren</a></p>
     </div>
     <div class="md-card">
+        <h3>Citybuild</h3>
+        <p>Beanspruche dein eigenes Plot, bau dein Zuhause und eröffne Shops für andere Spieler.</p>
+        <p><a href="#/wiki/Anderes/Citybuild">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Labyrinth</h3>
+        <p>Ein prozedurales Maze voller Fallen, Raidkammern und seltener Beute. Nur für die Mutigen.</p>
+        <p><a href="#/wiki/Anderes/Labyrinth">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3>Kisten</h3>
+        <p>Öffne Kisten für Pfund, Items, Ränge und exklusive Belohnungen.</p>
+        <p><a href="#/wiki/Anderes/Kisten">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
         <h3>Tägliche Quests</h3>
         <p>Erhalte täglich drei neue Aufgaben für Pfund und Ectoplasma.</p>
         <p><a href="#/wiki/Anderes/Daily Quests">Mehr erfahren</a></p>
@@ -55,7 +70,7 @@ Auf TransientRealm gibt es drei Währungen:
     <div class="md-card">
         <h3>Befehle</h3>
         <p>Eine Übersicht der wichtigsten Server-Befehle.</p>
-        <p><a href="#/wiki/Jobs/befehle">Mehr erfahren</a></p>
+        <p><a href="#/wiki/Anderes/befehle">Mehr erfahren</a></p>
     </div>
 </div>
 `;export{e as default};

@@ -24,6 +24,11 @@ const e=`Hier findest du alle Informationen zu den verschiedenen Jobs und Berufe
         <p><a href="#/wiki/jobs/angeln">Mehr erfahren</a></p>
     </div>
     <div class="md-card">
+        <h3 style="color: #ffcc55;">Forscher</h3>
+        <p>Grabe Artefakte aus und entdecke Geheimnisse vergangener Zeiten.</p>
+        <p><a href="#/wiki/jobs/forscher">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
         <h3 style="color: #aaaaaa;">Befehle</h3>
         <p>Eine Übersicht aller nützlichen Befehle.</p>
         <p><a href="#/wiki/jobs/befehle">Mehr erfahren</a></p>
