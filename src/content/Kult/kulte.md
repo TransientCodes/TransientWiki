@@ -1,5 +1,5 @@
-<div style="background-color: #333; padding: 15px; border-left: 5px solid #ffaa00; border-radius: 5px; margin-bottom: 20px;">
-    <h1 style="color: #ffffff; margin: 0;">Kulte & Verwaltung</h1>
+<div class="md-banner" style="border-left: 4px solid #ffaa00;">
+    <h1 style="margin: 0;">Kulte & Verwaltung</h1>
 </div>
 
 Hier erfährst du, wie du einen Kult gründest und verwaltest.
@@ -9,12 +9,10 @@ Hier erfährst du, wie du einen Kult gründest und verwaltest.
 Jeder Spieler kann einen eigenen Kult gründen. Dies ist der erste Schritt, um Zugriff auf Bank, Levelsystem und Fraktionen zu erhalten.
 
 **Befehl:** `/kult create <Name> <Tag>`
-*   **Name:** Der vollständige Name deines Kults (z.B. "DieWächter").
-*   **Tag:** Ein kurzes Kürzel (3-4 Zeichen), das im Chat angezeigt wird (z.B. "WACH").
+* **Name:** Der vollständige Name deines Kults (z.B. "DieWächter").
+* **Tag:** Ein kurzes Kürzel (3-4 Zeichen), das im Chat angezeigt wird (z.B. "WACH").
 
 ## Wichtige Befehle
-
-Hier ist eine Übersicht der wichtigsten Befehle für Kult-Mitglieder und Anführer:
 
 | Befehl | Beschreibung |
 | :--- | :--- |
@@ -30,13 +28,10 @@ Hier ist eine Übersicht der wichtigsten Befehle für Kult-Mitglieder und Anfüh
 ## Einstellungen
 
 Im Kult-Menü (`/kult`) kannst du verschiedene Einstellungen vornehmen:
-*   **Beschreibung:** Ändere die öffentliche Beschreibung deines Kults.
-*   **Tag-Farbe:** Wähle eine Farbe für deinen Kult-Tag (wird durch Level freigeschaltet).
-*   **Sichtbarkeit:** Stelle ein, ob dein Kult öffentlich gelistet werden soll.
+* **Beschreibung:** Ändere die öffentliche Beschreibung deines Kults.
+* **Tag-Farbe:** Wähle eine Farbe für deinen Kult-Tag (wird durch Level freigeschaltet).
+* **Sichtbarkeit:** Stelle ein, ob dein Kult öffentlich gelistet werden soll.
 
-<br>
-
-<div style="background-color: #222; padding: 10px; border-left: 3px solid #888;">
+<div class="md-note">
     <strong>Tipp:</strong> Nutze <code>@kult</code> oder <code>@clan</code> vor deiner Chatnachricht, um schnell in den Kult-Chat zu schreiben! (wird ab Level 4 freigeschaltet)
 </div>
-

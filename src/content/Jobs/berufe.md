@@ -1,5 +1,5 @@
-<div style="background-color: #333; padding: 15px; border-left: 5px solid #55ffff; border-radius: 5px; margin-bottom: 20px;">
-    <h1 style="color: #ffffff; margin: 0;">Jobs & Berufe</h1>
+<div class="md-banner" style="border-left: 4px solid #55ffff;">
+    <h1 style="margin: 0;">Jobs & Berufe</h1>
 </div>
 
 Wähle einen Beruf, um Spezialfähigkeiten freizuschalten und Geld zu verdienen.
@@ -15,10 +15,10 @@ Hier ist eine Liste aller verfügbaren Berufe auf dem Server:
 - **Paladin**: Ein heiliger Krieger, geboren um Monster zu besiegen.
 - **[Runenmechaniker](#/wiki/jobs/runenmechaniker)**: Arbeite mit Runen und Technik.
 - **[Siegelmagier](#/wiki/jobs/siegelmagier)**: Nutze die Macht der Siegel.
-- **[Gastronom](#/wiki/jobs/kochen)**: Versorge andere mit Nahrung.
+- **Gastronom**: Versorge andere mit Nahrung.
 - **Fleischer**: Tötet Tiere.
 - **Farmer**: Bestelle Felder und ernte Pflanzen.
 
+## Wie sehe ich meinen Job Progress?
 
-## Wie sehe ich meinn Job Progress?
 Nutze den Befehl `/job` oder `/berufe`, um das Job-Menü zu öffnen.

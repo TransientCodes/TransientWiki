@@ -1,39 +1,37 @@
-<div style="background-color: #333; padding: 15px; border-left: 5px solid #aa5500; border-radius: 5px; margin-bottom: 20px;">
-    <h1 style="color: #ffffff; margin: 0;">Container Shops</h1>
+<div class="md-banner" style="border-left: 4px solid #aa5500;">
+    <h1 style="margin: 0;">Container Shops</h1>
 </div>
 
 ### Anleitung: Einen Shop per Schild erstellen
 
-Um einen ContainerShop anzulegen, platzierst du ein Schild an einem gültigen Container.  
+Um einen ContainerShop anzulegen, platzierst du ein Schild an einem gültigen Container.
 Das Schild muss exakt in einem bestimmten Format beschrieben sein, damit das System es als Shop erkennt.
 
 ### Aufbau des Schildes
 
 Ein Shop-Schild besteht aus **vier Zeilen**, die jeweils eine bestimmte Funktion haben:
 
-1. **Erste Zeile:**  
-   `Leere Zeile`  
-   Sobald du den Shop bestätigst (also das Schild schließt), ersetzt das System diese Zeile durch deinen Spielernamen.  
-   Dadurch ist sichtbar, wem der Shop gehört.
+1. **Erste Zeile:**
+   `Leere Zeile`
+   Sobald du den Shop bestätigst (also das Schild schließt), ersetzt das System diese Zeile durch deinen Spielernamen. Dadurch ist sichtbar, wem der Shop gehört.
 
-2. **Zweite Zeile:**  
-   Die **Menge** des Items, das pro Transaktion gehandelt werden soll.  
+2. **Zweite Zeile:**
+   Die **Menge** des Items, das pro Transaktion gehandelt werden soll.
    Beispiele: `1`, `16`, `64`
 
-3. **Dritte Zeile:**  
-   Die **Handelsart inklusive Preis**.  
-   Das System kombiniert dafür einen Buchstaben mit einer Zahl:  
-   - `B` → **Verkaufsshop** (Shop verkauft Items an Spieler)  
-   - `S` → **Ankaufsshop** (Shop kauft Items vom Spieler)  
+3. **Dritte Zeile:**
+   Die **Handelsart inklusive Preis**. Das System kombiniert dafür einen Buchstaben mit einer Zahl:
+   - `B` → **Verkaufsshop** (Shop verkauft Items an Spieler)
+   - `S` → **Ankaufsshop** (Shop kauft Items vom Spieler)
 
-   Direkt dahinter schreibst du den **Preis**, ohne Leerzeichen.  
-   Beispiele:  
-   - `B250` → Shop **verkauft** Items für **250**  
+   Direkt dahinter schreibst du den **Preis**, ohne Leerzeichen.
+   Beispiele:
+   - `B250` → Shop **verkauft** Items für **250**
    - `S120` → Shop **kauft** Items für **120**
 
-4. **Vierte Zeile:**  
-   `?`  
-   Ein Platzhalter, der vom System später zu dem Item, das sich in dem Container befindet gemacht wird.
+4. **Vierte Zeile:**
+   `?`
+   Ein Platzhalter, der vom System zu dem Item gemacht wird, das sich im Container befindet.
 
 ---
 
@@ -41,8 +39,8 @@ Ein Shop-Schild besteht aus **vier Zeilen**, die jeweils eine bestimmte Funktion
 
 Ein ContainerShop kann an folgenden Blöcken erstellt werden:
 
-- Kiste  
-- Trapped-Kiste  
-- Barrel  
+- Kiste
+- Trapped-Kiste
+- Barrel
 
 Andere Container werden nicht unterstützt.

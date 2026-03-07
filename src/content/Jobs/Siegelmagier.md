@@ -1,8 +1,6 @@
-<div style="background-color: #333; padding: 15px; border-left: 5px solid #aa55ff; border-radius: 5px; margin-bottom: 20px;">
-    <h1 style="color: #ffffff; margin: 0;">Siegelmagier</h1>
+<div class="md-banner" style="border-left: 4px solid #aa55ff;">
+    <h1 style="margin: 0;">Siegelmagier</h1>
 </div>
-
-
 
 ## Der Siegelaltar
 
@@ -19,9 +17,9 @@ Diese Basis-Siegel können auf unterschiedliche Weise erlangt und anschließend 
 
 ---
 
-## Verfügbare Siegel ab Level 1
+## Verfügbare Siegel ab Level 1
 
-Bereits ab **Level 1** kannst du mit den Basis-Siegeln folgende Siegel herstellen:
+Bereits ab **Level 1** kannst du mit den Basis-Siegeln folgende Siegel herstellen:
 
 * **Soul Bound** – Das Item geht beim Tod nicht verloren und bleibt beim Spieler.
 * **Fadenstärke** – Ermöglicht das Angeln stärkerer und seltenerer Fische.
@@ -34,25 +32,22 @@ Bereits ab **Level 1** kannst du mit den Basis-Siegeln folgende Siegel herstell
 * **Reinforcement** – Erhöht die durability des Items.
 * **Magnet** – Legt gedroppte Items automatisch in dein Inventar.
 
-## Verfügbare Siegel ab Level 2
+## Verfügbare Siegel ab Level 2
 
 * **Poison** – Vergiftet deinen Gegner wenn du ihn schlägst.
 * **Vein-Mining** – Baut eine ganze Ader Erze auf einmal ab.
 * **Freeze** – Friert deinen Gegner ein wenn du ihn schlägst.
 * **Lava Walker** – Lässt dich über Lava laufen.
 
-## Verfügbare Siegel ab Level 3
+## Verfügbare Siegel ab Level 3
 
 * **Drill** – Lässt dich einen 3x3 Bereich auf einmal abbauen.
 * **Timber** – Lässt dich einen ganzen Baum auf einmal abbauen.
 
-## Verfügbare Siegel ab Level 4
+## Verfügbare Siegel ab Level 4
 
 * **Vampire** – Fügst du einem Gegner Schaden zu, wirst du um einen prozentualen Anteil dieses Schadens geheilt.
 
+## Verfügbare Siegel ab Level 5
 
-## Verfügbare Siegel ab Level 5
-
-* **Gold Hook** – Lässt dich fische mit einer höheren Qualität angeln.
-
-
+* **Gold Hook** – Lässt dich Fische mit einer höheren Qualität angeln.
