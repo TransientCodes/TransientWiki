@@ -1,30 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap');
 
-/* Carbon + Neuromorphism Theme Variables */
+/* Void Terminal Theme */
 :root {
     /* Colors */
-    --color-bg-page: #161616;
-    --color-bg-surface: #1f1f1f;
-    /* Slightly lighter for depth */
-    --color-bg-surface-hover: #2a2a2a;
-    --color-text-primary: #f4f4f4;
-    --color-text-secondary: #a8a8a8;
+    --color-bg-page: #111113;
+    --color-bg-surface: #1a1a1e;
+    --color-bg-surface-hover: #242429;
+    --color-text-primary: #f0f0f4;
+    --color-text-secondary: #909099;
 
     /* Accent Colors (Purple) */
-    --color-accent: #ce72cc;
-    --color-accent-hover: #e08ce0;
-    --color-accent-dark: #4f1e4c;
+    --color-accent: #c96bcb;
+    --color-accent-hover: #de92df;
+    --color-accent-dark: #3d1540;
+    --color-accent-glow: rgba(201, 107, 203, 0.18);
+    --color-accent-glow-strong: rgba(201, 107, 203, 0.35);
 
-    --color-border: #333333;
-    --color-border-subtle: #404040;
+    --color-border: #2a2a30;
+    --color-border-subtle: #38383f;
 
     /* Glassmorphism */
-    --glass-bg: rgba(31, 31, 31, 0.7);
-    --glass-blur: 12px;
-    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(26, 26, 30, 0.72);
+    --glass-blur: 16px;
+    --glass-border: rgba(255, 255, 255, 0.07);
+    --glass-border-accent: rgba(201, 107, 203, 0.2);
 
     /* Fonts */
-    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
 
     /* Spacing */
@@ -34,8 +36,9 @@
     --spacing-lg: 1.5rem;
     --spacing-xl: 2rem;
 
-    /* Neuromorphism (Dark, Inner Only) */
+    /* Shadows */
     --shadow-neu-flat: none;
-    --shadow-neu-pressed: inset 4px 4px 8px #0d0d0d;
-    --shadow-neu-card: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --shadow-neu-pressed: inset 2px 2px 6px rgba(0, 0, 0, 0.6), inset -1px -1px 3px rgba(255, 255, 255, 0.03);
+    --shadow-neu-card: 0 8px 40px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+    --shadow-glow-accent: 0 0 20px var(--color-accent-glow), 0 0 60px rgba(201, 107, 203, 0.08);
 }
