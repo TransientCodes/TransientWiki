@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm';
 import remarkWikiLink from 'remark-wiki-link';
 import rehypeRaw from 'rehype-raw';
 import { Hash } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import styles from './MarkdownViewer.module.css';
 import Lightbox from './Lightbox.jsx';
 
@@ -27,7 +28,15 @@ function makeHeading(Tag) {
         return (
             <div className={styles.headingWrapper}>
                 <Tag id={slug} {...props}>{children}</Tag>
-                <a className={styles.anchorLink} href={`#${slug}`} aria-label="Link zu diesem Abschnitt">
+                <a
+                    className={styles.anchorLink}
+                    href={`#${slug}`}
+                    aria-label="Link zu diesem Abschnitt"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById(slug)?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                >
                     <Hash size={14} />
                 </a>
             </div>
@@ -43,9 +52,29 @@ const headingComponents = {
 
 const MarkdownViewer = ({ content }) => {
     const [lightbox, setLightbox] = useState(null);
+    const navigate = useNavigate();
 
     const components = {
         ...headingComponents,
+        // Intercept internal wiki links so they go through React Router instead
+        // of native hash navigation (which breaks in Brave with strict shields).
+        a({ node, href, children, ...props }) {
+            if (href?.startsWith('#/')) {
+                return (
+                    <a
+                        {...props}
+                        href={href}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            navigate(href.slice(1)); // '#/wiki/page' → '/wiki/page'
+                        }}
+                    >
+                        {children}
+                    </a>
+                );
+            }
+            return <a href={href} {...props}>{children}</a>;
+        },
         img({ node, src, alt, ...props }) {
             return (
                 <img
