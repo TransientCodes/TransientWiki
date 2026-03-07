@@ -2,9 +2,18 @@ const e=`# Impressum
 
 ## Angaben gemäß § 5 TMG
 
-**Transient Codes**
+**Julien Fuhr**
+Joseph-Haydn-Straße 2
+65549 Limburg
+Deutschland
+
 E-Mail: business@transientcodes.de
 Webseite: [wiki.transientrealm.de](https://wiki.transientrealm.de)
+
+## Verantwortliche für den Inhalt
+
+Julien Fuhr
+Kolja Menzel
 
 ## Haftungsausschluss (Disclaimer)
 
