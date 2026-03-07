@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import styles from './Breadcrumbs.module.css';
 
 const Breadcrumbs = () => {
@@ -16,9 +16,9 @@ const Breadcrumbs = () => {
 
     return (
         <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
-            <Link to="/" className={styles.crumb}>Wiki</Link>
+            <span className={styles.crumb}>Wiki</span>
             <span className={styles.sep}>›</span>
-            <Link to={`/wiki/${folder}`} className={styles.crumb}>{folderLabel}</Link>
+            <span className={styles.crumb}>{folderLabel}</span>
             <span className={styles.sep}>›</span>
             <span className={`${styles.crumb} ${styles.current}`}>{pageLabel}</span>
         </nav>

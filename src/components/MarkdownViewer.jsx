@@ -28,17 +28,13 @@ function makeHeading(Tag) {
         return (
             <div className={styles.headingWrapper}>
                 <Tag id={slug} {...props}>{children}</Tag>
-                <a
+                <button
                     className={styles.anchorLink}
-                    href={`#${slug}`}
-                    aria-label="Link zu diesem Abschnitt"
-                    onClick={(e) => {
-                        e.preventDefault();
-                        document.getElementById(slug)?.scrollIntoView({ behavior: 'smooth' });
-                    }}
+                    aria-label="Zu diesem Abschnitt scrollen"
+                    onClick={() => document.getElementById(slug)?.scrollIntoView({ behavior: 'smooth' })}
                 >
                     <Hash size={14} />
-                </a>
+                </button>
             </div>
         );
     };
