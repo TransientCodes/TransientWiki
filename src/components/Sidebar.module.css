@@ -72,6 +72,16 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: opacity 0.15s;
+}
+
+.categoryHeader:hover {
+    opacity: 0.75;
 }
 
 .categoryHeader::after {
@@ -79,6 +89,30 @@
     flex: 1;
     height: 1px;
     background: linear-gradient(90deg, var(--color-border), transparent);
+}
+
+.chevron {
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+}
+
+.chevronClosed {
+    transform: rotate(-90deg);
+}
+
+.folderItems {
+    display: grid;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    transition: grid-template-rows 0.25s ease;
+}
+
+.folderItemsClosed {
+    grid-template-rows: 0fr;
+}
+
+.folderItemsInner {
+    min-height: 0;
 }
 
 .subLink {

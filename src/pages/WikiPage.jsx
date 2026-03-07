@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import MarkdownViewer from '../components/MarkdownViewer';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const WikiPage = () => {
     const params = useParams();
@@ -71,7 +72,12 @@ const WikiPage = () => {
         );
     }
 
-    return <MarkdownViewer content={content} />;
+    return (
+        <>
+            <Breadcrumbs />
+            <MarkdownViewer content={content} />
+        </>
+    );
 };
 
 export default WikiPage;

@@ -175,3 +175,24 @@
     margin: 1rem 0;
     border: 1px solid var(--glass-border);
 }
+
+.headingWrapper {
+    position: relative;
+}
+
+.anchorLink {
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    color: var(--color-accent);
+    transition: opacity 0.15s;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.headingWrapper:hover .anchorLink {
+    opacity: 1;
+}

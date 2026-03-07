@@ -1,0 +1,29 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    font-family: var(--font-sans);
+}
+
+.crumb {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.crumb:hover {
+    color: var(--color-text-primary);
+    text-decoration: none;
+}
+
+.current {
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+.sep {
+    color: var(--color-text-secondary);
+    opacity: 0.4;
+}

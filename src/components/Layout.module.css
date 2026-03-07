@@ -109,6 +109,66 @@
     transform: translateY(1px);
 }
 
+.progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-accent), var(--color-accent-hover));
+    box-shadow: 0 0 8px var(--color-accent-glow-strong);
+    z-index: 20;
+    transition: width 0.1s linear;
+    pointer-events: none;
+}
+
+.searchButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    padding: 0.35rem 0.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.searchButton:hover {
+    background: var(--color-bg-surface-hover);
+    color: var(--color-text-primary);
+    border-color: var(--glass-border-accent);
+}
+
+.searchLabel {
+    display: none;
+}
+
+.searchKbd {
+    display: none;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--glass-border);
+    border-radius: 4px;
+    padding: 0.1rem 0.35rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+
+@media (min-width: 769px) {
+    .searchLabel {
+        display: inline;
+    }
+
+    .searchKbd {
+        display: inline;
+    }
+}
+
 @media (max-width: 768px) {
     .menuButton {
         display: block;

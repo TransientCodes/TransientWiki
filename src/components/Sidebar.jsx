@@ -1,9 +1,13 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Github, Youtube, Mail, Shield, Book } from 'lucide-react';
+import { Github, Youtube, Mail, Shield, Book, Lock, ChevronDown } from 'lucide-react';
 import styles from './Sidebar.module.css';
 
 const Sidebar = ({ isOpen, onClose }) => {
+    const [openFolders, setOpenFolders] = useState({});
+    const isFolderOpen = (name) => openFolders[name] !== false;
+    const toggleFolder = (name) => setOpenFolders(prev => ({ ...prev, [name]: !isFolderOpen(name) }));
+
     // Dynamically get all markdown files from src/content
     const modules = import.meta.glob('/src/content/**/*.md');
 
@@ -95,19 +99,33 @@ const Sidebar = ({ isOpen, onClose }) => {
                     {/* Folders */}
                     {navigation.folders.map((folder) => (
                         <div key={folder.name}>
-                            <div className={styles.categoryHeader}>{folder.name}</div>
-                            {folder.items.map((link) => (
-                                <NavLink
-                                    key={link.path}
-                                    to={link.path}
-                                    className={({ isActive }) =>
-                                        `${styles.link} ${styles.subLink} ${isActive ? styles.activeLink : ''}`
-                                    }
-                                    onClick={onClose}
-                                >
-                                    {link.name}
-                                </NavLink>
-                            ))}
+                            <button
+                                className={styles.categoryHeader}
+                                onClick={() => toggleFolder(folder.name)}
+                                aria-expanded={isFolderOpen(folder.name)}
+                            >
+                                {folder.name}
+                                <ChevronDown
+                                    size={12}
+                                    className={`${styles.chevron} ${!isFolderOpen(folder.name) ? styles.chevronClosed : ''}`}
+                                />
+                            </button>
+                            <div className={`${styles.folderItems} ${!isFolderOpen(folder.name) ? styles.folderItemsClosed : ''}`}>
+                                <div className={styles.folderItemsInner}>
+                                    {folder.items.map((link) => (
+                                        <NavLink
+                                            key={link.path}
+                                            to={link.path}
+                                            className={({ isActive }) =>
+                                                `${styles.link} ${styles.subLink} ${isActive ? styles.activeLink : ''}`
+                                            }
+                                            onClick={onClose}
+                                        >
+                                            {link.name}
+                                        </NavLink>
+                                    ))}
+                                </div>
+                            </div>
                         </div>
                     ))}
                 </nav>
@@ -125,7 +143,11 @@ const Sidebar = ({ isOpen, onClose }) => {
                         <NavLink to="/wiki/Regelwerk" className={styles.footerLink} title="Regelwerk">
                             <Book size={18} />
                             <span>Regelwerk</span>
-                        </NavLink>                       
+                        </NavLink>
+                        <NavLink to="/wiki/privacy" className={styles.footerLink} title="Datenschutz">
+                            <Lock size={18} />
+                            <span>Datenschutz</span>
+                        </NavLink>
                     </div>
 
                     <div className={styles.socialLinks}>
