@@ -10,7 +10,12 @@ Es gibt verschiedene Arten von **Basis-Siegeln**, aus denen vollwertige Siegel g
 
 1. Sammle die passende **Aura** — ein seltener Drop aus einer bestimmten Aktivität.
 2. Stelle daraus ein **Basis-Siegel** am normalen **Crafting Table** her.
-3. Verarbeite das Basis-Siegel am **Siegelaltar** zu einem vollwertigen Siegel.
+3. Gehe zum **Siegelaltar** und **Rechtsklick** auf den Altar, um das GUI zu öffnen.
+4. Lege das **Basis-Siegel** in den dafür vorgesehenen Slot (links).
+5. Lege das **Item, das du verzaubern möchtest**, sowie eventuell weitere Zutaten in die Zutaten-Slots.
+6. Wenn die Kombination einem Rezept entspricht, erscheint das **Ergebnis** im Ergebnis-Slot — klicke darauf, um es zu erhalten und Job-XP zu verdienen.
+
+Über das **Rezeptbuch-Symbol** im Altar-GUI siehst du alle Rezepte, die deinem Job-Level entsprechen. Der Button **„Rezept füllen"** legt automatisch alle benötigten Items aus deinem Inventar ein.
 
 | Basis-Siegel | Aura | Woher die Aura |
 | :--- | :--- | :--- |

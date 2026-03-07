@@ -4,6 +4,11 @@ Hier findest du verschiedene nützliche Informationen rund um den Server, die in
 
 <div class="md-card-grid">
     <div class="md-card">
+        <h3 style="color: #55ffff;">Erste Schritte</h3>
+        <p>Neu auf dem Server? Hier erfährst du, wie du am besten anfängst.</p>
+        <p><a href="#/wiki/anderes/einführung">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
         <h3 style="color: #ffcc00;">Tägliche Quests</h3>
         <p>Erhalte jeden Tag neue Aufgaben für Pfund und Ectoplasma.</p>
         <p><a href="#/wiki/anderes/daily quests">Mehr erfahren</a></p>
@@ -42,6 +47,11 @@ Hier findest du verschiedene nützliche Informationen rund um den Server, die in
         <h3 style="color: #ffaa00;">Kisten</h3>
         <p>Öffne Kisten für Pfund, Items, Ränge und exklusive Belohnungen.</p>
         <p><a href="#/wiki/anderes/kisten">Mehr erfahren</a></p>
+    </div>
+    <div class="md-card">
+        <h3 style="color: #55aaff;">Abstimmen</h3>
+        <p>Stimme für den Server ab und erhalte kostenlos eine Vote-Kiste.</p>
+        <p><a href="#/wiki/anderes/abstimmen">Mehr erfahren</a></p>
     </div>
 </div>
 

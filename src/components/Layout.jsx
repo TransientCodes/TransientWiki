@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import { Menu, X, Search as SearchIcon } from 'lucide-react';
 import styles from './Layout.module.css';
 import Sidebar from './Sidebar.jsx';
@@ -10,6 +10,7 @@ const Layout = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [progress, setProgress] = useState(0);
   const contentRef = useRef(null);
+  const location = useLocation();
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -25,6 +26,11 @@ const Layout = () => {
     const pct = el.scrollTop / (el.scrollHeight - el.clientHeight) * 100;
     setProgress(Math.min(100, Math.max(0, pct)));
   };
+
+  useEffect(() => {
+    setProgress(0);
+    if (contentRef.current) contentRef.current.scrollTop = 0;
+  }, [location.pathname]);
 
   useEffect(() => {
     const handler = (e) => {
