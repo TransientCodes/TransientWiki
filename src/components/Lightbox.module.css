@@ -1,3 +1,19 @@
+@keyframes lightboxIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes imageIn {
+    from {
+        opacity: 0;
+        transform: scale(0.93);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .overlay {
     position: fixed;
     inset: 0;
@@ -10,13 +26,14 @@
     justify-content: center;
     padding: 2rem;
     cursor: zoom-out;
+    animation: lightboxIn 0.2s ease;
 }
 
 .close {
     position: fixed;
     top: 1rem;
     right: 1rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
     border: 1px solid var(--glass-border);
     border-radius: 8px;
     color: var(--color-text-primary);
@@ -25,11 +42,13 @@
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
-    transition: background 0.15s;
+    transition: background 0.15s, border-color 0.15s;
+    animation: lightboxIn 0.3s ease 0.05s both;
 }
 
 .close:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.16);
+    border-color: var(--glass-border-accent);
 }
 
 .image {
@@ -37,6 +56,7 @@
     max-height: 90vh;
     object-fit: contain;
     border-radius: 10px;
-    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.8), 0 0 0 1px var(--glass-border);
     cursor: default;
+    animation: imageIn 0.22s cubic-bezier(0.2, 0, 0, 1);
 }

@@ -41,18 +41,38 @@ const Search = ({ onClose }) => {
     const [results, setResults] = useState([]);
     const [index, setIndex] = useState(null);
     const [loading, setLoading] = useState(false);
+    const [selectedIndex, setSelectedIndex] = useState(-1);
     const inputRef = useRef(null);
+    const listRef = useRef(null);
     const navigate = useNavigate();
 
     useEffect(() => {
         inputRef.current?.focus();
     }, []);
 
+    // Reset selection when results change
     useEffect(() => {
-        const handler = (e) => { if (e.key === 'Escape') onClose(); };
+        setSelectedIndex(-1);
+    }, [results]);
+
+    useEffect(() => {
+        const handler = (e) => {
+            if (e.key === 'Escape') { onClose(); return; }
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                setSelectedIndex(i => Math.min(i + 1, results.length - 1));
+            }
+            if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                setSelectedIndex(i => Math.max(i - 1, -1));
+            }
+            if (e.key === 'Enter' && selectedIndex >= 0 && results[selectedIndex]) {
+                handleSelect(results[selectedIndex].route);
+            }
+        };
         window.addEventListener('keydown', handler);
         return () => window.removeEventListener('keydown', handler);
-    }, [onClose]);
+    }, [onClose, results, selectedIndex]);
 
     const buildIndex = useCallback(async () => {
         if (index) return index;
@@ -110,10 +130,14 @@ const Search = ({ onClose }) => {
                 )}
 
                 {results.length > 0 && (
-                    <ul className={styles.results}>
-                        {results.map(r => (
+                    <ul className={styles.results} ref={listRef}>
+                        {results.map((r, i) => (
                             <li key={r.route}>
-                                <button className={styles.result} onClick={() => handleSelect(r.route)}>
+                                <button
+                                    className={`${styles.result} ${i === selectedIndex ? styles.resultActive : ''}`}
+                                    onClick={() => handleSelect(r.route)}
+                                    onMouseEnter={() => setSelectedIndex(i)}
+                                >
                                     <span className={styles.resultTitle}>{r.title}</span>
                                     <span className={styles.resultSnippet}>{r.snippet}</span>
                                 </button>

@@ -182,17 +182,20 @@
 
 .anchorLink {
     position: absolute;
-    left: -1.5rem;
-    top: 50%;
-    transform: translateY(-50%);
+    left: -1.25rem;
+    top: 0.3em;
     opacity: 0;
     color: var(--color-accent);
-    transition: opacity 0.15s;
+    transition: opacity 0.12s ease, color 0.12s ease;
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
+.anchorLink:hover {
+    color: var(--color-accent-hover);
+}
+
 .headingWrapper:hover .anchorLink {
-    opacity: 1;
+    opacity: 0.7;
 }
