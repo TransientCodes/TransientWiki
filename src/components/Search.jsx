@@ -5,6 +5,18 @@ import styles from './Search.module.css';
 
 const allModules = import.meta.glob('/src/content/**/*.md', { query: '?raw', import: 'default' });
 
+function stripMarkdown(text) {
+    return text
+        .replace(/<[^>]+>/g, ' ')       // HTML tags
+        .replace(/#+\s+/g, '')           // headings
+        .replace(/[*_~`]+/g, '')         // bold/italic/code markers
+        .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')  // [text](url) → text
+        .replace(/!\[[^\]]*\]\([^)]*\)/g, '')      // images
+        .replace(/&[a-z]+;/gi, ' ')      // HTML entities
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function getTitle(content, path) {
     const firstLine = content.split('\n').find(l => l.startsWith('# '));
     if (firstLine) return firstLine.replace(/^#\s+/, '');
@@ -13,10 +25,11 @@ function getTitle(content, path) {
 }
 
 function getSnippet(content, query) {
-    const lower = content.toLowerCase();
+    const clean = stripMarkdown(content);
+    const lower = clean.toLowerCase();
     const idx = lower.indexOf(query.toLowerCase());
-    const raw = idx === -1 ? content.slice(0, 120) : content.slice(Math.max(0, idx - 40), idx + query.length + 80);
-    return (idx > 40 ? '…' : '') + raw.replace(/#+\s/g, '').replace(/\n+/g, ' ') + '…';
+    const raw = idx === -1 ? clean.slice(0, 120) : clean.slice(Math.max(0, idx - 40), idx + query.length + 80);
+    return (idx > 40 ? '…' : '') + raw + '…';
 }
 
 function pathToRoute(path) {
@@ -47,7 +60,7 @@ const Search = ({ onClose }) => {
         const entries = await Promise.all(
             Object.entries(allModules).map(async ([path, loader]) => {
                 const content = await loader();
-                return { path, content, title: getTitle(content, path), route: pathToRoute(path) };
+                return { path, content, clean: stripMarkdown(content), title: getTitle(content, path), route: pathToRoute(path) };
             })
         );
         setLoading(false);
@@ -61,7 +74,7 @@ const Search = ({ onClose }) => {
             const entries = await buildIndex();
             const q = query.toLowerCase();
             const matched = entries
-                .filter(e => e.title.toLowerCase().includes(q) || e.content.toLowerCase().includes(q))
+                .filter(e => e.title.toLowerCase().includes(q) || e.clean.toLowerCase().includes(q))
                 .slice(0, 7)
                 .map(e => ({ title: e.title, route: e.route, snippet: getSnippet(e.content, query) }));
             setResults(matched);
