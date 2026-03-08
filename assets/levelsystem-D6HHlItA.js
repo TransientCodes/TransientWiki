@@ -26,6 +26,7 @@ Dein Kult kann im Level aufsteigen, um neue Funktionen und Plätze für Mitglied
 | **16** | 64 | Tag-Farbe: <span style="color: #ffaa00;">Gold</span> |
 | **17** | 68 | Tag-Farbe: <span style="color: #ff5555; font-weight: bold;">Rot (Fett)</span> |
 | **18** | 70 | Tag-Farbe: <span style="color: #ffaa00; font-weight: bold;">Gold (Fett)</span> |
+| **19** | 72 | – |
 | **20** | 74 | Tag-Farbe: <span style="color: #ff5555; font-weight: bold;">Rot (Fett)</span> |
 
 ## Wie steige ich auf?

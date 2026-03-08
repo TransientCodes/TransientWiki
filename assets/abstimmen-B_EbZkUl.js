@@ -15,5 +15,5 @@ Durch das Abstimmen für TransientRealm auf Server-Listen unterstützt du den Se
 
 Jeder Vote belohnt dich mit einer **Vote-Kiste**, die verschiedene nützliche Items und Pfund enthält. Kisten können am Kisten-Bereich am Spawn geöffnet werden.
 
-Mehr dazu: [Kisten](/#/wiki/Anderes/Kisten)
+Mehr dazu: [Kisten](#/wiki/Anderes/Kisten)
 `;export{e as default};

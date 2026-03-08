@@ -72,5 +72,10 @@ Auf TransientRealm gibt es drei Währungen:
         <p>Eine Übersicht der wichtigsten Server-Befehle.</p>
         <p><a href="#/wiki/Anderes/befehle">Mehr erfahren</a></p>
     </div>
+    <div class="md-card">
+        <h3>Abstimmen</h3>
+        <p>Stimme für den Server ab und erhalte kostenlos eine Vote-Kiste.</p>
+        <p><a href="#/wiki/Anderes/abstimmen">Mehr erfahren</a></p>
+    </div>
 </div>
 `;export{e as default};
