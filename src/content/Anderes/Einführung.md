@@ -85,7 +85,7 @@ Auf dem Server gibt es drei Währungen:
 
 ## 7. Einem Kult beitreten
 
-Kulte sind Spielergemeinschaften mit eigener Wirtschaft, Rängen und Wochenmarkt. Ab **Kult-Level 12** kannst du Fraktionen beitreten oder eigene gründen.
+Kulte sind Spielergemeinschaften mit eigener Wirtschaft, Rängen und Wochenmarkt. Ab **Kult-Level 10** kann dein Kult einer Fraktion beitreten.
 
 Mehr Infos: [Kulte](#/wiki/kult/kulte)
 
