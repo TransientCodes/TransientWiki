@@ -20,7 +20,7 @@ Auf TransientRealm gibt es drei Währungen:
 
 * **Pfund** – Die Standard-Spielerwährung. Du verdienst Pfund durch Jobs und kannst sie für Warps, Shops und vieles mehr ausgeben.
 * **Rubine** – Die Kult-Währung. Kult-Mitglieder zahlen Pfund in die Kult-Bank ein, welche sich in Rubine umwandeln. Mit Rubinen finanziert ihr Kult-Level-Aufstiege.
-* **Ectoplasma** – Eine seltene Premium-Währung. Du kannst sie mit echtem Geld erwerben oder schwer im Spiel verdienen. Ectoplasma wird verwendet um Crates zu öffnen. Auch **Spielerränge** sind nur über den Shop erhältlich: [store.transientrealm.de](https://store.transientrealm.de)
+* **Ectoplasma** – Eine seltene Premium-Währung. Du kannst sie mit echtem Geld erwerben oder im Spiel verdienen. Ectoplasma wird verwendet um Crates zu öffnen. Auch **Spielerränge** sind nur über den Shop erhältlich: [store.transientrealm.de](https://store.transientrealm.de)
 
 ---
 

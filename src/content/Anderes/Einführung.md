@@ -4,6 +4,8 @@
 
 Willkommen auf Transient Realm! Hier erfährst du, wie du am besten anfängst.
 
+**Server-IP:** `transientrealm.de`
+
 ---
 
 ## 1. Spawn erkunden

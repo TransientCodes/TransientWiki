@@ -4,6 +4,8 @@
 
 Wähle einen Beruf, um Pfund zu verdienen und Job-XP zu sammeln. Mit steigendem Level schalten sich neue Möglichkeiten frei.
 
+Du kannst **alle Jobs gleichzeitig** aktiv haben — es gibt keine Beschränkung.
+
 ## Verfügbare Jobs
 
 <div class="md-card-grid">

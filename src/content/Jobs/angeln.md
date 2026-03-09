@@ -45,7 +45,9 @@ Jeder gefangene Fisch hat zwei zufällige Attribute:
 
 ## Biome & Regionen
 
-Verschiedene Fische können nur in bestimmten **Biomen** oder Regionen gefangen werden. Im Citybuild-Bereich gibt es andere Fische als in der Farmwelt. Manche seltenen Fische benötigen zusätzlich eine Angel mit hohem **Angelstärke-Verzauberung** (Rodpower).
+Verschiedene Fische können nur in bestimmten **Biomen** oder Regionen gefangen werden. Im Citybuild-Bereich gibt es andere Fische als in der Farmwelt. Manche seltenen Fische benötigen zusätzlich eine Angel mit der **Rodpower**-Verzauberung.
+
+Die genauen Fundorte der Fische sind **absichtlich nicht dokumentiert** — das Entdecken gehört zum Spielerlebnis. Nutze das `/anglerbuch`, um zu sehen, welche Arten du noch nicht gefangen hast.
 
 ## Der Angelbeutel
 
@@ -85,7 +87,7 @@ Spezielle Verzauberungen für deine Angelrute:
 
 | Verzauberung | Effekt |
 |---|---|
-| **Rodpower** | Ermöglicht das Fangen von Fischen mit höherer Anforderung (seltenere Arten) |
+| **Rodpower** | Ermöglicht das Fangen von Fischen mit höherer Anforderung (seltenere Arten). Wird durch das Kombinieren des richtigen Siegels am **Amboss** erhalten. |
 | **Qualitätssteigerung** | Erhöht die Wahrscheinlichkeit auf bessere Fischqualität |
 | **Gewichtssteigerung** | Fische werden schwerer → höherer Verkaufswert |
 

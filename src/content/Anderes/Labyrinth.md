@@ -9,7 +9,7 @@ Tief im Transient Maze warten Schätze, Fallen und Geheimnisse — wenn du es sc
 Sprich den **NPC am Spawn** an, um ins Labyrinth teleportiert zu werden. Du landest an einer **zufälligen Position** im Maze.
 
 <div class="md-note">
-Wenn du im Labyrinth stirbst, gilt eine <strong>Abklingzeit</strong> bevor du erneut eintreten kannst. Die verbleibende Zeit wird dir beim Versuch angezeigt.
+Wenn du im Labyrinth stirbst, gilt eine <strong>Abklingzeit von 5 Minuten</strong> bevor du erneut eintreten kannst. Die verbleibende Zeit wird dir beim Versuch angezeigt.
 </div>
 
 ## Aufbau
