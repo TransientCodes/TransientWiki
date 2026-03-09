@@ -4,6 +4,8 @@ const e=`<div class="md-banner" style="border-left: 4px solid #55ffff;">
 
 Willkommen auf Transient Realm! Hier erfährst du, wie du am besten anfängst.
 
+**Server-IP:** \`transientrealm.de\`
+
 ---
 
 ## 1. Spawn erkunden

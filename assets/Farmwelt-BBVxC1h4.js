@@ -10,7 +10,7 @@ Es gibt drei Varianten der Farmwelt:
 
 * **Normal** – Die klassische Oberwelt-Farmwelt. Immer verfügbar.
 * **Nether** – Die Nether-Farmwelt für Nether-Ressourcen. Immer verfügbar.
-* **End** – Die End-Farmwelt. Nur **sonntags** geöffnet.
+* **End** – Die End-Farmwelt. Nur **sonntags** geöffnet — den ganzen Tag.
 
 ## Zugang
 

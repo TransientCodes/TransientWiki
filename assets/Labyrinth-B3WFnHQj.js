@@ -1,4 +1,4 @@
-const e=`<div class="md-banner" style="border-left: 4px solid #55ff55;">
+const n=`<div class="md-banner" style="border-left: 4px solid #55ff55;">
     <h1 style="margin: 0;">Das Labyrinth</h1>
 </div>
 
@@ -9,7 +9,7 @@ Tief im Transient Maze warten Schätze, Fallen und Geheimnisse — wenn du es sc
 Sprich den **NPC am Spawn** an, um ins Labyrinth teleportiert zu werden. Du landest an einer **zufälligen Position** im Maze.
 
 <div class="md-note">
-Wenn du im Labyrinth stirbst, gilt eine <strong>Abklingzeit</strong> bevor du erneut eintreten kannst. Die verbleibende Zeit wird dir beim Versuch angezeigt.
+Wenn du im Labyrinth stirbst, gilt eine <strong>Abklingzeit von 5 Minuten</strong> bevor du erneut eintreten kannst. Die verbleibende Zeit wird dir beim Versuch angezeigt.
 </div>
 
 ## Aufbau
@@ -67,4 +67,4 @@ Im Labyrinth droppt die **Gift-Aura** — ein seltenes Item, das der **Siegelmag
 - Geh nicht alleine, wenn du nicht sicher bist
 - Bringe genug Ausrüstung und Nahrung mit
 - Achte auf verdächtige Wände — manche sind durchlässig
-`;export{e as default};
+`;export{n as default};

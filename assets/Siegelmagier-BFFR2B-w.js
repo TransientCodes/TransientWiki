@@ -4,13 +4,13 @@ const e=`<div class="md-banner" style="border-left: 4px solid #aa55ff;">
 
 ## Der Siegelaltar
 
-Der **Siegelaltar** dient dazu, mächtige Siegel herzustellen, die deine Ausrüstung dauerhaft verstärken.
+Der **Siegelaltar** dient dazu, mächtige Siegel herzustellen, die deine Ausrüstung dauerhaft verstärken. Du craftst ihn selbst — das Rezept findest du über \`/rezepte\`.
 
 Es gibt verschiedene Arten von **Basis-Siegeln**, aus denen vollwertige Siegel gefertigt werden können. Der Ablauf ist immer gleich:
 
 1. Sammle die passende **Aura** — ein seltener Drop aus einer bestimmten Aktivität.
 2. Stelle daraus ein **Basis-Siegel** am normalen **Crafting Table** her.
-3. Gehe zum **Siegelaltar** und **Rechtsklick** auf den Altar, um das GUI zu öffnen.
+3. Platziere deinen **Siegelaltar** und **Rechtsklick** darauf, um das GUI zu öffnen.
 4. Lege das **Basis-Siegel** in den dafür vorgesehenen Slot (links).
 5. Lege das **Item, das du verzaubern möchtest**, sowie eventuell weitere Zutaten in die Zutaten-Slots.
 6. Wenn die Kombination einem Rezept entspricht, erscheint das **Ergebnis** im Ergebnis-Slot — klicke darauf, um es zu erhalten und Job-XP zu verdienen.
