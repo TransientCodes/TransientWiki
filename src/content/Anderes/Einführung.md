@@ -1,147 +1,111 @@
-<div class="md-banner" style="border-left: 4px solid #55ffff;">
-    <h1 style="margin: 0;">Erste Schritte</h1>
-</div>
+# Anfänger-Guide für TransientRealm
 
-Willkommen auf Transient Realm! Hier erfährst du, wie du am besten anfängst.
+Dieser Guide erklärt dir die ersten Schritte auf **TransientRealm**, einem deutschen Minecraft-Server mit **Citybuild**, **Jobs**, **Quests**, **Wirtschaft** und weiteren eigenen Spielsystemen.
 
-**Server-IP:** `transientrealm.de`
+Wenn du neu auf dem Server bist, solltest du diese Reihenfolge einhalten:
 
 ---
 
-## 1. Spawn erkunden
+## 1. Spawn verstehen
 
-Wenn du das erste Mal einloggst, landest du am **Spawn**. Von hier aus erreichst du alles Wichtige auf dem Server. Schau dich um — viele NPCs und Stationen sind direkt hier zu finden:
+Am Spawn findest du die wichtigsten Startpunkte für deinen Einstieg:
 
-- Der **Angel-Trader** zum Verkaufen von Fischen
-- Der **Labyrinth-NPC** für den Eingang ins Maze
-- **Simon**, der NPC für tägliche Quests
-- Die **Kisten-Station** zum Öffnen von Crates
+- NPCs für tägliche Quests
+- Zugänge zu Kisten und Belohnungen
+- Händler und System-NPCs
+- Hinweise zu Farmwelt, Citybuild und weiteren Features
+
+Der Spawn ist bewusst als Orientierungspunkt aufgebaut. Laufe ihn einmal komplett ab, bevor du dich auf einzelne Systeme fokussierst.
 
 ---
 
-## 2. Ein Plot beanspruchen
+## 2. Eigenes Plot im Citybuild holen
 
-Im **Citybuild** bekommst du dein eigenes Grundstück. Hier baust du dein Zuhause und kannst später Shops eröffnen.
+Für die meisten Spieler beginnt der Alltag im **Citybuild**. Dort sicherst du dir ein Grundstück und kannst sofort mit Bauen, Lagern und Planen starten.
 
-```
+```text
 /plot auto
 ```
 
-Damit wirst du automatisch zu einem freien Plot teleportiert und es dir zugewiesen. Auf deinem Plot kannst du bauen und gestalten wie du möchtest — andere Spieler können dort nicht ohne Erlaubnis eingreifen.
+Danach hast du ein eigenes Plot und eine stabile Basis für Farmen, Shops und Handel.
 
-Mehr Infos: [Citybuild](#/wiki/anderes/citybuild)
+Mehr dazu: [Citybuild](/wiki/anderes/citybuild)
 
 ---
 
 ## 3. Einen Job wählen
 
-Jobs sind der Hauptweg, um **Pfund** (die Server-Währung) zu verdienen. Öffne das Job-Menü:
+Das **Jobs-System** ist einer der wichtigsten Bestandteile des Servers. Über Jobs verdienst du **Pfund**, sammelst Fortschritt und schaltest langfristig neue Möglichkeiten frei.
 
-```
+```text
 /berufe
 ```
 
-Wähle einen Job, der zu deinem Spielstil passt:
+Ein sinnvoller Einstieg:
 
-- Gerne abbauen? → **Schürfer** oder **Fäller**
-- Lieber kämpfen? → **Paladin** oder **Fleischer**
-- Lieber angeln? → **Magnetfischer**
-- Gerne erkunden? → **Forscher**
-- Handwerk? → **Chronomant** (Crafting) oder **Runenmechaniker**
+- Ressourcenfokus: Schürfer, Farmer, Fäller
+- Kampf und Loot: Paladin, Fleischer
+- Erkundung und Spezialsysteme: Forscher, Magnetfischer
+- Crafting und Veredelung: Runenmechaniker, Siegelmagier
 
-Je mehr du deinen Job ausübst, desto höher steigt dein Level — und desto mehr verdienst du pro Aktion.
-
-Mehr Infos: [Jobs & Berufe](#/wiki/jobs/berufe)
+Mehr dazu: [Jobs & Berufe](/wiki/jobs/berufe)
 
 ---
 
-## 4. Tägliche Quests erledigen
+## 4. Tägliche Quests mitnehmen
 
-Sprich jeden Tag **Simon** am Spawn an. Er gibt dir neue Aufgaben, für die du **Pfund** und **Ectoplasma** bekommst. Quests erneuern sich täglich — ein einfacher Weg für regelmäßiges Einkommen.
+**Daily Quests** sind ideal, um jeden Tag verlässlich Belohnungen zu erhalten. Sie helfen dir beim frühen Fortschritt und ergänzen Jobs, Farmen und Handel sehr gut.
+
+Mehr dazu: [Daily Quests](/wiki/anderes/daily-quests)
 
 ---
 
-## 5. Ressourcen in der Farmwelt sammeln
+## 5. Farmwelt für Ressourcen nutzen
 
-Für Erze, Holz und andere Ressourcen nutze die **Farmwelt** — eine separate Welt, die monatlich zurückgesetzt wird. Hier darfst du frei abbauen, ohne den Citybuild zu beeinträchtigen.
+Die **Farmwelt** ist für das gezielte Sammeln von Rohstoffen gedacht. So bleibt dein Citybuild-Plot sauber, während du Erze, Holz und andere Materialien effizient farmen kannst.
 
-```
+```text
 /farmwelt
 ```
 
-Mehr Infos: [Farmwelt](#/wiki/anderes/farmwelt)
+Mehr dazu: [Farmwelt](/wiki/anderes/farmwelt)
 
 ---
 
 ## 6. Währungen verstehen
 
-Auf dem Server gibt es drei Währungen:
+Auf TransientRealm gibt es mehrere Währungen mit unterschiedlichen Rollen:
 
-| Währung | Woher | Wofür |
-|---|---|---|
-| **Pfund** | Jobs, Quests, Shops | Alles — die Hauptwährung |
-| **Rubine** | Per `/kult donate` einzahlen | Interne Kult-Wirtschaft |
-| **Ectoplasma** | Store oder selten im Spiel | Premium-Kisten öffnen |
+| Währung | Typische Quellen | Typische Nutzung |
+| --- | --- | --- |
+| Pfund | Jobs, Quests, Handel | Hauptwährung für den Alltag |
+| Rubine | Kult-interne Systeme | Progression und Gruppensysteme |
+| Ectoplasma | Shop oder besondere Belohnungen | Premium-Kisten und besondere Inhalte |
 
----
-
-## 7. Einem Kult beitreten
-
-Kulte sind Spielergemeinschaften mit eigener Wirtschaft, Rängen und Wochenmarkt. Ab **Kult-Level 10** kann dein Kult einer Fraktion beitreten.
-
-Mehr Infos: [Kulte](#/wiki/kult/kulte)
+Wer die Währungen früh versteht, kommt deutlich schneller in die Wirtschaft des Servers hinein.
 
 ---
 
-## 8. Fortgeschrittene Inhalte
+## 7. Später in Spezialsysteme einsteigen
 
-Sobald du dich eingelebt hast:
+Sobald die Grundlagen stehen, lohnen sich die komplexeren Systeme:
 
-<div class="md-card-grid">
-<div class="md-card">
-
-### 🏺 Forscher
-Grabe Artefakte aus und entdecke die Geschichte der Welt. Fünf Raritätsstufen, bis hin zu zeitlosen Fundstücken.
-
-[Mehr erfahren](#/wiki/jobs/forscher)
-
-</div>
-<div class="md-card">
-
-### ᛉ Runenmechaniker
-Stelle an einem besonderen Altar mächtige Runen her und verzaubere deine Ausrüstung.
-
-[Mehr erfahren](#/wiki/jobs/runenmechaniker)
-
-</div>
-<div class="md-card">
-
-### ✨ Siegelmagier
-Sammle Auren aus verschiedenen Aktivitäten und erschaffe damit einzigartige Siegel für deine Items.
-
-[Mehr erfahren](#/wiki/jobs/siegelmagier)
-
-</div>
-<div class="md-card">
-
-### 🌿 Labyrinth
-Betritt über den NPC am Spawn ein gefährliches, prozedurales Maze voller Fallen, Schätze und seltener Loot.
-
-[Mehr erfahren](#/wiki/anderes/labyrinth)
-
-</div>
-</div>
+- [Siegelmagier](/wiki/jobs/siegelmagier) für Siegel, Veredelungen und magische Item-Systeme
+- [Runenmechaniker](/wiki/jobs/runenmechaniker) für Runen und servereigenes Crafting
+- [Forscher](/wiki/jobs/forscher) für Artefakte, Archäologie und seltene Funde
+- [Kulte](/wiki/kult/kulte) für Gruppenspiel, Wirtschaft und Progression
+- [Kisten](/wiki/anderes/kisten) für Belohnungen und Fortschrittssysteme
 
 ---
 
-## Nützliche Befehle für den Einstieg
+## Die wichtigsten Befehle für den Einstieg
 
 | Befehl | Funktion |
-|---|---|
+| --- | --- |
 | `/spawn` | Zurück zum Spawn |
-| `/berufe` | Job-Menü öffnen |
+| `/berufe` | Jobs-Menü öffnen |
 | `/plot auto` | Automatisch ein Plot beanspruchen |
 | `/plot home` | Zum eigenen Plot teleportieren |
-| `/farmwelt` | In die Farmwelt |
-| `/anglerbuch` | Dein Fisch-Tagebuch |
-| `/warp [Name]` | Zu einem Spieler-Warp |
+| `/farmwelt` | Zur Farmwelt wechseln |
+
+Wenn du nach den Grundlagen noch Fragen hast, hilft dir die [FAQ](/wiki/faq) weiter.

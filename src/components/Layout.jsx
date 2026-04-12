@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Outlet, useLocation } from 'react-router-dom';
-import { Menu, X, Search as SearchIcon } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Menu, Search as SearchIcon, X } from 'lucide-react';
 import styles from './Layout.module.css';
 import Sidebar from './Sidebar.jsx';
 import Search from './Search.jsx';
@@ -23,7 +23,7 @@ const Layout = () => {
   const handleScroll = () => {
     const el = contentRef.current;
     if (!el) return;
-    const pct = el.scrollTop / (el.scrollHeight - el.clientHeight) * 100;
+    const pct = (el.scrollTop / (el.scrollHeight - el.clientHeight)) * 100;
     setProgress(Math.min(100, Math.max(0, pct)));
   };
 
@@ -34,10 +34,13 @@ const Layout = () => {
 
   useEffect(() => {
     const handler = (e) => {
-      if (e.key === '/' && !isSearchOpen &&
-          e.target.tagName !== 'INPUT' &&
-          e.target.tagName !== 'TEXTAREA' &&
-          !e.target.isContentEditable) {
+      if (
+        e.key === '/' &&
+        !isSearchOpen &&
+        e.target.tagName !== 'INPUT' &&
+        e.target.tagName !== 'TEXTAREA' &&
+        !e.target.isContentEditable
+      ) {
         e.preventDefault();
         setIsSearchOpen(true);
       }
@@ -55,12 +58,14 @@ const Layout = () => {
       />
 
       <header className={styles.header}>
-        <button className={styles.menuButton} onClick={toggleSidebar} aria-label="Toggle Menu">
+        <button className={styles.menuButton} onClick={toggleSidebar} aria-label="Menü umschalten">
           {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
         <div className={styles.branding}>
-          <img src="/logo.png" alt="Transient Wiki Logo" className={styles.logo} />
-          <h1 className={styles.title}>Transient Wiki</h1>
+          <img src="/logo.png" alt="TransientRealm Wiki Logo" className={styles.logo} />
+          <Link to="/" className={styles.title}>
+            TransientRealm Wiki
+          </Link>
         </div>
         <button
           className={styles.searchButton}

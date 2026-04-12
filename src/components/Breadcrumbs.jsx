@@ -1,28 +1,25 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './Breadcrumbs.module.css';
+import { getContentEntryByRoute } from '../content/contentIndex';
 
 const Breadcrumbs = () => {
-    const { pathname } = useLocation();
-    const parts = pathname.replace(/^\/wiki\//, '').split('/').filter(Boolean).map(decodeURIComponent);
+  const { pathname } = useLocation();
+  const entry = getContentEntryByRoute(pathname);
 
-    // Only show for nested paths (Folder/Page)
-    if (parts.length < 2) return null;
+  if (!entry?.isNested) return null;
 
-    const folder = parts[0];
-    const page = parts[parts.length - 1];
-    const folderLabel = folder.charAt(0).toUpperCase() + folder.slice(1).replace(/-/g, ' ');
-    const pageLabel = page.charAt(0).toUpperCase() + page.slice(1).replace(/-/g, ' ');
-
-    return (
-        <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
-            <span className={styles.crumb}>Wiki</span>
-            <span className={styles.sep}>›</span>
-            <span className={styles.crumb}>{folderLabel}</span>
-            <span className={styles.sep}>›</span>
-            <span className={`${styles.crumb} ${styles.current}`}>{pageLabel}</span>
-        </nav>
-    );
+  return (
+    <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
+      <Link to="/" className={styles.crumb}>
+        Startseite
+      </Link>
+      <span className={styles.sep}>›</span>
+      <span className={styles.crumb}>{entry.labels[0]}</span>
+      <span className={styles.sep}>›</span>
+      <span className={`${styles.crumb} ${styles.current}`}>{entry.title}</span>
+    </nav>
+  );
 };
 
 export default Breadcrumbs;

@@ -1,80 +1,85 @@
-# **TransientRealm – Offizielles Wiki**
+# TransientRealm Wiki
 
-Willkommen im offiziellen TransientRealm-Wiki.
-Hier findest du alle Informationen über die Inhalte, Systeme und Features unseres Servers.
+Willkommen im offiziellen **TransientRealm Wiki**. Dieses deutschsprachige Minecraft-Server-Wiki erklärt die wichtigsten Systeme, Features und Progressionspfade des Servers verständlich und ohne unnötige Umwege.
 
----
-
-## **Was ist TransientRealm?**
-
-TransientRealm ist ein deutscher Minecraft-Server mit Schwerpunkt auf **Citybuild**, ergänzt durch **eigene Systeme**, **magische Berufe**, **Dungeons**, **Spezial-Crafting** und einer stetig wachsenden, atmosphärischen Welt.
-Der Server kombiniert klassisches Bauen mit ersten RPG-Elementen und auch einer custom Farmwelt.
-
-Unser Ziel ist eine einzigartige Welt, die kreatives Bauen, Fortschritt, Erkundung und Handel miteinander verbindet.
+Wenn du nach einem **deutschen Minecraft-Server-Wiki**, nach Erklärungen zu **Minecraft Jobs**, **Quests**, **Citybuild**, **Siegeln**, **Kisten**, **Fraktionen** oder allgemeinen **Minecraft-Server-Spielsystemen** suchst, bist du hier richtig.
 
 ---
 
-## **Währungen**
+## Was ist TransientRealm?
 
-Auf TransientRealm gibt es drei Währungen:
+TransientRealm ist ein deutscher Minecraft-Server mit Fokus auf **Citybuild**, **eigene Spielsysteme**, **Berufe**, **magische Progression**, **Wirtschaft**, **Erkundung** und einer wachsenden Welt mit RPG- und MMO-Elementen.
 
-* **Pfund** – Die Standard-Spielerwährung. Du verdienst Pfund durch Jobs und kannst sie für Warps, Shops und vieles mehr ausgeben.
-* **Rubine** – Die Kult-Währung. Kult-Mitglieder zahlen Pfund in die Kult-Bank ein, welche sich in Rubine umwandeln. Mit Rubinen finanziert ihr Kult-Level-Aufstiege.
-* **Ectoplasma** – Eine seltene Premium-Währung. Du kannst sie mit echtem Geld erwerben oder im Spiel verdienen. Ectoplasma wird verwendet um Crates zu öffnen. Auch **Spielerränge** sind nur über den Shop erhältlich: [store.transientrealm.de](https://store.transientrealm.de)
+Das Wiki dient nicht nur als Nachschlagewerk für bestehende Spieler, sondern auch als zentrale Übersicht für alle, die verstehen möchten, wie moderne Minecraft-Server-Systeme funktionieren.
 
 ---
 
-## **Spielsysteme**
+## Schnellstart
+
+- [Anfänger-Guide](/wiki/anfaenger-guide)
+- [Server-Systeme im Überblick](/wiki/server-systeme)
+- [Jobs & Berufe](/wiki/jobs/berufe)
+- [Citybuild](/wiki/anderes/citybuild)
+- [Kulte & Fraktionen](/wiki/kult/kulte)
+- [FAQ](/wiki/faq)
+
+---
+
+## Zentrale Spielsysteme
 
 <div class="md-card-grid">
-    <div class="md-card">
-        <h3>Jobs & Berufe</h3>
-        <p>Wähle einen Beruf, verdiene Pfund und schalte einzigartige Fähigkeiten frei.</p>
-        <p><a href="#/wiki/Jobs/allgemein">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Siegelmagier</h3>
-        <p>Verarbeite mächtige Siegel am Siegelaltar und verstärke deine Ausrüstung dauerhaft.</p>
-        <p><a href="#/wiki/Jobs/Siegelmagier">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Kulte</h3>
-        <p>Gründe oder tritt einem Kult bei. Steige im Kult-Level auf und wähle eine Fraktion.</p>
-        <p><a href="#/wiki/Kult/allgemein">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Angeln</h3>
-        <p>Nutze das custom Angelsystem, sammle seltene Fische und verkaufe sie beim Angel-Trader.</p>
-        <p><a href="#/wiki/Jobs/angeln">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Citybuild</h3>
-        <p>Beanspruche dein eigenes Plot, bau dein Zuhause und eröffne Shops für andere Spieler.</p>
-        <p><a href="#/wiki/Anderes/Citybuild">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Labyrinth</h3>
-        <p>Ein prozedurales Maze voller Fallen, Raidkammern und seltener Beute. Nur für die Mutigen.</p>
-        <p><a href="#/wiki/Anderes/Labyrinth">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Kisten</h3>
-        <p>Öffne Kisten für Pfund, Items, Ränge und exklusive Belohnungen.</p>
-        <p><a href="#/wiki/Anderes/Kisten">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Tägliche Quests</h3>
-        <p>Erhalte täglich drei neue Aufgaben für Pfund und Ectoplasma.</p>
-        <p><a href="#/wiki/Anderes/Daily Quests">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Befehle</h3>
-        <p>Eine Übersicht der wichtigsten Server-Befehle.</p>
-        <p><a href="#/wiki/Anderes/befehle">Mehr erfahren</a></p>
-    </div>
-    <div class="md-card">
-        <h3>Abstimmen</h3>
-        <p>Stimme für den Server ab und erhalte kostenlos eine Vote-Kiste.</p>
-        <p><a href="#/wiki/Anderes/abstimmen">Mehr erfahren</a></p>
-    </div>
+  <div class="md-card">
+    <h3>Jobs &amp; Berufe</h3>
+    <p>Verdiene Pfund, sammle Job-XP und schalte besondere Spielweisen frei.</p>
+    <p><a href="/wiki/jobs/berufe">Zum Jobs-System</a></p>
+  </div>
+  <div class="md-card">
+    <h3>Siegel &amp; Magie</h3>
+    <p>Verbessere Ausrüstung mit Siegeln, Auren und servereigenen Item-Systemen.</p>
+    <p><a href="/wiki/jobs/siegelmagier">Zum Siegelmagier</a></p>
+  </div>
+  <div class="md-card">
+    <h3>Quests &amp; Fortschritt</h3>
+    <p>Erledige tägliche Aufgaben und nutze wiederkehrende Belohnungen für deinen Fortschritt.</p>
+    <p><a href="/wiki/anderes/daily-quests">Zu den Daily Quests</a></p>
+  </div>
+  <div class="md-card">
+    <h3>Citybuild</h3>
+    <p>Sichere dir ein Plot, baue deine Basis und entwickle Handel und Infrastruktur.</p>
+    <p><a href="/wiki/anderes/citybuild">Zum Citybuild-System</a></p>
+  </div>
+  <div class="md-card">
+    <h3>Kisten &amp; Belohnungen</h3>
+    <p>Öffne Kisten, sammle Ressourcen und verstehe das servereigene Belohnungssystem.</p>
+    <p><a href="/wiki/anderes/kisten">Zu den Kisten</a></p>
+  </div>
+  <div class="md-card">
+    <h3>Kulte &amp; Fraktionen</h3>
+    <p>Gründe Gemeinschaften, entwickle Progression und nutze soziale Server-Systeme.</p>
+    <p><a href="/wiki/kult/kulte">Zu Kulten und Fraktionen</a></p>
+  </div>
 </div>
+
+---
+
+## Für welche Themen ist dieses Wiki relevant?
+
+Dieses Wiki deckt bewusst mehr ab als nur den Projektnamen **TransientRealm**. Es ist auch für allgemeine Fragen rund um folgende Themen hilfreich:
+
+- deutscher Minecraft-Server
+- Minecraft-Server-Wiki
+- Minecraft Jobs-System
+- Minecraft Berufe und Fortschritt
+- Minecraft Citybuild-Systeme
+- Minecraft Quests und Achievements
+- Minecraft Ränge, Kisten und Belohnungen
+- Minecraft Siegel, Veredelungen und Custom-Items
+- Minecraft Fraktionen, Gruppen und Wirtschaft
+
+---
+
+## Empfohlene Einstiegsreihenfolge
+
+1. Lies den [Anfänger-Guide](/wiki/anfaenger-guide), wenn du neu auf dem Server bist.
+2. Verschaffe dir unter [Server-Systeme](/wiki/server-systeme) einen Überblick über Jobs, Wirtschaft, Progression und Features.
+3. Steige danach gezielt in Unterseiten wie [Jobs & Berufe](/wiki/jobs/berufe), [Citybuild](/wiki/anderes/citybuild) oder [Kulte](/wiki/kult/kulte) ein.
