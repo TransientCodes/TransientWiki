@@ -8,7 +8,7 @@ const distRoot = path.join(projectRoot, 'dist');
 const templatePath = path.join(distRoot, 'index.html');
 const serverEntryUrl = pathToFileURL(path.join(distRoot, 'server', 'entry-server.js')).href;
 
-const { getPrerenderRoutes, getSeo, render } = await import(serverEntryUrl);
+const { getPrerenderRoutes, getSeo, getSitemapRoutes, render } = await import(serverEntryUrl);
 const template = await fs.readFile(templatePath, 'utf8');
 
 function escapeHtml(value = '') {
@@ -104,6 +104,7 @@ ${items}
 }
 
 const routes = getPrerenderRoutes();
+const sitemapRoutes = getSitemapRoutes();
 
 for (const route of routes) {
   await writeHtmlForRoute(route, buildPage(route));
@@ -113,7 +114,7 @@ await fs.writeFile(
   path.join(distRoot, 'robots.txt'),
   'User-agent: *\nAllow: /\n\nSitemap: https://wiki.transientrealm.de/sitemap.xml\n',
 );
-await fs.writeFile(path.join(distRoot, 'sitemap.xml'), buildSitemap(routes));
+await fs.writeFile(path.join(distRoot, 'sitemap.xml'), buildSitemap(sitemapRoutes));
 await fs.writeFile(path.join(distRoot, '404.html'), buildPage('/'));
 await fs.rm(path.join(distRoot, 'server'), { recursive: true, force: true });
 

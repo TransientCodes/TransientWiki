@@ -2,6 +2,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import App from './App.jsx';
 import {
+  CONTENT_ENTRIES,
   getContentEntryByRoute,
   loadContentByEntry,
 } from './content/contentIndex.js';
@@ -32,5 +33,18 @@ export function getSeo(pathname) {
 }
 
 export function getPrerenderRoutes() {
+  return Array.from(
+    new Set([
+      ...SITEMAP_PAGES.map((page) => page.path),
+      ...CONTENT_ENTRIES.map((entry) => entry.route),
+    ]),
+  ).sort((left, right) => {
+    if (left === '/') return -1;
+    if (right === '/') return 1;
+    return left.localeCompare(right, 'de');
+  });
+}
+
+export function getSitemapRoutes() {
   return SITEMAP_PAGES.map((page) => page.path);
 }
