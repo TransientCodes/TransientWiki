@@ -1,11 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, MemoryRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import WikiPage from './pages/WikiPage';
 
-function App() {
+function App({ location = null }) {
+  const Router = location ? MemoryRouter : BrowserRouter;
+  const routerProps = location ? { initialEntries: [location] } : {};
+
   return (
-    <BrowserRouter>
+    <Router {...routerProps}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<WikiPage />} />
@@ -13,7 +16,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

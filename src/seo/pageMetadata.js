@@ -6,89 +6,148 @@ export const DEFAULT_TITLE =
 export const DEFAULT_DESCRIPTION =
   'Offizielles deutsches Wiki für den Minecraft-Server TransientRealm mit Guides zu Jobs, Berufen, Siegeln, Quests, Citybuild, Rängen, Kisten, Wirtschaft und Server-Systemen.';
 
-const PAGE_OVERRIDES = {
-  '/': {
+export const WIKI_PAGE_META = [
+  {
+    path: '/',
+    title: DEFAULT_TITLE,
     description:
       'TransientRealm Wiki ist ein deutschsprachiges Minecraft-Server-Wiki mit Anleitungen und Erklärungen zu Jobs, Berufen, Siegeln, Quests, Citybuild, Kisten, Rängen, Wirtschaft und weiteren Spielsystemen.',
-    title: DEFAULT_TITLE,
+    h1: 'TransientRealm Wiki',
     type: 'website',
   },
-  '/wiki/anfaenger-guide': {
+  {
+    path: '/wiki/anfaenger-guide',
+    title: 'Anfänger-Guide | TransientRealm Wiki',
     description:
       'Anfänger-Guide für TransientRealm: Einstieg in den deutschen Minecraft-Server mit Spawn, Plot, Jobs, Farmwelt, Quests, Kisten und ersten Fortschrittssystemen.',
-    title:
-      'Anfänger-Guide | Einstieg in den deutschen Minecraft-Server TransientRealm',
+    h1: 'Anfänger-Guide',
   },
-  '/wiki/anderes/einfuehrung': {
+  {
+    path: '/wiki/server-systeme',
+    title: 'Server-Systeme | TransientRealm Wiki',
     description:
-      'Erste Schritte auf TransientRealm: Plot sichern, Jobs wählen, Farmwelt nutzen, Quests starten und die wichtigsten Server-Systeme schnell verstehen.',
-    title:
-      'Erste Schritte | TransientRealm Wiki für Citybuild, Jobs und Server-Systeme',
+      'Übersicht der wichtigsten Server-Systeme auf TransientRealm: Jobs, Quests, Citybuild, Kisten, Wirtschaft, Ränge und Fortschritt.',
+    h1: 'Server-Systeme',
   },
-  '/wiki/server-systeme': {
-    description:
-      'Überblick über die wichtigsten Minecraft-Server-Spielsysteme auf TransientRealm: Jobs, Citybuild, Kulte, Wirtschaft, Quests, Kisten, Progression und besondere Features.',
-    title:
-      'Server-Systeme | Minecraft-Server-Spielsysteme, Jobs und Features erklärt',
-  },
-  '/wiki/faq': {
+  {
+    path: '/wiki/faq',
+    title: 'FAQ | TransientRealm Wiki',
     description:
       'FAQ zum deutschen Minecraft-Server TransientRealm mit Antworten zu Einstieg, Jobs, Citybuild, Quests, Kisten, Rängen, Wirtschaft und wichtigen Befehlen.',
-    title: 'FAQ | Häufige Fragen zum deutschen Minecraft-Server TransientRealm',
+    h1: 'FAQ',
   },
-  '/wiki/jobs/berufe': {
+  {
+    path: '/wiki/jobs/berufe',
+    title: 'Jobs & Berufe | TransientRealm Wiki',
     description:
       'Übersicht der Jobs und Berufe auf TransientRealm: Pfund verdienen, Job-XP sammeln und besondere Minecraft-Server-Systeme wie Angeln, Siegel und Runen freischalten.',
-    title:
-      'Jobs & Berufe | Minecraft Jobs-System im TransientRealm Wiki',
+    h1: 'Jobs & Berufe',
   },
-  '/wiki/jobs/siegelmagier': {
+  {
+    path: '/wiki/jobs/siegelmagier',
+    title: 'Siegelmagier | TransientRealm Wiki',
     description:
-      'Guide zum Siegelmagier auf TransientRealm: Siegel, Auren, Veredelungen und magische Item-Systeme für ein deutsches Minecraft-Server-Wiki verständlich erklärt.',
-    title:
-      'Siegelmagier | Siegel, Verzauberungen und Custom-Items im TransientRealm Wiki',
+      'Guide zum Siegelmagier auf TransientRealm: Siegel, Auren, Veredelungen und magische Item-Systeme verständlich erklärt.',
+    h1: 'Siegelmagier',
   },
-  '/wiki/jobs/runenmechaniker': {
+  {
+    path: '/wiki/jobs/runenmechaniker',
+    title: 'Runenmechaniker | TransientRealm Wiki',
     description:
       'Runenmechaniker-Guide für TransientRealm mit Überblick zu Runen, Crafting, Materialien und servereigenen RPG-Elementen.',
-    title: 'Runenmechaniker | Runen und Crafting-Systeme im TransientRealm Wiki',
+    h1: 'Runenmechaniker',
   },
-  '/wiki/jobs/forscher': {
+  {
+    path: '/wiki/jobs/forscher',
+    title: 'Forscher | TransientRealm Wiki',
     description:
       'Forscher-Guide für TransientRealm: Artefakte, Archäologie, Progression und seltene Funde als Teil der Minecraft-Server-Spielsysteme.',
-    title: 'Forscher | Archäologie, Artefakte und Progression im TransientRealm Wiki',
+    h1: 'Forscher',
   },
-  '/wiki/anderes/citybuild': {
+  {
+    path: '/wiki/anderes/einfuehrung',
+    title: 'Einführung | TransientRealm Wiki',
+    description:
+      'Erste Schritte auf TransientRealm: Plot sichern, Jobs wählen, Farmwelt nutzen, Quests starten und die wichtigsten Server-Systeme schnell verstehen.',
+    h1: 'Einführung',
+  },
+  {
+    path: '/wiki/anderes/citybuild',
+    title: 'Citybuild | TransientRealm Wiki',
     description:
       'Alles zum Citybuild-System auf TransientRealm: Plot sichern, bauen, handeln und den deutschen Minecraft-Server strukturiert kennenlernen.',
-    title: 'Citybuild | Plot-, Bau- und Handelssysteme im TransientRealm Wiki',
+    h1: 'Citybuild',
   },
-  '/wiki/anderes/daily-quests': {
+  {
+    path: '/wiki/anderes/daily-quests',
+    title: 'Daily Quests | TransientRealm Wiki',
     description:
       'Daily-Quests-Guide für TransientRealm mit Belohnungen, Abläufen und Tipps zum täglichen Fortschritt auf dem Minecraft-Server.',
-    title: 'Daily Quests | Quests und täglicher Fortschritt im TransientRealm Wiki',
+    h1: 'Daily Quests',
   },
-  '/wiki/anderes/kisten': {
+  {
+    path: '/wiki/anderes/kisten',
+    title: 'Kisten | TransientRealm Wiki',
     description:
       'Kisten- und Crate-System im TransientRealm Wiki: Belohnungen, Fortschritt, Ectoplasma und servereigene Loot-Systeme erklärt.',
-    title: 'Kisten | Crates, Belohnungen und Fortschritt im TransientRealm Wiki',
+    h1: 'Kisten',
   },
-  '/wiki/kult/kulte': {
+  {
+    path: '/wiki/anderes/kistenshops',
+    title: 'Kistenshops | TransientRealm Wiki',
+    description:
+      'Kistenshops auf TransientRealm: Handel, Kistenbelohnungen und wichtige Hinweise zum Umgang mit servereigenen Shop-Systemen.',
+    h1: 'Kistenshops',
+  },
+  {
+    path: '/wiki/anderes/farmwelt',
+    title: 'Farmwelt | TransientRealm Wiki',
+    description:
+      'Farmwelt-Guide für TransientRealm mit Informationen zu Ressourcen, Abbau, Erkundung und Nutzung der Farmwelt auf dem Minecraft-Server.',
+    h1: 'Farmwelt',
+  },
+  {
+    path: '/wiki/kult/kulte',
+    title: 'Kulte | TransientRealm Wiki',
     description:
       'Kulte auf TransientRealm: Gemeinschaften, Wirtschaft, Rubine, Fortschritt und soziale Server-Systeme im deutschen Minecraft-Server-Wiki.',
-    title: 'Kulte | Fraktionen, Gemeinschaften und Progression im TransientRealm Wiki',
+    h1: 'Kulte',
   },
-  '/wiki/kult/fraktionen': {
+  {
+    path: '/wiki/kult/fraktionen',
+    title: 'Fraktionen | TransientRealm Wiki',
     description:
       'Fraktionen auf TransientRealm: Zugehörigkeit, Vorteile und Zusammenhänge mit Kulten und Progression im Server-Wiki.',
-    title: 'Fraktionen | Gruppensysteme und Progression im TransientRealm Wiki',
+    h1: 'Fraktionen',
   },
-  '/wiki/regelwerk': {
+  {
+    path: '/wiki/kult/levelsystem',
+    title: 'Levelsystem | TransientRealm Wiki',
+    description:
+      'Levelsystem der Kulte auf TransientRealm: Fortschritt, Belohnungen, Rubine und Entwicklung von Gemeinschaften verständlich erklärt.',
+    h1: 'Levelsystem',
+  },
+  {
+    path: '/wiki/kult/wochenmarkt',
+    title: 'Wochenmarkt | TransientRealm Wiki',
+    description:
+      'Wochenmarkt auf TransientRealm: Handel, Angebote, Abläufe und Vorteile des regelmäßigen Kult- und Wirtschaftssystems.',
+    h1: 'Wochenmarkt',
+  },
+  {
+    path: '/wiki/regelwerk',
+    title: 'Regelwerk | TransientRealm Wiki',
     description:
       'Regelwerk des deutschen Minecraft-Servers TransientRealm mit klaren Verhaltensregeln und den wichtigsten Grundlagen für ein faires Miteinander.',
-    title: 'Regelwerk | Server-Regeln im TransientRealm Wiki',
+    h1: 'Regelwerk',
   },
-};
+];
+
+export const SITEMAP_PAGES = WIKI_PAGE_META;
+
+const PAGE_OVERRIDES = Object.fromEntries(
+  WIKI_PAGE_META.map((page) => [page.path, page]),
+);
 
 function stripMarkdown(markdown = '') {
   return markdown
@@ -150,8 +209,30 @@ export function getPageMetadata({ content = '', entry = null, isNotFound = false
   return {
     canonical: `${SITE_URL}${pathname === '/' ? '/' : pathname}`,
     description: override?.description || truncate(firstParagraph(content)),
+    h1: override?.h1 || firstHeading(content, entry?.title || SITE_NAME),
     robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
     title: override?.title || fallbackTitle,
     type: override?.type || (entry?.isHome ? 'website' : 'article'),
+  };
+}
+
+export function getJsonLd(meta) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': meta.type === 'website' ? 'WebSite' : 'WebPage',
+    name: meta.h1,
+    headline: meta.title,
+    url: meta.canonical,
+    inLanguage: 'de-DE',
+    description: meta.description,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'TransientRealm',
+    },
   };
 }

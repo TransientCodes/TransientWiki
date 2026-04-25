@@ -28,8 +28,9 @@ const Layout = () => {
   };
 
   useEffect(() => {
-    setProgress(0);
+    const frame = window.requestAnimationFrame(() => setProgress(0));
     if (contentRef.current) contentRef.current.scrollTop = 0;
+    return () => window.cancelAnimationFrame(frame);
   }, [location.pathname]);
 
   useEffect(() => {

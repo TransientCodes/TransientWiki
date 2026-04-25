@@ -50,8 +50,14 @@ const Search = ({ onClose }) => {
   }, []);
 
   useEffect(() => {
-    setSelectedIndex(-1);
+    const frame = window.requestAnimationFrame(() => setSelectedIndex(-1));
+    return () => window.cancelAnimationFrame(frame);
   }, [results]);
+
+  const handleSelect = useCallback((route) => {
+    navigate(route);
+    onClose();
+  }, [navigate, onClose]);
 
   useEffect(() => {
     const handler = (e) => {
@@ -74,7 +80,7 @@ const Search = ({ onClose }) => {
 
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [onClose, results, selectedIndex]);
+  }, [handleSelect, onClose, results, selectedIndex]);
 
   const buildIndex = useCallback(async () => {
     if (index) return index;
@@ -98,8 +104,8 @@ const Search = ({ onClose }) => {
 
   useEffect(() => {
     if (!query.trim()) {
-      setResults([]);
-      return;
+      const frame = window.requestAnimationFrame(() => setResults([]));
+      return () => window.cancelAnimationFrame(frame);
     }
 
     (async () => {
@@ -116,11 +122,6 @@ const Search = ({ onClose }) => {
       setResults(matched);
     })();
   }, [query, buildIndex]);
-
-  const handleSelect = (route) => {
-    navigate(route);
-    onClose();
-  };
 
   return (
     <div className={styles.overlay} onClick={onClose}>

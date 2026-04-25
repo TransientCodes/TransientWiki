@@ -41,14 +41,13 @@ function childrenToText(children) {
     .join('');
 }
 
-function makeHeading(Tag) {
+function makeHeading(HeadingTag) {
   return function HeadingRenderer({ children, ...props }) {
+    delete props.node;
     const slug = slugify(childrenToText(children));
     return (
       <div className={styles.headingWrapper}>
-        <Tag id={slug} {...props}>
-          {children}
-        </Tag>
+        {React.createElement(HeadingTag, { id: slug, ...props }, children)}
         <button
           className={styles.anchorLink}
           aria-label="Zu diesem Abschnitt scrollen"
@@ -82,6 +81,7 @@ const MarkdownViewer = ({ content }) => {
   const components = {
     ...headingComponents,
     a({ href, children, ...props }) {
+      delete props.node;
       const normalizedHref = normalizeWikiHref(href);
 
       if (normalizedHref?.startsWith('/wiki/') || normalizedHref === '/') {
@@ -102,6 +102,7 @@ const MarkdownViewer = ({ content }) => {
       return <a href={normalizedHref} {...props}>{children}</a>;
     },
     img({ src, alt, ...props }) {
+      delete props.node;
       return (
         <img
           src={src}

@@ -1,4 +1,4 @@
-# Minecraft-Server-Systeme auf TransientRealm
+# Server-Systeme
 
 Diese Seite bündelt die wichtigsten **Minecraft-Server-Spielsysteme** von TransientRealm an einer Stelle. Sie ist ideal, wenn du nicht nur nach der Marke suchst, sondern allgemein verstehen möchtest, welche Features ein deutscher Minecraft-Server heute bieten kann.
 

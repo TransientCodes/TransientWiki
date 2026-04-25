@@ -1,4 +1,5 @@
 const CONTENT_MODULES = import.meta.glob('/src/content/**/*.md', {
+  eager: true,
   import: 'default',
   query: '?raw',
 });
@@ -110,12 +111,12 @@ export function getContentEntryByRoute(pathname = '/') {
   return getContentEntryBySlug(normalizedPath);
 }
 
-export async function loadContentByEntry(entry) {
+export function loadContentByEntry(entry) {
   if (!entry) {
     return null;
   }
 
-  return CONTENT_MODULES[entry.sourcePath]();
+  return CONTENT_MODULES[entry.sourcePath];
 }
 
 export function getNavigationStructure() {
