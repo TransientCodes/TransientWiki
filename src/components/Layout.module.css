@@ -61,25 +61,35 @@
     position: relative;
 }
 
-/* Maschinenplakette: genietete Messing-Platte, feines Zeitungspapier-Korn */
+/* Zeitungsblatt: vergilbtes Papier auf dem dunklen Maschinentisch.
+   Custom-Property-Overrides stellen alle Markdown-Styles im Blatt
+   auf Druckfarbe um; Code-Blöcke und Tabellen bleiben als dunkle
+   Maschinen-Inseln davon ausgenommen. */
 .contentInner {
+    --color-text-primary: #2b2118;
+    --color-text-body: #3a2e22;
+    --color-text-secondary: #6b5d4a;
+    --color-accent: #8a5216;
+    --color-accent-hover: #a86a24;
+    --color-border: rgba(70, 50, 25, 0.25);
+    --glass-border: rgba(70, 50, 25, 0.2);
+    --glass-border-accent: rgba(138, 82, 22, 0.4);
+
     max-width: 900px;
     margin: 0 auto;
-    background-color: var(--glass-bg);
+    color: var(--color-text-primary);
+    background-color: #e9dfc9;
     background-image:
-        radial-gradient(circle at 18px 18px, rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
-        radial-gradient(circle at calc(100% - 18px) 18px, rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
-        radial-gradient(circle at 18px calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
-        radial-gradient(circle at calc(100% - 18px) calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
-        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
-    background-size: auto, auto, auto, auto, 180px 180px;
-    backdrop-filter: blur(var(--glass-blur));
-    -webkit-backdrop-filter: blur(var(--glass-blur));
+        linear-gradient(160deg, rgba(255, 252, 240, 0.5) 0%, rgba(214, 198, 165, 0.35) 100%),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+    background-size: auto, 180px 180px;
     padding: 3rem;
-    border: 1px solid var(--glass-border);
-    border-top: 1px solid rgba(255, 236, 200, 0.12);
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-neu-card);
+    border: 1px solid rgba(60, 42, 20, 0.4);
+    border-radius: var(--radius-sm);
+    box-shadow:
+        0 1px 0 rgba(255, 250, 235, 0.06),
+        0 18px 50px rgba(0, 0, 0, 0.55),
+        0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
 .menuButton {
@@ -186,6 +196,6 @@
 
     .contentInner {
         padding: 1.5rem;
-        border-radius: var(--radius-lg);
+        border-radius: var(--radius-sm);
     }
 }

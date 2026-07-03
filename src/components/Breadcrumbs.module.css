@@ -7,7 +7,7 @@
     font-family: var(--font-mono);
     letter-spacing: 0.02em;
     padding: 0.45rem 0.75rem;
-    background: rgba(255, 255, 255, 0.025);
+    background: rgba(70, 50, 25, 0.05);
     border: 1px solid var(--glass-border);
     border-radius: var(--radius-sm);
     width: fit-content;

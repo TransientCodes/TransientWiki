@@ -17,11 +17,12 @@
     margin-bottom: 1.25rem;
 }
 
+/* Schlagzeile: Druckfarbe, nicht Schmuckfarbe */
 .markdown h1 {
     font-size: clamp(1.75rem, 4vw + 0.75rem, 2.25rem);
     font-weight: 700;
     margin-top: 0;
-    color: var(--color-accent);
+    color: var(--color-text-primary);
     letter-spacing: 0;
 }
 
@@ -32,7 +33,7 @@
     position: relative;
     padding-left: 1.5rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid rgba(223, 161, 69, 0.16);
+    border-bottom: 1px solid rgba(70, 50, 25, 0.3);
     letter-spacing: 0;
 }
 
@@ -76,8 +77,8 @@
     border: none;
     height: 6px;
     background:
-        linear-gradient(rgba(223, 161, 69, 0.3), rgba(223, 161, 69, 0.3)) top / 100% 2px no-repeat,
-        linear-gradient(rgba(223, 161, 69, 0.22), rgba(223, 161, 69, 0.22)) bottom / 100% 1px no-repeat;
+        linear-gradient(rgba(70, 50, 25, 0.55), rgba(70, 50, 25, 0.55)) top / 100% 2px no-repeat,
+        linear-gradient(rgba(70, 50, 25, 0.4), rgba(70, 50, 25, 0.4)) bottom / 100% 1px no-repeat;
     margin: 2.25rem 0;
 }
 
@@ -109,7 +110,7 @@
 .markdown li a,
 .markdown td a {
     text-decoration: underline;
-    text-decoration-color: rgba(223, 161, 69, 0.4);
+    text-decoration-color: rgba(138, 82, 22, 0.45);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
@@ -123,32 +124,34 @@
 .markdown blockquote {
     border: 1px solid var(--glass-border);
     border-left: 3px solid var(--color-accent);
-    background: linear-gradient(135deg, rgba(223, 161, 69, 0.06) 0%, rgba(30, 23, 18, 0.8) 100%);
+    background: rgba(70, 50, 25, 0.06);
     padding: 1.25rem 1.5rem;
     margin: 2rem 0;
     font-style: normal;
     color: var(--color-text-primary);
-    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
+/* Inline-Befehle: gedruckte Setzkasten-Optik auf Papier */
 .markdown code {
     font-family: var(--font-mono);
-    background: rgba(223, 161, 69, 0.1);
+    background: rgba(70, 50, 25, 0.08);
     padding: 0.15rem 0.45rem;
     border-radius: var(--radius-sm);
     font-size: 0.85em;
-    color: var(--color-accent-hover);
-    border: 1px solid rgba(223, 161, 69, 0.22);
+    color: #7c4a12;
+    border: 1px solid rgba(70, 50, 25, 0.25);
 }
 
+/* Code-Blöcke bleiben dunkle Maschinen-Inseln im Papier */
 .markdown pre {
-    background: var(--color-bg-surface);
-    color: var(--color-text-primary);
+    background: #1e1712;
+    color: #f2e9da;
     padding: 1.5rem;
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-sm);
     overflow-x: auto;
     margin-bottom: 2rem;
-    border: 1px solid var(--color-border);
+    border: 1px solid rgba(60, 42, 20, 0.5);
     box-shadow: var(--shadow-neu-pressed);
 }
 
@@ -161,15 +164,16 @@
     font-size: 0.9em;
 }
 
-/* Wrapper erlaubt horizontales Scrollen breiter Tabellen auf Mobile */
+/* Tabellen: dunkle Maschinen-Inseln im Papier — Sans, feste Dunkelwerte,
+   damit Minecraft-Chatfarben im Inhalt lesbar bleiben */
 .tableWrap {
     margin-bottom: 2rem;
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(60, 42, 20, 0.5);
     overflow-x: auto;
+    background: #1e1712;
 }
 
-/* Tabellen bleiben Sans: Daten und Befehle gehören zur Maschine, nicht zur Gazette */
 .markdown table {
     width: 100%;
     border-collapse: separate;
@@ -182,8 +186,8 @@
 .markdown td {
     padding: 0.875rem 1rem;
     text-align: left;
-    color: var(--color-text-body);
-    border-bottom: 1px solid var(--color-border);
+    color: #cfc3b2;
+    border-bottom: 1px solid #322a1f;
 }
 
 .markdown td {
@@ -191,13 +195,13 @@
 }
 
 .markdown th {
-    background: var(--color-bg-surface);
+    background: #241c15;
     font-family: var(--font-sans);
     font-weight: 600;
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: var(--color-text-primary);
+    color: #f2e9da;
 }
 
 .markdown tr:last-child td {
@@ -206,7 +210,22 @@
 
 .markdown tr:hover td {
     background: rgba(223, 161, 69, 0.05);
-    color: var(--color-text-primary);
+    color: #f2e9da;
+}
+
+/* Inline-Code in dunklen Tabellen braucht helle Messing-Werte */
+.markdown td code,
+.markdown th code {
+    background: rgba(223, 161, 69, 0.1);
+    color: #eebd6d;
+    border-color: rgba(223, 161, 69, 0.22);
+}
+
+/* Dunkle Chips hinter farbigen Minecraft-Spans: bleiben auf Papier lesbar */
+.markdown [style*='color:'] {
+    background: rgba(24, 18, 13, 0.92);
+    border-radius: 4px;
+    padding: 0.02em 0.35em;
 }
 
 .markdown center img {
