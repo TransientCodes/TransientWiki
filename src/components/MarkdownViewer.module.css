@@ -1,5 +1,6 @@
+/* Artikel-Content als Gazette: Serif-Lesetext, UI drumherum bleibt Sans */
 .markdown {
-    font-family: var(--font-sans);
+    font-family: var(--font-body);
     color: var(--color-text-primary);
     overflow-wrap: break-word;
     hyphens: auto;
@@ -24,11 +25,14 @@
     letter-spacing: 0;
 }
 
+/* Section-Rule wie im Zeitungssatz */
 .markdown h2 {
     font-size: 1.625rem;
     font-weight: 600;
     position: relative;
     padding-left: 1.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgba(223, 161, 69, 0.16);
     letter-spacing: 0;
 }
 
@@ -67,20 +71,23 @@
     top: -0.05em;
 }
 
+/* Thick-thin-Doppellinie: klassische Druck-Trennung */
 .markdown hr {
     border: none;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(223, 161, 69, 0.3), transparent);
+    height: 6px;
+    background:
+        linear-gradient(rgba(223, 161, 69, 0.3), rgba(223, 161, 69, 0.3)) top / 100% 2px no-repeat,
+        linear-gradient(rgba(223, 161, 69, 0.22), rgba(223, 161, 69, 0.22)) bottom / 100% 1px no-repeat;
     margin: 2.25rem 0;
 }
 
 .markdown p {
     margin-bottom: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.0625rem;
     font-weight: 400;
     color: var(--color-text-body);
     line-height: 1.75;
-    max-width: 72ch;
+    max-width: 68ch;
 }
 
 .markdown ul,
@@ -88,7 +95,8 @@
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;
     color: var(--color-text-body);
-    max-width: 72ch;
+    font-size: 1.0625rem;
+    max-width: 68ch;
 }
 
 .markdown li {
@@ -161,11 +169,13 @@
     overflow-x: auto;
 }
 
+/* Tabellen bleiben Sans: Daten und Befehle gehören zur Maschine, nicht zur Gazette */
 .markdown table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
     margin-bottom: 0;
+    font-family: var(--font-sans);
 }
 
 .markdown th,

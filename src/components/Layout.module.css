@@ -61,7 +61,7 @@
     position: relative;
 }
 
-/* Maschinenplakette: genietete Messing-Platte mit Hairline-Kante */
+/* Maschinenplakette: genietete Messing-Platte, feines Zeitungspapier-Korn */
 .contentInner {
     max-width: 900px;
     margin: 0 auto;
@@ -70,7 +70,9 @@
         radial-gradient(circle at 18px 18px, rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
         radial-gradient(circle at calc(100% - 18px) 18px, rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
         radial-gradient(circle at 18px calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
-        radial-gradient(circle at calc(100% - 18px) calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px);
+        radial-gradient(circle at calc(100% - 18px) calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
+    background-size: auto, auto, auto, auto, 180px 180px;
     backdrop-filter: blur(var(--glass-blur));
     -webkit-backdrop-filter: blur(var(--glass-blur));
     padding: 3rem;
