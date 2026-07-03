@@ -740,7 +740,7 @@ Server-Ränge zeigen deinen Status im Chat und in der Tab-Liste und bringen je n
 
 <div class="md-note">Der Gelehrter-Rang wird gelegentlich auch verschenkt — dann zeitlich begrenzt.</div>
 
-<div class="md-note">Nicht verwechseln mit <strong>Job-Rängen</strong> (Laie → Titan, über <a href="/wiki/jobs/berufe">Job-Level</a>) und <strong>Kult-Rängen</strong> (<a href="/wiki/kult/raenge">clan-intern</a>) — das sind eigene Systeme.</div>
+<div class="md-note">Nicht verwechseln mit deinem <strong>Job-Level</strong> (steigt über <a href="/wiki/jobs/berufe">Job-Erfahrung</a>) und den <strong>Kult-Rängen</strong> (<a href="/wiki/kult/raenge">clan-intern</a>) — das sind eigene Systeme.</div>
 `,zA=`<div class="md-banner" style="border-left: 4px solid #92d050;">
     <h1 style="margin: 0;">Währungen</h1>
 </div>
@@ -759,7 +759,7 @@ Die **Premium- bzw. Sekundärwährung**. Erhältst du über Daily-Meilensteine, 
 
 Die **Clan-/Kult-Währung**. Entsteht, wenn Mitglieder Pfund in die Kult-Kasse spenden (\`/kult donate\`). Wird für [Kult-Level-Aufstiege](/wiki/kult/levelsystem) und den [Fraktionswechsel](/wiki/kult/fraktionen) (25.000 Rubine) genutzt.
 
-<div class="md-note"><strong>Mondsterne</strong> sind keine Handelswährung, sondern <a href="/wiki/jobs/berufe">Job-Fortschritt</a>: Alle 10 Level sammelst du Mondsterne, um in den nächsten Job-Rang aufzusteigen.</div>
+<div class="md-note"><strong>Job-Fortschritt</strong> läuft nicht über eine Währung: Beim Arbeiten sammelst du <a href="/wiki/jobs/berufe">Job-Erfahrung (XP)</a> und steigst damit im Job-Level auf.</div>
 `,PA=`<div class="md-banner" style="border-left: 4px solid #55aaff;">
     <h1 style="margin: 0;">Abstimmen (Vote)</h1>
 </div>
