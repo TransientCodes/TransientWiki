@@ -158,7 +158,7 @@ Belohnt Spielzeit und Ausdauer: mehrere Stunden Spielzeit, viele freigeschaltete
 ### Abenteurer
 Erkunde die Welt — z.B. verschiedene Biome betreten.
 
-> [!note] Öffne die Advancement-Übersicht im Spiel, um zu sehen, welche Erfolge dir noch fehlen.
+<div class="md-note">Öffne die Advancement-Übersicht im Spiel, um zu sehen, welche Erfolge dir noch fehlen.</div>
 `,CA=`<div class="md-banner" style="border-left: 4px solid #aa55ff;">
     <h1 style="margin: 0;">Badges</h1>
 </div>
@@ -693,7 +693,7 @@ Im Labyrinth droppt die **Gift-Aura** — ein seltenes Item, das der **Siegelmag
 
 Für jeden Tag, an dem du dich einloggst, erhältst du eine **tägliche Login-Belohnung**. Die Belohnungen steigen über **100 Tage** an — je weiter du im Kalender kommst, desto mehr **Pfund** und **Ectoplasma**.
 
-> [!note] Nicht mit den [Daily Quests](/wiki/anderes/daily-quests) verwechseln — die gibt es zusätzlich für erledigte Aufgaben. Die Login-Belohnung bekommst du allein fürs Einloggen.
+<div class="md-note">Nicht mit den <a href="/wiki/anderes/daily-quests">Daily Quests</a> verwechseln — die gibt es zusätzlich für erledigte Aufgaben. Die Login-Belohnung bekommst du allein fürs Einloggen.</div>
 
 ## So funktioniert es
 
@@ -738,9 +738,9 @@ Server-Ränge zeigen deinen Status im Chat und in der Tab-Liste und bringen je n
 
 **Lehrling** ist der Start-Rang, den jeder von Anfang an hat. Die höheren Ränge (ab **Gelehrter**) sind **über den Store** erhältlich: [store.transientrealm.de](https://store.transientrealm.de). Sie werden deinem Account direkt zugewiesen.
 
-> [!note] Der Gelehrter-Rang wird gelegentlich auch verschenkt — dann zeitlich begrenzt.
+<div class="md-note">Der Gelehrter-Rang wird gelegentlich auch verschenkt — dann zeitlich begrenzt.</div>
 
-> [!note] Nicht verwechseln mit **Job-Rängen** (Laie → Titan, über [Job-Level](/wiki/jobs/berufe)) und **Kult-Rängen** ([clan-intern](/wiki/kult/raenge)) — das sind eigene Systeme.
+<div class="md-note">Nicht verwechseln mit <strong>Job-Rängen</strong> (Laie → Titan, über <a href="/wiki/jobs/berufe">Job-Level</a>) und <strong>Kult-Rängen</strong> (<a href="/wiki/kult/raenge">clan-intern</a>) — das sind eigene Systeme.</div>
 `,zA=`<div class="md-banner" style="border-left: 4px solid #92d050;">
     <h1 style="margin: 0;">Währungen</h1>
 </div>
@@ -759,7 +759,7 @@ Die **Premium- bzw. Sekundärwährung**. Erhältst du über Daily-Meilensteine, 
 
 Die **Clan-/Kult-Währung**. Entsteht, wenn Mitglieder Pfund in die Kult-Kasse spenden (\`/kult donate\`). Wird für [Kult-Level-Aufstiege](/wiki/kult/levelsystem) und den [Fraktionswechsel](/wiki/kult/fraktionen) (25.000 Rubine) genutzt.
 
-> [!note] **Mondsterne** sind keine Handelswährung, sondern [Job-Fortschritt](/wiki/jobs/berufe): Alle 10 Level sammelst du Mondsterne, um in den nächsten Job-Rang aufzusteigen.
+<div class="md-note"><strong>Mondsterne</strong> sind keine Handelswährung, sondern <a href="/wiki/jobs/berufe">Job-Fortschritt</a>: Alle 10 Level sammelst du Mondsterne, um in den nächsten Job-Rang aufzusteigen.</div>
 `,PA=`<div class="md-banner" style="border-left: 4px solid #55aaff;">
     <h1 style="margin: 0;">Abstimmen (Vote)</h1>
 </div>
@@ -838,7 +838,7 @@ Mehr dazu: [Kisten](#/wiki/Anderes/Kisten)
 <div class="md-note">
     <em>Hinweis: Dieses Wiki wird ständig aktualisiert. Bei Fragen wende dich an das Server-Team.</em>
 </div>
-`,UA='<div class="md-banner" style="border-left: 4px solid #aaaaaa;">\n    <h1 style="margin: 0;">Befehle</h1>\n</div>\n\nDie wichtigsten Befehle auf TransientRealm. Job- und Kult-Befehle findest du zusätzlich auf den jeweiligen Seiten.\n\n## Teleport & Zuhause\n\n| Befehl | Beschreibung |\n|---|---|\n| `/spawn` | Zum Spawn teleportieren |\n| `/warp <Name>` | Zu einem Warp teleportieren |\n| `/farmwelt` | In die Farmwelt teleportieren |\n| `/tpa <Spieler>` | Teleport-Anfrage an einen Spieler senden |\n| `/tpaccept` | Eine Teleport-Anfrage annehmen |\n| `/tpdeny` | Eine Teleport-Anfrage ablehnen |\n| `/tpahere <Spieler>` | Anfragen, dass ein Spieler zu dir teleportiert |\n| `/sethome` | Ein Zuhause setzen |\n| `/home` | Zu einem Zuhause teleportieren |\n| `/homes` | Deine Zuhause auflisten |\n| `/delhome` | Ein Zuhause löschen |\n\n## Kommunikation\n\n| Befehl | Beschreibung |\n|---|---|\n| `/msg <Spieler>` (`/w`, `/tell`) | Private Nachricht senden |\n| `/r` | Auf die letzte private Nachricht antworten |\n| `/report <Spieler>` (`/melden`) | Einen Spieler melden |\n| `/discord` (`/dc`) | Discord-Link anzeigen |\n| `/vote` | Vote-Links anzeigen |\n\n## Wirtschaft\n\n| Befehl | Beschreibung |\n|---|---|\n| `/pay <Spieler> <Betrag>` | Pfund an einen Spieler zahlen |\n| `/pfund` | Deinen Pfund-Kontostand anzeigen |\n| `/store` (`/shop`) | Den Store öffnen |\n\n## Plots (Citybuild)\n\n| Befehl | Beschreibung |\n|---|---|\n| `/plot auto` | Automatisch ein freies Plot zuweisen lassen |\n| `/plot claim` | Das Plot, auf dem du stehst, beanspruchen |\n| `/plot home` | Zu deinem Plot teleportieren |\n| `/plot add <Spieler>` | Spieler zum Bauen einladen |\n| `/plot trust <Spieler>` | Spieler vollen Zugriff auf das Plot geben |\n| `/plot remove <Spieler>` | Spieler vom Plot entfernen |\n| `/plot info` | Infos zum aktuellen Plot anzeigen |\n| `/plot merge` | Zwei benachbarte Plots zusammenführen |\n| `/plot clear` | Plot vollständig zurücksetzen |\n| `/plot delete` | Plot löschen und freigeben |\n\n## Kistenshops\n\n| Befehl | Beschreibung |\n|---|---|\n| `/trustshop <Spieler>` | Spieler Zugriff auf den Shop-Container geben / entziehen |\n| `/shareincome <Spieler> <Prozent>` | Einnahmen prozentual mit einem Spieler teilen |\n| `/shopinfo` | Informationen über einen Shop anzeigen |\n\n## Sonstiges\n\n| Befehl | Beschreibung |\n|---|---|\n| `/playtime` (`/spielzeit`) | Deine Spielzeit anzeigen |\n| `/enderchest` (`/ec`) | Deine Enderkiste öffnen |\n| `/fly` | Flugmodus umschalten (wo erlaubt) |\n| `/hat` | Ein Item als Hut tragen |\n| `/skull` (`/kopf`) | Einen Spielerkopf erhalten |\n| `/rename` | Ein Item umbenennen |\n| `/skipnight` | Für das Überspringen der Nacht abstimmen |\n| `/settings` (`/einstellungen`) | Spieler-Einstellungen öffnen |\n| `/wiki` | Dieses Wiki öffnen |\n\n> [!note] Das Team hat zusätzliche Moderations- und Verwaltungsbefehle, die hier nicht aufgeführt sind.\n',FA=`<div class="md-banner" style="border-left: 4px solid #aa5500;">
+`,UA='<div class="md-banner" style="border-left: 4px solid #aaaaaa;">\n    <h1 style="margin: 0;">Befehle</h1>\n</div>\n\nDie wichtigsten Befehle auf TransientRealm. Job- und Kult-Befehle findest du zusätzlich auf den jeweiligen Seiten.\n\n## Teleport & Zuhause\n\n| Befehl | Beschreibung |\n|---|---|\n| `/spawn` | Zum Spawn teleportieren |\n| `/warp <Name>` | Zu einem Warp teleportieren |\n| `/farmwelt` | In die Farmwelt teleportieren |\n| `/tpa <Spieler>` | Teleport-Anfrage an einen Spieler senden |\n| `/tpaccept` | Eine Teleport-Anfrage annehmen |\n| `/tpdeny` | Eine Teleport-Anfrage ablehnen |\n| `/tpahere <Spieler>` | Anfragen, dass ein Spieler zu dir teleportiert |\n| `/sethome` | Ein Zuhause setzen |\n| `/home` | Zu einem Zuhause teleportieren |\n| `/homes` | Deine Zuhause auflisten |\n| `/delhome` | Ein Zuhause löschen |\n\n## Kommunikation\n\n| Befehl | Beschreibung |\n|---|---|\n| `/msg <Spieler>` (`/w`, `/tell`) | Private Nachricht senden |\n| `/r` | Auf die letzte private Nachricht antworten |\n| `/report <Spieler>` (`/melden`) | Einen Spieler melden |\n| `/discord` (`/dc`) | Discord-Link anzeigen |\n| `/vote` | Vote-Links anzeigen |\n\n## Wirtschaft\n\n| Befehl | Beschreibung |\n|---|---|\n| `/pay <Spieler> <Betrag>` | Pfund an einen Spieler zahlen |\n| `/pfund` | Deinen Pfund-Kontostand anzeigen |\n| `/store` (`/shop`) | Den Store öffnen |\n\n## Plots (Citybuild)\n\n| Befehl | Beschreibung |\n|---|---|\n| `/plot auto` | Automatisch ein freies Plot zuweisen lassen |\n| `/plot claim` | Das Plot, auf dem du stehst, beanspruchen |\n| `/plot home` | Zu deinem Plot teleportieren |\n| `/plot add <Spieler>` | Spieler zum Bauen einladen |\n| `/plot trust <Spieler>` | Spieler vollen Zugriff auf das Plot geben |\n| `/plot remove <Spieler>` | Spieler vom Plot entfernen |\n| `/plot info` | Infos zum aktuellen Plot anzeigen |\n| `/plot merge` | Zwei benachbarte Plots zusammenführen |\n| `/plot clear` | Plot vollständig zurücksetzen |\n| `/plot delete` | Plot löschen und freigeben |\n\n## Kistenshops\n\n| Befehl | Beschreibung |\n|---|---|\n| `/trustshop <Spieler>` | Spieler Zugriff auf den Shop-Container geben / entziehen |\n| `/shareincome <Spieler> <Prozent>` | Einnahmen prozentual mit einem Spieler teilen |\n| `/shopinfo` | Informationen über einen Shop anzeigen |\n\n## Sonstiges\n\n| Befehl | Beschreibung |\n|---|---|\n| `/playtime` (`/spielzeit`) | Deine Spielzeit anzeigen |\n| `/enderchest` (`/ec`) | Deine Enderkiste öffnen |\n| `/fly` | Flugmodus umschalten (wo erlaubt) |\n| `/hat` | Ein Item als Hut tragen |\n| `/skull` (`/kopf`) | Einen Spielerkopf erhalten |\n| `/rename` | Ein Item umbenennen |\n| `/skipnight` | Für das Überspringen der Nacht abstimmen |\n| `/settings` (`/einstellungen`) | Spieler-Einstellungen öffnen |\n| `/wiki` | Dieses Wiki öffnen |\n\n<div class="md-note">Das Team hat zusätzliche Moderations- und Verwaltungsbefehle, die hier nicht aufgeführt sind.</div>\n',FA=`<div class="md-banner" style="border-left: 4px solid #aa5500;">
     <h1 style="margin: 0;">Kistenshops</h1>
 </div>
 
@@ -1118,7 +1118,7 @@ XP gibt es fürs **Abbauen von Holz/Stämmen** — je seltener das Holz, desto m
 
 - **Timber** — fällt einen ganzen Baum auf einmal.
 
-> [!note] Selbst platzierte Blöcke und mit Timber gefällte Stämme geben keine XP.
+<div class="md-note">Selbst platzierte Blöcke und mit Timber gefällte Stämme geben keine XP.</div>
 `,QA=`<div class="md-banner" style="border-left: 4px solid #886644;">
     <h1 style="margin: 0;">Gastronom</h1>
 </div>
@@ -1149,7 +1149,7 @@ Der Paladin ist der Kampf-Job: Erlege feindliche Monster und Bosse für Job-XP u
 | Warden | 220,0 |
 | Enderdrache | 350,0 |
 
-> [!note] Kills in der Citybuild-Welt geben keine Job-XP — geh zum Kämpfen in die passenden Welten.
+<div class="md-note">Kills in der Citybuild-Welt geben keine Job-XP — geh zum Kämpfen in die passenden Welten.</div>
 `,WA=`<div class="md-banner" style="border-left: 4px solid #ffff55;">
     <h1 style="margin: 0;">Runenmechaniker</h1>
 </div>
