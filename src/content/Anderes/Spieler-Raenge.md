@@ -21,4 +21,4 @@ Server-Ränge zeigen deinen Status im Chat und in der Tab-Liste und bringen je n
 
 <div class="md-note">Der Gelehrter-Rang wird gelegentlich auch verschenkt — dann zeitlich begrenzt.</div>
 
-<div class="md-note">Nicht verwechseln mit <strong>Job-Rängen</strong> (Laie → Titan, über <a href="/wiki/jobs/berufe">Job-Level</a>) und <strong>Kult-Rängen</strong> (<a href="/wiki/kult/raenge">clan-intern</a>) — das sind eigene Systeme.</div>
+<div class="md-note">Nicht verwechseln mit deinem <strong>Job-Level</strong> (steigt über <a href="/wiki/jobs/berufe">Job-Erfahrung</a>) und den <strong>Kult-Rängen</strong> (<a href="/wiki/kult/raenge">clan-intern</a>) — das sind eigene Systeme.</div>
