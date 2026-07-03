@@ -1,3 +1,10 @@
+import { WIKI_PAGE_META } from '../seo/pageMetadata.js';
+
+// Saubere Anzeigenamen (mit echten Umlauten) pro Route — Quelle ist das
+// SEO-Metadaten-h1. Die aus Dateinamen abgeleiteten Labels sind sonst
+// transliteriert ("Anfaenger Guide") oder falsch groß ("EinfüHrung").
+const DISPLAY_NAME_BY_PATH = new Map(WIKI_PAGE_META.map((page) => [page.path, page.h1]));
+
 const CONTENT_MODULES = import.meta.glob('/src/content/**/*.md', {
   eager: true,
   import: 'default',
@@ -37,7 +44,9 @@ export function normalizeLookup(value = '') {
 function toLabel(segment = '') {
   return String(segment)
     .replace(/[-_]+/g, ' ')
-    .replace(/\b\w/g, (match) => match.toUpperCase());
+    // Nur den ersten Buchstaben jedes Wortes groß — Unicode-sicher, damit
+    // Umlaute (ä/ö/ü) nicht als Wortgrenze zählen und "EinfüHrung" erzeugen.
+    .replace(/(^|\s)(\p{L})/gu, (_match, boundary, char) => boundary + char.toUpperCase());
 }
 
 function createLookupKeys(relativePath, slugSegments, originalSegments) {
@@ -88,7 +97,7 @@ function createEntry(modulePath) {
     route,
     slugSegments,
     sourcePath: modulePath,
-    title: labels[labels.length - 1],
+    title: DISPLAY_NAME_BY_PATH.get(route) || labels[labels.length - 1],
   };
 }
 
