@@ -28,8 +28,8 @@
     color: var(--color-text-secondary);
     text-decoration: none;
     padding: 0.5rem 0.875rem;
-    border-radius: 8px;
-    transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+    border-radius: var(--radius-md);
+    transition: color var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast);
     font-family: var(--font-sans);
     font-size: 0.875rem;
     font-weight: 400;
@@ -49,7 +49,7 @@
     color: var(--color-accent-hover);
     background: var(--color-accent-glow);
     border-left: 2px solid var(--color-accent);
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
     font-weight: 500;
     text-decoration: none;
     box-shadow: 0 0 12px rgba(223, 161, 69, 0.1);
@@ -68,7 +68,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    opacity: 0.5;
+    opacity: 0.65;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -77,11 +77,11 @@
     cursor: pointer;
     width: 100%;
     text-align: left;
-    transition: opacity 0.15s;
+    transition: opacity var(--transition-fast);
 }
 
 .categoryHeader:hover {
-    opacity: 0.75;
+    opacity: 0.9;
 }
 
 .categoryHeader::after {
@@ -92,7 +92,7 @@
 }
 
 .chevron {
-    transition: transform 0.25s ease;
+    transition: transform var(--transition-med);
     flex-shrink: 0;
 }
 
@@ -104,7 +104,7 @@
     display: grid;
     grid-template-rows: 1fr;
     overflow: hidden;
-    transition: grid-template-rows 0.25s ease;
+    transition: grid-template-rows var(--transition-med);
 }
 
 .folderItemsClosed {
@@ -142,8 +142,8 @@
     font-size: 0.8rem;
     font-weight: 400;
     padding: 0.4rem 0.5rem;
-    border-radius: 6px;
-    transition: color 0.15s ease, background 0.15s ease;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-fast), background var(--transition-fast);
 }
 
 .footerLink:hover {
@@ -161,13 +161,13 @@
 
 .socialIcon {
     color: var(--color-text-secondary);
-    transition: all 0.2s ease;
+    transition: color var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 7px;
+    width: 34px;
+    height: 34px;
+    border-radius: var(--radius-md);
     border: 1px solid transparent;
 }
 
@@ -187,6 +187,17 @@
 
 /* Mobile Drawer Styles */
 @media (max-width: 768px) {
+    /* größere Touch-Ziele im Drawer */
+    .link {
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .footerLink {
+        padding-top: 0.55rem;
+        padding-bottom: 0.55rem;
+    }
+
     .sidebar {
         position: absolute;
         top: 0;

@@ -32,7 +32,7 @@ h6 {
 a {
     color: var(--color-accent);
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color var(--transition-fast);
 }
 
 a:hover {
@@ -74,7 +74,7 @@ a:hover {
 ::-webkit-scrollbar-thumb {
     background: var(--color-bg-surface-hover);
     border: 2px solid var(--color-bg-page);
-    border-radius: 10px;
+    border-radius: var(--radius-md);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -84,13 +84,16 @@ a:hover {
 /* ============================================================
    Markdown content utility classes
    Used in .md files via rehype-raw (class="md-*")
+   Doppelte Klasse (.md-card.md-card) schlägt die gleichspezifischen
+   Modul-Selektoren (.markdown h3 usw.) unabhängig von der
+   CSS-Injektionsreihenfolge — kein !important nötig.
    ============================================================ */
 
 /* Page header banner — replaces the flat #333 div pattern */
 .md-banner {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.035) 0%, transparent 100%);
     border: 1px solid var(--glass-border);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
     padding: 1.25rem 1.5rem;
     margin-bottom: 1.75rem;
 }
@@ -110,9 +113,9 @@ a:hover {
 .md-card {
     background: rgba(255, 255, 255, 0.025);
     border: 1px solid var(--glass-border);
-    border-radius: 10px;
+    border-radius: var(--radius-lg);
     padding: 1rem 1.125rem;
-    transition: border-color 0.15s ease, background 0.15s ease;
+    transition: border-color var(--transition-fast), background var(--transition-fast);
 }
 
 .md-card:hover {
@@ -120,25 +123,27 @@ a:hover {
     border-color: var(--glass-border-accent);
 }
 
-.md-card h3 {
-    margin-top: 0 !important;
-    margin-bottom: 0.375rem !important;
-    font-size: 0.875rem !important;
-    display: block !important;      /* override flex from .markdown h3 */
+.md-card.md-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.375rem;
+    font-size: 0.95rem;
+    color: var(--color-text-primary);
+    display: block;      /* override flex from .markdown h3 */
 }
 
-.md-card h3::before {
-    display: none !important;       /* hide ◆ marker inside cards */
+.md-card.md-card h3::before {
+    display: none;       /* hide ◆ marker inside cards */
 }
 
-.md-card p {
-    font-size: 0.84rem !important;
-    line-height: 1.55 !important;
-    margin-bottom: 0.375rem !important;
+.md-card.md-card p {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    margin-bottom: 0.375rem;
+    max-width: none;
 }
 
-.md-card p:last-child {
-    margin-bottom: 0 !important;
+.md-card.md-card p:last-child {
+    margin-bottom: 0;
 }
 
 /* Informational note / tip box */
@@ -146,7 +151,7 @@ a:hover {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--glass-border);
     border-left: 3px solid rgba(223, 161, 69, 0.45);
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
     padding: 0.75rem 1rem;
     margin: 1.5rem 0;
     font-size: 0.875rem;
