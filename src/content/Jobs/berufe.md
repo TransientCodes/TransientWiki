@@ -12,13 +12,13 @@ Du kannst **alle Jobs gleichzeitig** aktiv haben — es gibt keine Beschränkung
 <div class="md-card">
 
 ### 🪓 Fäller
-Holzfäller — verdiene Pfund durch das Fällen von Bäumen. Verschiedene Holzarten bringen unterschiedlich viel.
+Holzfäller — verdiene Pfund durch das Fällen von Bäumen. Verschiedene Holzarten bringen unterschiedlich viel. [→ Mehr erfahren](#/wiki/jobs/faeller)
 
 </div>
 <div class="md-card">
 
 ### ⛏ Schürfer
-Bergbau-Spezialist — baue Erze, Stein und Obsidian ab. Seltene Erze wie Diamanten und Ancient Debris bringen die meisten XP.
+Bergbau-Spezialist — baue Erze, Stein und Obsidian ab. Seltene Erze wie Diamanten und Ancient Debris bringen die meisten XP. [→ Mehr erfahren](#/wiki/jobs/schuerfer)
 
 </div>
 <div class="md-card">
@@ -36,25 +36,13 @@ Entdecke Artefakte beim Ausgraben von Sand und Kies. Je seltener das Fundstück,
 <div class="md-card">
 
 ### ⚔️ Paladin
-Bekämpfe Monster und verdiene XP. Zombies, Skelette, Creeper, Endermänner, Blaze — sogar Ender-Drache, Wither und Warden bringen große Belohnungen.
+Bekämpfe Monster und verdiene XP. Zombies, Skelette, Creeper, Endermänner, Blaze — sogar Ender-Drache, Wither und Warden bringen große Belohnungen. [→ Mehr erfahren](#/wiki/jobs/paladin)
 
 </div>
 <div class="md-card">
 
 ### ᛉ Runenmechaniker
 Erschmiedet Runen am Runentisch. Rezepte erfordern bestimmte Zutaten und werden mit höherem Level mehr. [→ Mehr erfahren](#/wiki/jobs/runenmechaniker)
-
-</div>
-<div class="md-card">
-
-### 🧪 Alchemist
-*Coming Soon*
-
-</div>
-<div class="md-card">
-
-### 🔨 Metallwerker
-*Coming Soon*
 
 </div>
 <div class="md-card">
@@ -66,25 +54,19 @@ Erschaffe und nutze mächtige Siegel. Siegel können auf Ausrüstung angewendet 
 <div class="md-card">
 
 ### 🍳 Gastronom
-Koche besondere Gerichte an speziellen Kochstationen. Versorge andere Spieler mit hochwertigen Speisen.
+Koche besondere Gerichte an speziellen Kochstationen. Versorge andere Spieler mit hochwertigen Speisen. [→ Mehr erfahren](#/wiki/jobs/gastronom)
 
 </div>
 <div class="md-card">
 
 ### 🥩 Fleischer
-Jage und töte Tiere — Hühner, Kühe, Schweine, Schafe, Kaninchen, Ziegen und mehr. Auch Fischfang (Cod, Lachs, Tropenfische) zählt.
+Jage und töte Tiere — Hühner, Kühe, Schweine, Schafe, Kaninchen, Ziegen und mehr. Auch Fischfang (Cod, Lachs, Tropenfische) zählt. [→ Mehr erfahren](#/wiki/jobs/fleischer)
 
 </div>
 <div class="md-card">
 
 ### 🌾 Farmer
-Ernte Feldfrüchte: Weizen, Karotten, Kartoffeln, Rote Beete, Melonen, Kürbisse, Netherwart und mehr. Baue deine eigene Farm auf.
-
-</div>
-<div class="md-card">
-
-### 🕰️ Chronomant
-Verdiene XP durch Crafting. Normale Items geben wenig XP, seltene und aufwendigere Rezepte mehr.
+Ernte Feldfrüchte: Weizen, Karotten, Kartoffeln, Rote Beete, Melonen, Kürbisse, Netherwart und mehr. Baue deine eigene Farm auf. [→ Mehr erfahren](#/wiki/jobs/farmer)
 
 </div>
 </div>
