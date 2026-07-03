@@ -148,6 +148,7 @@ const NAV_CATEGORIES = [
     routes: [
       '/wiki/anderes/einfuehrung',
       '/wiki/anderes/befehle',
+      '/wiki/anderes/waehrungen',
       '/wiki/anderes/erlaubte-mods',
       '/wiki/anderes/abstimmen',
     ],
@@ -157,10 +158,16 @@ const NAV_CATEGORIES = [
     routes: [
       '/wiki/jobs/allgemein',
       '/wiki/jobs/berufe',
+      '/wiki/jobs/faeller',
+      '/wiki/jobs/schuerfer',
+      '/wiki/jobs/farmer',
+      '/wiki/jobs/fleischer',
+      '/wiki/jobs/paladin',
+      '/wiki/jobs/gastronom',
       '/wiki/jobs/forscher',
+      '/wiki/jobs/angeln',
       '/wiki/jobs/siegelmagier',
       '/wiki/jobs/runenmechaniker',
-      '/wiki/jobs/angeln',
       '/wiki/jobs/befehle',
     ],
   },
@@ -186,12 +193,19 @@ const NAV_CATEGORIES = [
     ],
   },
   {
-    name: 'Belohnungen',
-    routes: ['/wiki/anderes/kisten', '/wiki/anderes/daily-quests'],
+    name: 'Fortschritt & Belohnungen',
+    routes: [
+      '/wiki/anderes/spieler-raenge',
+      '/wiki/anderes/advancements',
+      '/wiki/anderes/kisten',
+      '/wiki/anderes/login-belohnungen',
+      '/wiki/anderes/daily-quests',
+      '/wiki/anderes/badges',
+    ],
   },
   {
-    name: 'Aktivitäten',
-    routes: ['/wiki/anderes/labyrinth'],
+    name: 'Community & Aktivitäten',
+    routes: ['/wiki/anderes/freunde', '/wiki/anderes/labyrinth'],
   },
 ];
 

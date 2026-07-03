@@ -1,0 +1,19 @@
+<div class="md-banner" style="border-left: 4px solid #92d050;">
+    <h1 style="margin: 0;">Währungen</h1>
+</div>
+
+Auf TransientRealm gibt es drei Währungen mit klar getrennten Rollen.
+
+## Pfund
+
+Die **primäre Spielwährung**. Verdienst du durch [Jobs](/wiki/jobs/berufe), [Kistenshops](/wiki/anderes/kistenshops), [Daily Quests](/wiki/anderes/daily-quests) und [Login-Belohnungen](/wiki/anderes/login-belohnungen). Damit bezahlst du im Alltag: Shops, Handel und [Warps](/wiki/anderes/warps).
+
+## Ectoplasma
+
+Die **Premium- bzw. Sekundärwährung**. Erhältst du über Daily-Meilensteine, Events und den Store. Hauptsächlich zum Öffnen von **Elementar-, Chronos- und Mythos-[Kisten](/wiki/anderes/kisten)**. Zwischen Spielern übertragbar.
+
+## Rubine
+
+Die **Clan-/Kult-Währung**. Entsteht, wenn Mitglieder Pfund in die Kult-Kasse spenden (`/kult donate`). Wird für [Kult-Level-Aufstiege](/wiki/kult/levelsystem) und den [Fraktionswechsel](/wiki/kult/fraktionen) (25.000 Rubine) genutzt.
+
+> [!note] **Mondsterne** sind keine Handelswährung, sondern [Job-Fortschritt](/wiki/jobs/berufe): Alle 10 Level sammelst du Mondsterne, um in den nächsten Job-Rang aufzusteigen.

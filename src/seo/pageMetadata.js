@@ -197,6 +197,97 @@ export const WIKI_PAGE_META = [
       'Whitelist der erlaubten Mods und Clients auf TransientRealm: welche Mods erlaubt und welche verboten sind — für faires Spielen.',
     h1: 'Erlaubte Mods',
   },
+  {
+    path: '/wiki/anderes/befehle',
+    title: 'Befehle | TransientRealm Wiki',
+    description:
+      'Befehlsübersicht für TransientRealm: Teleport, Homes, Nachrichten, Wirtschaft, Plots und Kistenshops — alle wichtigen Commands auf einen Blick.',
+    h1: 'Befehle',
+  },
+  {
+    path: '/wiki/anderes/login-belohnungen',
+    title: 'Login-Belohnungen | TransientRealm Wiki',
+    description:
+      'Tägliche Login-Belohnungen auf TransientRealm: 100-Tage-Kalender mit Pfund, Ectoplasma und Meilenstein-Boni fürs regelmäßige Einloggen.',
+    h1: 'Login-Belohnungen',
+  },
+  {
+    path: '/wiki/anderes/waehrungen',
+    title: 'Währungen | TransientRealm Wiki',
+    description:
+      'Die Währungen auf TransientRealm: Pfund (primär), Ectoplasma (Premium) und Rubine (Kult) — Rollen und Verdienstquellen verständlich erklärt.',
+    h1: 'Währungen',
+  },
+  {
+    path: '/wiki/anderes/advancements',
+    title: 'Advancements | TransientRealm Wiki',
+    description:
+      'Advancements (Erfolge) auf TransientRealm: Ziele rund um Einstieg, Jobs, Clans, Wirtschaft und Erkundung, die du beim Spielen freischaltest.',
+    h1: 'Advancements',
+  },
+  {
+    path: '/wiki/anderes/spieler-raenge',
+    title: 'Spieler-Ränge | TransientRealm Wiki',
+    description:
+      'Spieler-Ränge auf TransientRealm: Lehrling, Gelehrter, Seher, Celestial, Dreamer und Legende — was sie bedeuten und wie du sie bekommst.',
+    h1: 'Spieler-Ränge',
+  },
+  {
+    path: '/wiki/anderes/freunde',
+    title: 'Freunde | TransientRealm Wiki',
+    description:
+      'Das Freunde-System auf TransientRealm: Freunde hinzufügen, Freundschaft leveln, gemeinsame Quests und Features wie das gemeinsame Konto.',
+    h1: 'Freunde',
+  },
+  {
+    path: '/wiki/anderes/badges',
+    title: 'Badges | TransientRealm Wiki',
+    description:
+      'Badges auf TransientRealm: kosmetische Abzeichen über dem Kopf — wie du sie freischaltest, ausrüstest und wer sie sieht.',
+    h1: 'Badges',
+  },
+  {
+    path: '/wiki/jobs/faeller',
+    title: 'Fäller | TransientRealm Wiki',
+    description:
+      'Der Fäller-Job auf TransientRealm: Bäume fällen für Job-XP und Pfund, XP-Werte pro Holzart und die Timber-Fähigkeit.',
+    h1: 'Fäller',
+  },
+  {
+    path: '/wiki/jobs/schuerfer',
+    title: 'Schürfer | TransientRealm Wiki',
+    description:
+      'Der Schürfer-Job auf TransientRealm: Stein und Erze abbauen für Job-XP und Pfund, XP-Werte pro Block und Bergbau-Fähigkeiten.',
+    h1: 'Schürfer',
+  },
+  {
+    path: '/wiki/jobs/paladin',
+    title: 'Paladin | TransientRealm Wiki',
+    description:
+      'Der Paladin-Job auf TransientRealm: feindliche Monster und Bosse erlegen für Job-XP und Pfund, mit XP-Werten pro Gegner.',
+    h1: 'Paladin',
+  },
+  {
+    path: '/wiki/jobs/fleischer',
+    title: 'Fleischer | TransientRealm Wiki',
+    description:
+      'Der Fleischer-Job auf TransientRealm: Nutztiere und Fische erlegen für Job-XP und Pfund, mit XP-Werten pro Tier.',
+    h1: 'Fleischer',
+  },
+  {
+    path: '/wiki/jobs/farmer',
+    title: 'Farmer | TransientRealm Wiki',
+    description:
+      'Der Farmer-Job auf TransientRealm: ausgewachsene Feldfrüchte ernten für Job-XP und Pfund, mit Replant- und Auto-Harvest-Fähigkeiten.',
+    h1: 'Farmer',
+  },
+  {
+    path: '/wiki/jobs/gastronom',
+    title: 'Gastronom | TransientRealm Wiki',
+    description:
+      'Der Gastronom-Job auf TransientRealm: Gerichte an Kochstationen zubereiten für Job-XP und Pfund im eigenen Custom-Koch-System.',
+    h1: 'Gastronom',
+  },
 ];
 
 export const SITEMAP_PAGES = WIKI_PAGE_META;
