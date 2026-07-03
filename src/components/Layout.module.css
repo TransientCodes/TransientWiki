@@ -5,21 +5,21 @@
     overflow: hidden;
     background-color: var(--color-bg-page);
     background-image:
-        radial-gradient(ellipse at 15% 10%, rgba(201, 107, 203, 0.1) 0%, transparent 35%),
-        radial-gradient(ellipse at 85% 90%, rgba(201, 107, 203, 0.08) 0%, transparent 35%),
-        radial-gradient(ellipse at 50% 50%, rgba(80, 20, 100, 0.04) 0%, transparent 60%);
+        radial-gradient(ellipse at 15% 10%, rgba(223, 161, 69, 0.08) 0%, transparent 40%),
+        radial-gradient(ellipse at 85% 90%, rgba(180, 112, 58, 0.07) 0%, transparent 40%),
+        radial-gradient(ellipse at 50% 50%, rgba(120, 72, 24, 0.04) 0%, transparent 60%);
 }
 
 .header {
     height: 56px;
-    background: linear-gradient(180deg, rgba(30, 28, 35, 0.95) 0%, rgba(26, 26, 30, 0.9) 100%);
+    background: linear-gradient(180deg, rgba(36, 28, 20, 0.95) 0%, rgba(30, 23, 18, 0.9) 100%);
     backdrop-filter: blur(var(--glass-blur));
     -webkit-backdrop-filter: blur(var(--glass-blur));
     border-bottom: 1px solid var(--glass-border);
     box-shadow:
         0 1px 0 var(--glass-border-accent),
         0 4px 24px rgba(0, 0, 0, 0.4),
-        0 0 40px rgba(201, 107, 203, 0.04);
+        0 0 40px rgba(223, 161, 69, 0.04);
     color: var(--color-text-primary);
     display: flex;
     align-items: center;
@@ -41,13 +41,13 @@
 }
 
 .title {
-    font-family: var(--font-sans);
-    font-size: 1rem;
-    font-weight: 600;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
     color: var(--color-text-primary);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     margin-bottom: 0;
-    background: linear-gradient(135deg, #f0f0f4 0%, #c96bcb 100%);
+    background: linear-gradient(135deg, #f2e9da 0%, #dfa145 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -68,23 +68,23 @@
     position: relative;
 }
 
+/* Maschinenplakette: genietete Messing-Platte mit Hairline-Kante */
 .contentInner {
     max-width: 900px;
     margin: 0 auto;
-    background: var(--glass-bg);
+    background-color: var(--glass-bg);
+    background-image:
+        radial-gradient(circle at 18px 18px, rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
+        radial-gradient(circle at calc(100% - 18px) 18px, rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
+        radial-gradient(circle at 18px calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px),
+        radial-gradient(circle at calc(100% - 18px) calc(100% - 18px), rgba(223, 161, 69, 0.35) 0, rgba(223, 161, 69, 0.35) 2px, transparent 3px);
     backdrop-filter: blur(var(--glass-blur));
     -webkit-backdrop-filter: blur(var(--glass-blur));
     padding: 3rem;
     border: 1px solid var(--glass-border);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 236, 200, 0.12);
     border-radius: 16px;
     box-shadow: var(--shadow-neu-card);
-    transition: box-shadow 0.3s ease, border-color 0.3s ease;
-}
-
-.contentInner:hover {
-    border-color: var(--glass-border-accent);
-    box-shadow: var(--shadow-neu-card), 0 0 0 1px rgba(201, 107, 203, 0.06);
 }
 
 .menuButton {
@@ -109,12 +109,13 @@
     transform: translateY(1px);
 }
 
+/* Dampfdruckleiste: Kupfer → Messing, wird zur Spitze hin heller */
 .progressBar {
     position: fixed;
     top: 0;
     left: 0;
     height: 2px;
-    background: linear-gradient(90deg, var(--color-accent), var(--color-accent-hover));
+    background: linear-gradient(90deg, var(--color-copper), var(--color-accent), var(--color-accent-hover));
     box-shadow: 0 0 8px var(--color-accent-glow-strong);
     z-index: 20;
     transition: width 0.1s linear;

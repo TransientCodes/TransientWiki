@@ -35,6 +35,11 @@ const Layout = () => {
 
   useEffect(() => {
     const handler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setIsSearchOpen(true);
+        return;
+      }
       if (
         e.key === '/' &&
         !isSearchOpen &&

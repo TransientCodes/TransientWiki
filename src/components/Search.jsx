@@ -128,13 +128,20 @@ const Search = ({ onClose }) => {
 
   return (
     <div className={styles.overlay} onClick={onClose}>
-      <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+      <div
+        className={styles.modal}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Wiki-Suche"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className={styles.inputRow}>
           <SearchIcon size={16} className={styles.icon} />
           <input
             ref={inputRef}
             className={styles.input}
             placeholder="Suchen…"
+            aria-label="Wiki durchsuchen"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />

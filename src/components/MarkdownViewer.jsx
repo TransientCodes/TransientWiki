@@ -99,7 +99,23 @@ const MarkdownViewer = ({ content }) => {
         );
       }
 
+      if (/^https?:\/\//.test(normalizedHref)) {
+        return (
+          <a href={normalizedHref} target="_blank" rel="noopener noreferrer" {...props}>
+            {children}
+          </a>
+        );
+      }
+
       return <a href={normalizedHref} {...props}>{children}</a>;
+    },
+    table({ children, ...props }) {
+      delete props.node;
+      return (
+        <div className={styles.tableWrap}>
+          <table {...props}>{children}</table>
+        </div>
+      );
     },
     img({ src, alt, ...props }) {
       delete props.node;

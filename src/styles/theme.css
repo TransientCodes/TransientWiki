@@ -1,29 +1,32 @@
-/* Void Terminal Theme */
+/* Messing & Ruß — Steampunk-Theme, abgeleitet vom TransientRealm-Logo
+   (Messing-Lettern, Kupferkessel, Stahl-Zahnräder, Dampf auf Ruß-Braun) */
 :root {
     /* Colors */
-    --color-bg-page: #111113;
-    --color-bg-surface: #1a1a1e;
-    --color-bg-surface-hover: #242429;
-    --color-text-primary: #f0f0f4;
-    --color-text-secondary: #909099;
+    --color-bg-page: #16110d;
+    --color-bg-surface: #1e1712;
+    --color-bg-surface-hover: #2a2118;
+    --color-text-primary: #f2e9da;
+    --color-text-secondary: #a3947f;
 
-    /* Accent Colors (Purple) */
-    --color-accent: #c96bcb;
-    --color-accent-hover: #de92df;
-    --color-accent-dark: #3d1540;
-    --color-accent-glow: rgba(201, 107, 203, 0.18);
-    --color-accent-glow-strong: rgba(201, 107, 203, 0.35);
+    /* Accent Colors (Messing / Kupfer) */
+    --color-accent: #dfa145;
+    --color-accent-hover: #eebd6d;
+    --color-accent-dark: #4a3416;
+    --color-copper: #b4703a;
+    --color-accent-glow: rgba(223, 161, 69, 0.16);
+    --color-accent-glow-strong: rgba(223, 161, 69, 0.32);
 
-    --color-border: #2a2a30;
-    --color-border-subtle: #38383f;
+    --color-border: #322a1f;
+    --color-border-subtle: #443929;
 
-    /* Glassmorphism */
-    --glass-bg: rgba(26, 26, 30, 0.72);
+    /* Rußglas (Glassmorphism) */
+    --glass-bg: rgba(30, 23, 18, 0.72);
     --glass-blur: 16px;
-    --glass-border: rgba(255, 255, 255, 0.07);
-    --glass-border-accent: rgba(201, 107, 203, 0.2);
+    --glass-border: rgba(255, 236, 200, 0.07);
+    --glass-border-accent: rgba(223, 161, 69, 0.22);
 
     /* Fonts */
+    --font-display: 'Bitter', Georgia, 'Times New Roman', serif;
     --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
 
@@ -36,7 +39,7 @@
 
     /* Shadows */
     --shadow-neu-flat: none;
-    --shadow-neu-pressed: inset 2px 2px 6px rgba(0, 0, 0, 0.6), inset -1px -1px 3px rgba(255, 255, 255, 0.03);
-    --shadow-neu-card: 0 8px 40px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.04) inset;
-    --shadow-glow-accent: 0 0 20px var(--color-accent-glow), 0 0 60px rgba(201, 107, 203, 0.08);
+    --shadow-neu-pressed: inset 2px 2px 6px rgba(0, 0, 0, 0.6), inset -1px -1px 3px rgba(255, 220, 160, 0.03);
+    --shadow-neu-card: 0 8px 40px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 236, 200, 0.05) inset;
+    --shadow-glow-accent: 0 0 20px var(--color-accent-glow), 0 0 60px rgba(223, 161, 69, 0.08);
 }
