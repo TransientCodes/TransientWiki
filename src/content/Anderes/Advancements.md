@@ -24,4 +24,4 @@ Belohnt Spielzeit und Ausdauer: mehrere Stunden Spielzeit, viele freigeschaltete
 ### Abenteurer
 Erkunde die Welt — z.B. verschiedene Biome betreten.
 
-> [!note] Öffne die Advancement-Übersicht im Spiel, um zu sehen, welche Erfolge dir noch fehlen.
+<div class="md-note">Öffne die Advancement-Übersicht im Spiel, um zu sehen, welche Erfolge dir noch fehlen.</div>

@@ -19,6 +19,6 @@ Server-Ränge zeigen deinen Status im Chat und in der Tab-Liste und bringen je n
 
 **Lehrling** ist der Start-Rang, den jeder von Anfang an hat. Die höheren Ränge (ab **Gelehrter**) sind **über den Store** erhältlich: [store.transientrealm.de](https://store.transientrealm.de). Sie werden deinem Account direkt zugewiesen.
 
-> [!note] Der Gelehrter-Rang wird gelegentlich auch verschenkt — dann zeitlich begrenzt.
+<div class="md-note">Der Gelehrter-Rang wird gelegentlich auch verschenkt — dann zeitlich begrenzt.</div>
 
-> [!note] Nicht verwechseln mit **Job-Rängen** (Laie → Titan, über [Job-Level](/wiki/jobs/berufe)) und **Kult-Rängen** ([clan-intern](/wiki/kult/raenge)) — das sind eigene Systeme.
+<div class="md-note">Nicht verwechseln mit <strong>Job-Rängen</strong> (Laie → Titan, über <a href="/wiki/jobs/berufe">Job-Level</a>) und <strong>Kult-Rängen</strong> (<a href="/wiki/kult/raenge">clan-intern</a>) — das sind eigene Systeme.</div>

@@ -23,4 +23,4 @@ XP gibt es fürs **Abbauen von Holz/Stämmen** — je seltener das Holz, desto m
 
 - **Timber** — fällt einen ganzen Baum auf einmal.
 
-> [!note] Selbst platzierte Blöcke und mit Timber gefällte Stämme geben keine XP.
+<div class="md-note">Selbst platzierte Blöcke und mit Timber gefällte Stämme geben keine XP.</div>

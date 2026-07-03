@@ -18,4 +18,4 @@ Der Paladin ist der Kampf-Job: Erlege feindliche Monster und Bosse für Job-XP u
 | Warden | 220,0 |
 | Enderdrache | 350,0 |
 
-> [!note] Kills in der Citybuild-Welt geben keine Job-XP — geh zum Kämpfen in die passenden Welten.
+<div class="md-note">Kills in der Citybuild-Welt geben keine Job-XP — geh zum Kämpfen in die passenden Welten.</div>

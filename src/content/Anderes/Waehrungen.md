@@ -16,4 +16,4 @@ Die **Premium- bzw. Sekundärwährung**. Erhältst du über Daily-Meilensteine, 
 
 Die **Clan-/Kult-Währung**. Entsteht, wenn Mitglieder Pfund in die Kult-Kasse spenden (`/kult donate`). Wird für [Kult-Level-Aufstiege](/wiki/kult/levelsystem) und den [Fraktionswechsel](/wiki/kult/fraktionen) (25.000 Rubine) genutzt.
 
-> [!note] **Mondsterne** sind keine Handelswährung, sondern [Job-Fortschritt](/wiki/jobs/berufe): Alle 10 Level sammelst du Mondsterne, um in den nächsten Job-Rang aufzusteigen.
+<div class="md-note"><strong>Mondsterne</strong> sind keine Handelswährung, sondern <a href="/wiki/jobs/berufe">Job-Fortschritt</a>: Alle 10 Level sammelst du Mondsterne, um in den nächsten Job-Rang aufzusteigen.</div>

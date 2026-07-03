@@ -4,7 +4,7 @@
 
 Für jeden Tag, an dem du dich einloggst, erhältst du eine **tägliche Login-Belohnung**. Die Belohnungen steigen über **100 Tage** an — je weiter du im Kalender kommst, desto mehr **Pfund** und **Ectoplasma**.
 
-> [!note] Nicht mit den [Daily Quests](/wiki/anderes/daily-quests) verwechseln — die gibt es zusätzlich für erledigte Aufgaben. Die Login-Belohnung bekommst du allein fürs Einloggen.
+<div class="md-note">Nicht mit den <a href="/wiki/anderes/daily-quests">Daily Quests</a> verwechseln — die gibt es zusätzlich für erledigte Aufgaben. Die Login-Belohnung bekommst du allein fürs Einloggen.</div>
 
 ## So funktioniert es
 

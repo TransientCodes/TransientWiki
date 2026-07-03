@@ -75,4 +75,4 @@ Die wichtigsten Befehle auf TransientRealm. Job- und Kult-Befehle findest du zus
 | `/settings` (`/einstellungen`) | Spieler-Einstellungen öffnen |
 | `/wiki` | Dieses Wiki öffnen |
 
-> [!note] Das Team hat zusätzliche Moderations- und Verwaltungsbefehle, die hier nicht aufgeführt sind.
+<div class="md-note">Das Team hat zusätzliche Moderations- und Verwaltungsbefehle, die hier nicht aufgeführt sind.</div>
