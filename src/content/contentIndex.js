@@ -128,35 +128,117 @@ export function loadContentByEntry(entry) {
   return CONTENT_MODULES[entry.sourcePath];
 }
 
+const NAV_TOP_LEVEL_ORDER = ['/wiki/anfaenger-guide', '/wiki/server-systeme', '/wiki/faq'];
+
+// Logische Sidebar-Kategorien. Bewusst von der Ordnerstruktur ENTKOPPELT: die
+// URLs (Ordner/Datei) und damit SEO/Indexierung bleiben stabil, die Navigation
+// wird aber sinnvoll gruppiert statt alles in einen "Anderes"-Topf zu werfen.
+const NAV_CATEGORIES = [
+  {
+    name: 'Erste Schritte',
+    routes: [
+      '/wiki/anderes/einfuehrung',
+      '/wiki/anderes/befehle',
+      '/wiki/anderes/erlaubte-mods',
+      '/wiki/anderes/abstimmen',
+    ],
+  },
+  {
+    name: 'Jobs & Berufe',
+    routes: [
+      '/wiki/jobs/allgemein',
+      '/wiki/jobs/berufe',
+      '/wiki/jobs/forscher',
+      '/wiki/jobs/siegelmagier',
+      '/wiki/jobs/runenmechaniker',
+      '/wiki/jobs/angeln',
+      '/wiki/jobs/befehle',
+    ],
+  },
+  {
+    name: 'Citybuild & Welt',
+    routes: [
+      '/wiki/anderes/citybuild',
+      '/wiki/anderes/farmwelt',
+      '/wiki/anderes/warps',
+      '/wiki/anderes/kistenshops',
+    ],
+  },
+  {
+    name: 'Kulte & Fraktionen',
+    routes: [
+      '/wiki/kult/allgemein',
+      '/wiki/kult/kulte',
+      '/wiki/kult/levelsystem',
+      '/wiki/kult/raenge',
+      '/wiki/kult/fraktionen',
+      '/wiki/kult/wochenmarkt',
+      '/wiki/kult/befehle',
+    ],
+  },
+  {
+    name: 'Belohnungen',
+    routes: ['/wiki/anderes/kisten', '/wiki/anderes/daily-quests'],
+  },
+  {
+    name: 'Aktivitäten',
+    routes: ['/wiki/anderes/labyrinth'],
+  },
+];
+
+// Nested-Seiten, die bewusst NICHT in der Sidebar erscheinen (durch die neuen
+// Kategorien ersetzt), aber als URL weiterhin erreichbar bleiben.
+const NAV_HIDDEN_ROUTES = new Set(['/wiki/anderes/allgemein']);
+
 export function getNavigationStructure() {
-  const topLevel = CONTENT_ENTRIES.filter((entry) => entry.isNavigableTopLevel)
+  const byRoute = new Map(CONTENT_ENTRIES.map((entry) => [entry.route, entry]));
+  const toLink = (entry) => ({ name: entry.title, path: entry.route });
+
+  // Top-Level: erst in definierter Reihenfolge, dann evtl. neue Seiten anhängen.
+  const topLevel = NAV_TOP_LEVEL_ORDER.map((path) => byRoute.get(path))
+    .filter(Boolean)
+    .map(toLink);
+  CONTENT_ENTRIES.filter(
+    (entry) => entry.isNavigableTopLevel && !NAV_TOP_LEVEL_ORDER.includes(entry.route),
+  )
     .sort((left, right) => left.title.localeCompare(right.title, 'de'))
-    .map((entry) => ({
-      name: entry.title,
-      path: entry.route,
-    }));
+    .forEach((entry) => topLevel.push(toLink(entry)));
 
-  const folders = new Map();
+  // Kategorien in definierter Reihenfolge, leere werden weggelassen.
+  const categorized = new Set();
+  const folders = NAV_CATEGORIES.map((category) => ({
+    name: category.name,
+    items: category.routes
+      .map((path) => {
+        const entry = byRoute.get(path);
+        if (entry) categorized.add(path);
+        return entry;
+      })
+      .filter(Boolean)
+      .map(toLink),
+  })).filter((folder) => folder.items.length > 0);
 
-  CONTENT_ENTRIES.filter((entry) => entry.isNested).forEach((entry) => {
-    const folderName = entry.labels[0];
-    if (!folders.has(folderName)) {
-      folders.set(folderName, []);
-    }
-
-    folders.get(folderName).push({
-      name: entry.title,
-      path: entry.route,
-    });
+  // Fallback: nested Seiten ohne Kategorie behalten ihre Ordner-Gruppe, damit
+  // neu hinzugefügte Inhalte nie stillschweigend aus der Navigation fallen.
+  const leftovers = new Map();
+  CONTENT_ENTRIES.filter(
+    (entry) =>
+      entry.isNested &&
+      !categorized.has(entry.route) &&
+      !NAV_HIDDEN_ROUTES.has(entry.route),
+  ).forEach((entry) => {
+    const key = entry.labels[0];
+    if (!leftovers.has(key)) leftovers.set(key, []);
+    leftovers.get(key).push(toLink(entry));
   });
-
-  return {
-    folders: Array.from(folders.entries())
-      .sort(([left], [right]) => left.localeCompare(right, 'de'))
-      .map(([name, items]) => ({
-        items: items.sort((left, right) => left.name.localeCompare(right.name, 'de')),
+  Array.from(leftovers.entries())
+    .sort(([left], [right]) => left.localeCompare(right, 'de'))
+    .forEach(([name, items]) => {
+      folders.push({
         name,
-      })),
-    topLevel,
-  };
+        items: items.sort((left, right) => left.name.localeCompare(right.name, 'de')),
+      });
+    });
+
+  return { folders, topLevel };
 }

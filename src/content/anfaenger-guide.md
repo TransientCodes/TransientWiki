@@ -1,22 +1,15 @@
 # Anfänger-Guide
 
-Der **Anfänger-Guide** ist die beste Startseite für neue Spieler auf TransientRealm. Hier findest du die kompakteste Erklärung zu Spawn, Plot, Jobs, Quests, Farmwelt und den ersten Server-Systemen.
+Neu auf TransientRealm? Dieser Guide bringt dich in wenigen Minuten ins Spiel — Spawn, Plot, erster Job, Quests und Farmwelt.
 
-## Direkt zu den wichtigsten Themen
+## Deine ersten Schritte
 
-- [Erste Schritte auf dem Server](/wiki/anderes/einfuehrung)
-- [Jobs & Berufe](/wiki/jobs/berufe)
-- [Citybuild](/wiki/anderes/citybuild)
-- [Daily Quests](/wiki/anderes/daily-quests)
-- [Farmwelt](/wiki/anderes/farmwelt)
-- [FAQ](/wiki/faq)
+1. [Erste Schritte auf dem Server](/wiki/anderes/einfuehrung) — Ankommen, Spawn und Grundlagen.
+2. [Citybuild](/wiki/anderes/citybuild) — sichere dir dein Plot und baue deine Basis.
+3. [Jobs & Berufe](/wiki/jobs/berufe) — wähle einen Job und verdiene deine ersten Pfund.
+4. [Daily Quests](/wiki/anderes/daily-quests) — tägliche Aufgaben für schnellen Fortschritt.
+5. [Farmwelt](/wiki/anderes/farmwelt) — Ressourcen sammeln ohne Grief-Sorgen.
 
-## Für wen ist diese Seite gedacht?
+## Noch Fragen?
 
-Diese Seite richtet sich an:
-
-- neue Spieler von TransientRealm
-- Nutzer, die nach einem deutschen Minecraft-Server mit klar erklärten Systemen suchen
-- Spieler, die Jobs, Quests, Citybuild und Progression schnell verstehen möchten
-
-Wenn du komplett neu bist, starte mit [Erste Schritte auf dem Server](/wiki/anderes/einfuehrung).
+Die [FAQ](/wiki/faq) beantwortet die häufigsten Fragen rund um Einstieg, Jobs, Citybuild und Wirtschaft.

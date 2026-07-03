@@ -10,7 +10,7 @@
 <div class="md-card">
 
 ### Vote-Kiste
-Erhalte sie kostenlos für jeden **Server-Vote**. Enthält verschiedene nützliche Items und Pfund.
+Tausche **Votecoins** aus dem Server-Voten dagegen ein. Enthält verschiedene nützliche Items und Pfund.
 
 </div>
 <div class="md-card">
@@ -56,6 +56,6 @@ Kisten können folgende Dinge enthalten:
 
 ## Kisten öffnen
 
-Kisten können am **Kisten-Bereich** am Spawn geöffnet werden. Halte das jeweilige Kistenschlüssel-Item in der Hand und interagiere mit der Kiste. Eine Rollenanimation zeigt deine Belohnung.
+Kisten öffnest du am **Kisten-Bereich (Distributor)** am Spawn. Öffne dort das Menü und wähle die Kiste — vorausgesetzt du hast das nötige Guthaben (Votecoins für die Vote-Kiste, Ectoplasma für Elementar-, Chronos- und Mythos-Kisten). Eine Rollenanimation zeigt deine Belohnung.
 
 Du kannst die Animation mit dem **„Überspringen"-Button** abkürzen, wenn du das Ergebnis schnell sehen möchtest.

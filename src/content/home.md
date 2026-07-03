@@ -1,27 +1,14 @@
 # TransientRealm Wiki
 
-Willkommen im offiziellen **TransientRealm Wiki**. Dieses deutschsprachige Minecraft-Server-Wiki erklärt die wichtigsten Systeme, Features und Progressionspfade des Servers verständlich und ohne unnötige Umwege.
+Willkommen im offiziellen **TransientRealm Wiki**. Dieses deutschsprachige Minecraft-Server-Wiki erklärt die wichtigsten Systeme, Features und Progressionspfade verständlich und ohne unnötige Umwege.
 
-Wenn du nach einem **deutschen Minecraft-Server-Wiki**, nach Erklärungen zu **Minecraft Jobs**, **Quests**, **Citybuild**, **Siegeln**, **Kisten**, **Fraktionen** oder allgemeinen **Minecraft-Server-Spielsystemen** suchst, bist du hier richtig.
+Ob **Jobs**, **Quests**, **Citybuild**, **Siegel**, **Kisten** oder **Fraktionen** — zu jedem Server-System findest du hier eine klare Anleitung.
 
 ---
 
 ## Was ist TransientRealm?
 
-TransientRealm ist ein deutscher Minecraft-Server mit Fokus auf **Citybuild**, **eigene Spielsysteme**, **Berufe**, **magische Progression**, **Wirtschaft**, **Erkundung** und einer wachsenden Welt mit RPG- und MMO-Elementen.
-
-Das Wiki dient nicht nur als Nachschlagewerk für bestehende Spieler, sondern auch als zentrale Übersicht für alle, die verstehen möchten, wie moderne Minecraft-Server-Systeme funktionieren.
-
----
-
-## Schnellstart
-
-- [Anfänger-Guide](/wiki/anfaenger-guide)
-- [Server-Systeme im Überblick](/wiki/server-systeme)
-- [Jobs & Berufe](/wiki/jobs/berufe)
-- [Citybuild](/wiki/anderes/citybuild)
-- [Kulte & Fraktionen](/wiki/kult/kulte)
-- [FAQ](/wiki/faq)
+TransientRealm ist ein deutscher Minecraft-Server mit Fokus auf **Citybuild**, eigene Spielsysteme, **Berufe**, magische Progression, **Wirtschaft** und Erkundung — eine wachsende Welt mit RPG- und MMO-Elementen.
 
 ---
 
@@ -62,24 +49,10 @@ Das Wiki dient nicht nur als Nachschlagewerk für bestehende Spieler, sondern au
 
 ---
 
-## Für welche Themen ist dieses Wiki relevant?
+## Neu hier? So startest du
 
-Dieses Wiki deckt bewusst mehr ab als nur den Projektnamen **TransientRealm**. Es ist auch für allgemeine Fragen rund um folgende Themen hilfreich:
+1. **[Anfänger-Guide](/wiki/anfaenger-guide)** — die ersten Schritte auf dem Server: Spawn, Plot, erster Job.
+2. **[Server-Systeme im Überblick](/wiki/server-systeme)** — verschaffe dir einen Überblick über alle Features.
+3. Danach gezielt vertiefen: **[Jobs & Berufe](/wiki/jobs/berufe)**, **[Citybuild](/wiki/anderes/citybuild)** oder **[Kulte & Fraktionen](/wiki/kult/kulte)**.
 
-- deutscher Minecraft-Server
-- Minecraft-Server-Wiki
-- Minecraft Jobs-System
-- Minecraft Berufe und Fortschritt
-- Minecraft Citybuild-Systeme
-- Minecraft Quests und Achievements
-- Minecraft Ränge, Kisten und Belohnungen
-- Minecraft Siegel, Veredelungen und Custom-Items
-- Minecraft Fraktionen, Gruppen und Wirtschaft
-
----
-
-## Empfohlene Einstiegsreihenfolge
-
-1. Lies den [Anfänger-Guide](/wiki/anfaenger-guide), wenn du neu auf dem Server bist.
-2. Verschaffe dir unter [Server-Systeme](/wiki/server-systeme) einen Überblick über Jobs, Wirtschaft, Progression und Features.
-3. Steige danach gezielt in Unterseiten wie [Jobs & Berufe](/wiki/jobs/berufe), [Citybuild](/wiki/anderes/citybuild) oder [Kulte](/wiki/kult/kulte) ein.
+Noch Fragen? Die **[FAQ](/wiki/faq)** beantwortet die häufigsten.

@@ -16,7 +16,6 @@ Jeder Spieler kann einen eigenen Kult gründen. Dies ist der erste Schritt, um Z
 
 | Befehl | Beschreibung |
 | :--- | :--- |
-| `/kult info` | Zeigt Informationen über deinen oder einen anderen Kult an. |
 | `/kult invite <Spieler>` | Lädt einen Spieler in deinen Kult ein. |
 | `/kult accept` | Nimmt eine Kult-Einladung an. |
 | `/kult kick <Spieler>` | Entfernt einen Spieler aus dem Kult. |

@@ -12,9 +12,9 @@ Der **Macht**-Wert bestimmt, wie hoch ein Mitglied in der internen Kult-Mitglied
 
 | Rang | Beschreibung | Macht |
 | :--- | :--- | :---: |
-| **Gehilfe** | Neue Mitglieder ohne besondere Rechte. | 0 |
-| **Mitglied** | Vertrauenswürdige Spieler. | 10 |
-| **Offizier** | Kann Einladen und Kicken. | 50 |
+| **Gehilfe** | Neue Mitglieder ohne besondere Rechte. | 20 |
+| **Mitglied** | Vertrauenswürdige Spieler. | 40 |
+| **Offizier** | Kann Mitglieder kicken und befördern. | 60 |
 | **Vertrauter** | Rechte Hand des Herrschers. | 80 |
 | **Herrscher** | Der Gründer und Anführer. Hat alle Rechte. | 100 |
 

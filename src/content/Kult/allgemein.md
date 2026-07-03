@@ -20,12 +20,12 @@ Hier findest du alle Informationen, um deinen eigenen Kult zu gründen, ihn zu v
     </div>
     <div class="md-card">
         <h3 style="color: #55ff55;">Wochenmarkt</h3>
-        <p>Kaufe seltene Gegenstände für Rubine.</p>
+        <p>Kaufe seltene Gegenstände für Pfund.</p>
         <p><a href="#/wiki/kult/wochenmarkt">Mehr erfahren</a></p>
     </div>
     <div class="md-card">
         <h3 style="color: #aa00aa;">Fraktionen</h3>
-        <p>Schließe dich dem Orden oder den Söldnern an.</p>
+        <p>Wähle zwischen Orden, Kaufmannsbund und Bauernschaft.</p>
         <p><a href="#/wiki/kult/fraktionen">Mehr erfahren</a></p>
     </div>
 </div>

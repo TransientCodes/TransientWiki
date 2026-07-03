@@ -61,7 +61,7 @@ export const WIKI_PAGE_META = [
     path: '/wiki/jobs/forscher',
     title: 'Forscher | TransientRealm Wiki',
     description:
-      'Forscher-Guide für TransientRealm: Artefakte, Archäologie, Progression und seltene Funde als Teil der Minecraft-Server-Spielsysteme.',
+      'Forscher-Guide für TransientRealm: Artefakte beim Ausgraben von Sand und Kies finden, Progression und seltene Funde als Teil der Minecraft-Server-Spielsysteme.',
     h1: 'Forscher',
   },
   {
@@ -140,6 +140,62 @@ export const WIKI_PAGE_META = [
     description:
       'Regelwerk des deutschen Minecraft-Servers TransientRealm mit klaren Verhaltensregeln und den wichtigsten Grundlagen für ein faires Miteinander.',
     h1: 'Regelwerk',
+  },
+  {
+    path: '/wiki/jobs/angeln',
+    title: 'Angeln & Magnetfischer | TransientRealm Wiki',
+    description:
+      'Angeln auf TransientRealm: der Magnetfischer-Job, das Angel-Minispiel, Verzauberungen und der Angelbeutel — verständlich erklärt im Server-Wiki.',
+    h1: 'Angeln',
+  },
+  {
+    path: '/wiki/jobs/befehle',
+    title: 'Job-Befehle | TransientRealm Wiki',
+    description:
+      'Übersicht der wichtigsten Job-Befehle auf TransientRealm: /job, /berufe, /rezepte und mehr für Fortschritt und Spezialisierung.',
+    h1: 'Job-Befehle',
+  },
+  {
+    path: '/wiki/kult/raenge',
+    title: 'Ränge & Rechte | TransientRealm Wiki',
+    description:
+      'Rang- und Rechtesystem der Kulte auf TransientRealm: Standard-Ränge, Macht-Werte, eigene Ränge und Berechtigungen verständlich erklärt.',
+    h1: 'Ränge & Rechte',
+  },
+  {
+    path: '/wiki/kult/befehle',
+    title: 'Kult-Befehle | TransientRealm Wiki',
+    description:
+      'Alle wichtigen Kult-Befehle auf TransientRealm: /kult create, invite, donate, chat und mehr zur Verwaltung deiner Gemeinschaft.',
+    h1: 'Kult-Befehle',
+  },
+  {
+    path: '/wiki/anderes/warps',
+    title: 'Warps | TransientRealm Wiki',
+    description:
+      'Warps auf TransientRealm: Teleportpunkte, Kosten und Befehle zum schnellen Reisen auf dem deutschen Minecraft-Server.',
+    h1: 'Warps',
+  },
+  {
+    path: '/wiki/anderes/labyrinth',
+    title: 'Labyrinth | TransientRealm Wiki',
+    description:
+      'Das Labyrinth auf TransientRealm: ein prozedurales Maze voller Fallen, Rätsel, Schätze und Herausforderungen mit eigenem Loot.',
+    h1: 'Labyrinth',
+  },
+  {
+    path: '/wiki/anderes/abstimmen',
+    title: 'Abstimmen (Vote) | TransientRealm Wiki',
+    description:
+      'Für TransientRealm abstimmen (voten): Votecoins verdienen, Vote-Kisten öffnen und den Server unterstützen — so funktioniert das Vote-System.',
+    h1: 'Abstimmen',
+  },
+  {
+    path: '/wiki/anderes/erlaubte-mods',
+    title: 'Erlaubte Mods | TransientRealm Wiki',
+    description:
+      'Whitelist der erlaubten Mods und Clients auf TransientRealm: welche Mods erlaubt und welche verboten sind — für faires Spielen.',
+    h1: 'Erlaubte Mods',
   },
 ];
 

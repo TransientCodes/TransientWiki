@@ -92,7 +92,7 @@ Sobald die Grundlagen stehen, lohnen sich die komplexeren Systeme:
 
 - [Siegelmagier](/wiki/jobs/siegelmagier) für Siegel, Veredelungen und magische Item-Systeme
 - [Runenmechaniker](/wiki/jobs/runenmechaniker) für Runen und servereigenes Crafting
-- [Forscher](/wiki/jobs/forscher) für Artefakte, Archäologie und seltene Funde
+- [Forscher](/wiki/jobs/forscher) für Artefakte, Ausgraben und seltene Funde
 - [Kulte](/wiki/kult/kulte) für Gruppenspiel, Wirtschaft und Progression
 - [Kisten](/wiki/anderes/kisten) für Belohnungen und Fortschrittssysteme
 

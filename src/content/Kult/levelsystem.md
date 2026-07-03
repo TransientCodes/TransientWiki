@@ -10,24 +10,24 @@ Dein Kult kann im Level aufsteigen, um neue Funktionen und Plätze für Mitglied
 | :---: | :---: | :--- |
 | **1** | 5 | Start-Level |
 | **2** | 10 | 1 Custom Rang |
-| **3** | 15 | Tag-Farbe: <span style="color: gray;">Grau</span> |
+| **3** | 15 | **Gilden Tag** freigeschaltet, Tag-Farbe: <span style="color: gray;">Grau</span> |
 | **4** | 20 | Tag-Farbe: <span style="color: white;">Weiß</span>, **Kult-Chat** |
 | **5** | 25 | Tag-Farbe: <span style="color: #55ff55;">Grün</span>, **Wochenmarkt** |
 | **6** | 30 | Tag-Farbe: <span style="color: #00aa00;">Dunkelgrün</span>, 2 Custom Ränge |
 | **7** | 32 | Tag-Farbe: <span style="color: #5555ff;">Blau</span> |
 | **8** | 36 | Tag-Farbe: <span style="color: #ffff55;">Gelb</span>, 3 Custom Ränge |
-| **9** | 40 | Tag-Farbe: <span style="color: #55ffff;">Türkis</span> |
-| **10** | 44 | Tag-Farbe: <span style="color: #00aaaa;">Dunkeltürkis</span>, **Fraktionswahl** |
+| **9** | 40 | Tag-Farbe: <span style="color: #55ffff;">Aqua</span> |
+| **10** | 44 | Tag-Farbe: <span style="color: #00aaaa;">Dunkelaqua</span>, **Fraktionswahl** |
 | **11** | 48 | Tag-Farbe: <span style="color: #aa00aa;">Lila</span> |
 | **12** | 52 | Tag-Farbe: <span style="color: #aa00aa;">Dunkellila</span> |
 | **13** | 56 | Tag-Farbe: <span style="color: #ff5555;">Rot</span> |
 | **14** | 60 | Tag-Farbe: <span style="color: #aa0000;">Dunkelrot</span> |
 | **15** | 62 | Tag-Farbe: <span style="color: #aa0000; font-weight: bold;">Dunkelrot (Fett)</span> |
 | **16** | 64 | Tag-Farbe: <span style="color: #ffaa00;">Gold</span> |
-| **17** | 68 | Tag-Farbe: <span style="color: #ff5555; font-weight: bold;">Rot (Fett)</span> |
-| **18** | 70 | Tag-Farbe: <span style="color: #ffaa00; font-weight: bold;">Gold (Fett)</span> |
-| **19** | 72 | Tag-Farbe: <span style="color: white; font-weight: bold; background: linear-gradient(90deg,#fff,#555); -webkit-background-clip: text;">Schwarz-Weiß Gradient</span>, **Gilden Tag** |
-| **20** | 74 | Tag-Farbe: <span style="color: #ff5555; font-weight: bold;">Rot (Fett)</span> |
+| **17** | 68 | Tag-Farbe: <span style="font-weight: bold; background: linear-gradient(90deg,#ff0000,#ff8c00); -webkit-background-clip: text; color: transparent;">Rot Gradient</span> |
+| **18** | 70 | Tag-Farbe: <span style="font-weight: bold; background: linear-gradient(90deg,#ffcc00,#fff1a8); -webkit-background-clip: text; color: transparent;">Gold Gradient</span> |
+| **19** | 72 | Tag-Farbe: <span style="color: white; font-weight: bold; background: linear-gradient(90deg,#fff,#555); -webkit-background-clip: text;">Schwarz-Weiß Gradient</span> |
+| **20** | 74 | Tag-Farbe: <span style="font-weight: bold; background: linear-gradient(90deg,#ff0000,#ff8c00,#ffff00,#00cc00,#0088ff,#8800ff); -webkit-background-clip: text; color: transparent;">Regenbogen</span> |
 
 ## Wie steige ich auf?
 

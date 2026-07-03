@@ -6,12 +6,12 @@ Erforsche die Vergangenheit und grabe vergessene Artefakte aus. Je seltener der 
 
 ## Wie funktioniert's?
 
-Der Forscher nutzt die **Archäologie**-Mechanik von Minecraft:
+Der Forscher gräbt mit einem speziellen Werkzeug nach Artefakten:
 
-1. Finde **Verdächtigen Sand** oder **Verdächtigen Kies** (z.B. in Ruinen, Wüstentempeln, Unterwasserruinen)
-2. Benutze eine **Bürste** (`/crafting` → Feather + Stick + Copper Ingot), um den Block freizulegen
-3. Bei jedem Bürstvorgang erhältst du kleine Job-XP
-4. Findest du ein Artefakt, erhältst du Bonus-XP je nach Rarität
+1. Stelle dir das **Forschertool** her (eine spezielle Schaufel — Rezept unter `/rezepte`) und nimm es in die Hand
+2. Baue damit **Sand**, **roten Sand** oder **Kies** ab (z.B. in Wüsten, an Stränden oder in Höhlen)
+3. Bei jedem Abbau erhältst du kleine Job-XP
+4. Mit **2% Chance** förderst du statt Rohstoffen ein **Artefakt** zutage — mit Bonus-XP je nach Rarität
 
 ## Artefakt-Raritäten
 
@@ -54,7 +54,7 @@ Ein bedeutendes Stück aus längst vergangener Zeit.
 <strong>Zeitlos</strong> — Das seltenste Artefakt überhaupt. Ein außergewöhnlicher Fund von unschätzbarem Wert. <strong>+180 XP / +180 Pfund</strong>
 </div>
 
-Jeder Bürstvorgang ohne Fund gibt dir bereits **+0,1 XP** — auch kontinuierliches Suchen lohnt sich.
+Jeder Abbau ohne Fund gibt dir bereits **+0,1 XP** — auch kontinuierliches Graben lohnt sich.
 
 ## Artefakt-Kategorien
 
@@ -73,6 +73,6 @@ Als Forscher hast du eine Chance, beim Ausgraben **Erd-Aura** zu erhalten. Diese
 
 ## Tipps
 
-- Archäologie-Fundorte in der **Farmwelt** bringen die meisten Möglichkeiten — dort können Biome und Strukturen frei erkundet werden
-- Bring genug Bürsten mit — sie verschleißen mit jedem Bürstvorgang
+- Große Sand- und Kiesvorkommen in der **Farmwelt** bringen die meisten Möglichkeiten — dort darf frei abgebaut werden
+- Sand, roter Sand und Kies zählen alle — auch in Höhlen und an Flussläufen findest du reichlich
 - Seltene Artefakte tauchen zufällig auf — Geduld ist der Schlüssel zum Erfolg

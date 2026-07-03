@@ -30,7 +30,7 @@ Angelexperte mit eigenem Minigame. Fange Fische in verschiedenen Biomen und verk
 <div class="md-card">
 
 ### 🏺 Forscher
-Entdecke Artefakte durch Archäologie. Je seltener das Fundstück, desto mehr XP. Fünf Raritäten: Verwittert → Fundstück → Rätselhaft → Historisch → Zeitlos. [→ Mehr erfahren](#/wiki/jobs/forscher)
+Entdecke Artefakte beim Ausgraben von Sand und Kies. Je seltener das Fundstück, desto mehr XP. Fünf Raritäten: Verwittert → Fundstück → Rätselhaft → Historisch → Zeitlos. [→ Mehr erfahren](#/wiki/jobs/forscher)
 
 </div>
 <div class="md-card">

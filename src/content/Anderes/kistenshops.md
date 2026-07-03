@@ -46,8 +46,8 @@ Hier verkauft der Shop für 250 Pfund, und kauft für 120 Pfund an — alles auf
 
 ## Mit einem Shop handeln
 
-- **Linksklick** auf das Schild → Items **kaufen**
-- **Rechtsklick** auf das Schild → Items **verkaufen**
+- **Rechtsklick** auf das Schild → Items **kaufen**
+- **Linksklick** auf das Schild → Items **verkaufen**
 - **Shift + Klick** → gesamten Stack auf einmal kaufen/verkaufen
 
 ## Shop entfernen
