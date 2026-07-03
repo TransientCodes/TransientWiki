@@ -1,4 +1,4 @@
-<div class="md-banner" style="border-left: 4px solid #5588ff;">
+<div class="md-banner">
     <h1 style="margin: 0;">Warps</h1>
 </div>
 

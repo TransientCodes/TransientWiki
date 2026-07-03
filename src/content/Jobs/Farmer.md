@@ -1,4 +1,4 @@
-<div class="md-banner" style="border-left: 4px solid #ddaa33;">
+<div class="md-banner">
     <h1 style="margin: 0;">Farmer</h1>
 </div>
 

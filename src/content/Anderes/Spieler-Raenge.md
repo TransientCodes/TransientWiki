@@ -1,4 +1,4 @@
-<div class="md-banner" style="border-left: 4px solid #ffaa00;">
+<div class="md-banner">
     <h1 style="margin: 0;">Spieler-Ränge</h1>
 </div>
 

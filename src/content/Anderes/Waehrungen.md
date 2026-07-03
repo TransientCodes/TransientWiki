@@ -1,4 +1,4 @@
-<div class="md-banner" style="border-left: 4px solid #92d050;">
+<div class="md-banner">
     <h1 style="margin: 0;">Währungen</h1>
 </div>
 

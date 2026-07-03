@@ -1,4 +1,4 @@
-<div class="md-banner" style="border-left: 4px solid #55aa55;">
+<div class="md-banner">
     <h1 style="margin: 0;">Paladin</h1>
 </div>
 

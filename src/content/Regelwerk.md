@@ -208,4 +208,4 @@
 
 **Das TransientRealm-Team wünscht allen Spielern viel Spaß und ein faires Miteinander!**
 
-🎮 **Viel Erfolg auf TransientRealm!**
+**Viel Erfolg auf TransientRealm!**

@@ -1,4 +1,4 @@
-<div class="md-banner" style="border-left: 4px solid #888888;">
+<div class="md-banner">
     <h1 style="margin: 0;">Schürfer</h1>
 </div>
 
