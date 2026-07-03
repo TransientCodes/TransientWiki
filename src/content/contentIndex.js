@@ -46,17 +46,26 @@ function createLookupKeys(relativePath, slugSegments, originalSegments) {
   const fileName = originalSegments[originalSegments.length - 1];
   const slugName = slugSegments[slugSegments.length - 1];
 
-  return new Set([
+  const keys = new Set([
     normalizeLookup(relativePath),
     normalizeLookup(joinedOriginal),
     normalizeLookup(joinedSlug),
-    normalizeLookup(fileName),
-    normalizeLookup(slugName),
     normalizeLookup(joinedOriginal.replace(/\//g, '')),
     normalizeLookup(joinedSlug.replace(/\//g, '')),
     normalizeLookup(`wiki/${joinedOriginal}`),
     normalizeLookup(`wiki/${joinedSlug}`),
   ]);
+
+  // Bare fileName/slugName keys are only unambiguous for top-level entries;
+  // nested files often share a base name (e.g. befehle.md across folders),
+  // so registering short keys there would let later entries clobber earlier
+  // ones and resolve lookups to the wrong page.
+  if (originalSegments.length === 1) {
+    keys.add(normalizeLookup(fileName));
+    keys.add(normalizeLookup(slugName));
+  }
+
+  return keys;
 }
 
 function createEntry(modulePath) {

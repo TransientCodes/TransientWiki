@@ -9,8 +9,8 @@ function stripMarkdown(text) {
     .replace(/<[^>]+>/g, ' ')
     .replace(/#+\s+/g, '')
     .replace(/[*_~`]+/g, '')
-    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
     .replace(/&[a-z]+;/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -43,6 +43,7 @@ const Search = ({ onClose }) => {
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef(null);
   const listRef = useRef(null);
+  const requestIdRef = useRef(0);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -108,8 +109,10 @@ const Search = ({ onClose }) => {
       return () => window.cancelAnimationFrame(frame);
     }
 
+    const requestId = ++requestIdRef.current;
     (async () => {
       const entries = await buildIndex();
+      if (requestId !== requestIdRef.current) return;
       const q = query.toLowerCase();
       const matched = entries
         .filter((entry) => entry.title.toLowerCase().includes(q) || entry.clean.toLowerCase().includes(q))
