@@ -41,12 +41,15 @@ function buildHead(seo) {
     `<meta property="og:title" content="${title}">`,
     `<meta property="og:description" content="${description}">`,
     `<meta property="og:url" content="${canonical}">`,
-    '<meta property="og:image" content="https://wiki.transientrealm.de/logo.png">',
-    '<meta property="og:image:alt" content="TransientRealm Wiki Logo">',
+    '<meta property="og:image" content="https://wiki.transientrealm.de/og-image.png">',
+    '<meta property="og:image:width" content="1200">',
+    '<meta property="og:image:height" content="630">',
+    '<meta property="og:image:type" content="image/png">',
+    '<meta property="og:image:alt" content="TransientRealm Wiki — Deutsches Minecraft-Server-Wiki">',
     '<meta name="twitter:card" content="summary_large_image">',
     `<meta name="twitter:title" content="${title}">`,
     `<meta name="twitter:description" content="${description}">`,
-    '<meta name="twitter:image" content="https://wiki.transientrealm.de/logo.png">',
+    '<meta name="twitter:image" content="https://wiki.transientrealm.de/og-image.png">',
     `<script type="application/ld+json">${escapeJsonForHtml(seo.jsonLd)}</script>`,
   ].join('\n    ');
 }

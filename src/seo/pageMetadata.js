@@ -1,6 +1,6 @@
 export const SITE_URL = 'https://wiki.transientrealm.de';
 export const SITE_NAME = 'TransientRealm Wiki';
-export const DEFAULT_IMAGE = `${SITE_URL}/logo.png`;
+export const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`;
 export const DEFAULT_TITLE =
   'TransientRealm Wiki | Deutsches Minecraft-Server-Wiki für Jobs, Siegel, Quests und Systeme';
 export const DEFAULT_DESCRIPTION =
@@ -363,23 +363,74 @@ export function getPageMetadata({ content = '', entry = null, isNotFound = false
   };
 }
 
-export function getJsonLd(meta) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': meta.type === 'website' ? 'WebSite' : 'WebPage',
-    name: meta.h1,
-    headline: meta.title,
-    url: meta.canonical,
-    inLanguage: 'de-DE',
-    description: meta.description,
-    isPartOf: {
+// FAQ-Markdown (## Frage + Antwort-Absätze) in FAQPage-mainEntity übersetzen
+function parseFaqEntities(content) {
+  const sections = content.split(/^## +/m).slice(1);
+  return sections
+    .map((section) => {
+      const [questionLine, ...rest] = section.split('\n');
+      const answer = rest
+        .join(' ')
+        .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+        .replace(/[*_`]+/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      return {
+        '@type': 'Question',
+        name: questionLine.trim(),
+        acceptedAnswer: { '@type': 'Answer', text: answer },
+      };
+    })
+    .filter((item) => item.name && item.acceptedAnswer.text);
+}
+
+export function getJsonLd(meta, { entry = null, content = '' } = {}) {
+  const publisher = { '@type': 'Organization', name: 'TransientRealm' };
+  const website = { '@type': 'WebSite', name: SITE_NAME, url: `${SITE_URL}/` };
+  const graph = [];
+
+  if (meta.type === 'website') {
+    graph.push({
       '@type': 'WebSite',
       name: SITE_NAME,
-      url: `${SITE_URL}/`,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'TransientRealm',
-    },
-  };
+      headline: meta.title,
+      url: meta.canonical,
+      inLanguage: 'de-DE',
+      description: meta.description,
+      publisher,
+    });
+  } else {
+    graph.push({
+      '@type': 'Article',
+      headline: meta.h1,
+      name: meta.h1,
+      url: meta.canonical,
+      inLanguage: 'de-DE',
+      description: meta.description,
+      image: DEFAULT_IMAGE,
+      isPartOf: website,
+      publisher,
+    });
+  }
+
+  // Brotkrumen für verschachtelte Seiten (Startseite → Kategorie → Seite)
+  if (entry?.isNested) {
+    graph.push({
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Startseite', item: `${SITE_URL}/` },
+        { '@type': 'ListItem', position: 2, name: entry.labels[0] },
+        { '@type': 'ListItem', position: 3, name: meta.h1, item: meta.canonical },
+      ],
+    });
+  }
+
+  if (entry?.route === '/wiki/faq' && content) {
+    const mainEntity = parseFaqEntities(content);
+    if (mainEntity.length) {
+      graph.push({ '@type': 'FAQPage', mainEntity });
+    }
+  }
+
+  return { '@context': 'https://schema.org', '@graph': graph };
 }

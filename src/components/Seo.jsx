@@ -69,7 +69,7 @@ const Seo = ({ canonical, description, robots, title, type }) => {
       property: 'og:image',
     });
     upsertMeta('meta[property="og:image:alt"]', {
-      content: 'TransientRealm Wiki Logo',
+      content: 'TransientRealm Wiki — Deutsches Minecraft-Server-Wiki',
       property: 'og:image:alt',
     });
     upsertMeta('meta[name="twitter:card"]', {

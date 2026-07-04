@@ -1,8 +1,8 @@
-**Regelwerk TransientRealm.de**
+# Regelwerk
 
 <div class="md-note"><strong>Inhalt:</strong> <a href="#1-allgemein">§1 Allgemein</a> · <a href="#2-discord-spezifische-regeln">§2 Discord-Regeln</a> · <a href="#3-minecraft-spezifische-regeln">§3 Minecraft-Regeln</a></div>
 
-# **§1 – Allgemein**
+## **§1 – Allgemein**
 
 *§1.1 Grundsätze*
  - ***Das Regelwerk kann jederzeit ergänzt oder verändert werden***
@@ -47,7 +47,7 @@
 
 ---
 
-# **§2 – Discord-spezifische Regeln**
+## **§2 – Discord-spezifische Regeln**
 
 *§2.1 Chatverhalten*
 - **Spam, Flooding und sinnlose Nachrichten** sind verboten.
@@ -79,7 +79,7 @@
 
 /
 
-# **§3 – Minecraft-spezifische Regeln**
+## **§3 – Minecraft-spezifische Regeln**
 
 *§3.1 Griefing & Zerstörung*
 - **Definition:** Griefing bezeichnet die mutwillige Beschädigung, Veränderung oder Zerstörung von Bauwerken, Items oder Ressourcen anderer Spieler ohne deren ausdrückliche Zustimmung.

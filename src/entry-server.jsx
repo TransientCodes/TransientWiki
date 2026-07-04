@@ -28,7 +28,7 @@ export function getSeo(pathname) {
 
   return {
     ...meta,
-    jsonLd: getJsonLd(meta),
+    jsonLd: getJsonLd(meta, { content, entry }),
   };
 }
 
