@@ -1,8 +1,32 @@
 import React, { useMemo, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Book, ChevronDown, Github, Lock, Mail, Shield, Youtube } from 'lucide-react';
+import {
+  Book,
+  Building2,
+  ChevronDown,
+  Compass,
+  Flame,
+  Github,
+  Lock,
+  Mail,
+  Pickaxe,
+  Shield,
+  Trophy,
+  Users,
+  Youtube,
+} from 'lucide-react';
 import styles from './Sidebar.module.css';
 import { getNavigationStructure } from '../content/contentIndex';
+
+// Kategorie-Icons: gebündelte lucide-Icons (self-hosted, kein Iconify-API-Request)
+const CATEGORY_ICONS = {
+  building: Building2,
+  compass: Compass,
+  flame: Flame,
+  pickaxe: Pickaxe,
+  trophy: Trophy,
+  users: Users,
+};
 
 const Sidebar = ({ isOpen, onClose }) => {
   const [openFolders, setOpenFolders] = useState({});
@@ -36,13 +60,16 @@ const Sidebar = ({ isOpen, onClose }) => {
             </NavLink>
           ))}
 
-          {navigation.folders.map((folder) => (
+          {navigation.folders.map((folder) => {
+            const CategoryIcon = CATEGORY_ICONS[folder.icon];
+            return (
             <div key={folder.name}>
               <button
                 className={styles.categoryHeader}
                 onClick={() => toggleFolder(folder.name)}
                 aria-expanded={isFolderOpen(folder.name)}
               >
+                {CategoryIcon && <CategoryIcon size={13} className={styles.categoryIcon} />}
                 {folder.name}
                 <ChevronDown
                   size={12}
@@ -68,7 +95,8 @@ const Sidebar = ({ isOpen, onClose }) => {
                 </div>
               </div>
             </div>
-          ))}
+            );
+          })}
         </nav>
 
         <div className={styles.footer}>

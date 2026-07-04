@@ -145,6 +145,7 @@ const NAV_TOP_LEVEL_ORDER = ['/wiki/anfaenger-guide', '/wiki/server-systeme', '/
 const NAV_CATEGORIES = [
   {
     name: 'Erste Schritte',
+    icon: 'compass',
     routes: [
       '/wiki/anderes/einfuehrung',
       '/wiki/anderes/befehle',
@@ -155,6 +156,7 @@ const NAV_CATEGORIES = [
   },
   {
     name: 'Jobs & Berufe',
+    icon: 'pickaxe',
     routes: [
       '/wiki/jobs/allgemein',
       '/wiki/jobs/berufe',
@@ -173,6 +175,7 @@ const NAV_CATEGORIES = [
   },
   {
     name: 'Citybuild & Welt',
+    icon: 'building',
     routes: [
       '/wiki/anderes/citybuild',
       '/wiki/anderes/farmwelt',
@@ -182,6 +185,7 @@ const NAV_CATEGORIES = [
   },
   {
     name: 'Kulte & Fraktionen',
+    icon: 'flame',
     routes: [
       '/wiki/kult/allgemein',
       '/wiki/kult/kulte',
@@ -194,6 +198,7 @@ const NAV_CATEGORIES = [
   },
   {
     name: 'Fortschritt & Belohnungen',
+    icon: 'trophy',
     routes: [
       '/wiki/anderes/spieler-raenge',
       '/wiki/anderes/advancements',
@@ -205,6 +210,7 @@ const NAV_CATEGORIES = [
   },
   {
     name: 'Community & Aktivitäten',
+    icon: 'users',
     routes: ['/wiki/anderes/freunde', '/wiki/anderes/labyrinth'],
   },
 ];
@@ -245,6 +251,7 @@ export function getNavigationStructure() {
   const categorized = new Set();
   const folders = NAV_CATEGORIES.map((category) => ({
     name: category.name,
+    icon: category.icon,
     items: category.routes
       .map((path) => {
         const entry = byRoute.get(path);

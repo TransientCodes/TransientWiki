@@ -22,6 +22,8 @@ GitHub kann Daten in die USA übertragen. Die USA gelten als Drittland ohne glei
 
 Diese Website verwendet **keine Cookies**, kein Tracking, keine Analysetools und keine Werbung. Wir speichern selbst keine personenbezogenen Daten der Besucher.
 
+Sämtliche Schriftarten und Icons sind **lokal eingebunden**. Beim Aufruf dieser Website werden keine Inhalte von Drittservern (z. B. Google Fonts oder Icon-CDNs) nachgeladen.
+
 ## 4. Externe Links
 
 Diese Website enthält Links zu externen Diensten Dritter:
@@ -56,4 +58,4 @@ Postfach 3163
 
 ---
 
-*Stand: März 2026*
+*Stand: Juli 2026*

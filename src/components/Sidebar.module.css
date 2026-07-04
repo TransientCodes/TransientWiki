@@ -87,6 +87,12 @@
     background: var(--color-border);
 }
 
+.categoryIcon {
+    flex-shrink: 0;
+    color: var(--color-accent-hover);
+    opacity: 0.8;
+}
+
 .chevron {
     transition: transform var(--transition-med);
     flex-shrink: 0;
