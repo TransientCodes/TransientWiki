@@ -1,48 +1,59 @@
-/* Messing & Ruß — Steampunk-Theme, abgeleitet vom TransientRealm-Logo
-   (Messing-Lettern, Kupferkessel, Stahl-Zahnräder, Dampf auf Ruß-Braun) */
+/* TransientWiki Design-Tokens — nach dem TextureResources-Tool-Design-System
+   (tools/shared/theme.css): dunkles Neutral, Cyan-Akzent, Hairlines, 6/8px-Radien.
+   Fonts selbst gehostet (Inter statt JetBrains Sans — deren offizieller Fallback),
+   keine Remote-Fonts (DSGVO). */
 :root {
+    color-scheme: dark;
+
     /* Colors */
-    --color-bg-page: #16110d;
-    --color-bg-surface: #1e1712;
-    --color-bg-surface-hover: #2a2118;
-    --color-text-primary: #f2e9da;
-    --color-text-body: #cfc3b2;
-    --color-text-secondary: #a3947f;
+    --color-bg-page: #141218;
+    --color-bg-surface: #1f1d23;
+    --color-bg-surface-raised: #25232a;
+    --color-bg-surface-hover: #2c2932;
+    --color-bg-field: rgba(0, 0, 0, 0.22);
+    --color-bg-field-strong: #111015;
+    --color-text-primary: #f0edf4;
+    --color-text-body: rgba(240, 237, 244, 0.72);
+    --color-text-secondary: rgba(240, 237, 244, 0.52);
 
-    /* Accent Colors (Messing / Kupfer) */
-    --color-accent: #dfa145;
-    --color-accent-hover: #eebd6d;
-    --color-accent-dark: #4a3416;
-    --color-copper: #b4703a;
-    --color-accent-glow: rgba(223, 161, 69, 0.16);
-    --color-accent-glow-strong: rgba(223, 161, 69, 0.32);
+    /* Accent */
+    --color-accent: #009fff;
+    --color-accent-hover: #39c6ff;
+    --color-accent-soft: rgba(0, 159, 255, 0.16);
+    --color-accent-line: rgba(0, 159, 255, 0.58);
+    --color-on-accent: #061018;
 
-    --color-border: #322a1f;
-    --color-border-subtle: #443929;
+    --color-border: rgba(255, 255, 255, 0.075);
+    --color-border-strong: rgba(255, 255, 255, 0.14);
 
-    /* Rußglas (Glassmorphism) */
-    --glass-bg: rgba(30, 23, 18, 0.72);
+    /* Kompatibilitäts-Aliasse (ältere Modul-Styles) */
+    --color-accent-dark: #003a5c;
+    --color-accent-glow: var(--color-accent-soft);
+    --color-accent-glow-strong: rgba(0, 159, 255, 0.32);
+    --color-border-subtle: var(--color-border-strong);
+    --glass-bg: rgba(31, 29, 35, 0.78);
     --glass-blur: 16px;
-    --glass-border: rgba(255, 236, 200, 0.07);
-    --glass-border-accent: rgba(223, 161, 69, 0.22);
+    --glass-border: var(--color-border);
+    --glass-border-accent: var(--color-accent-line);
 
-    /* Fonts — Chrome/UI in Sans, Artikel-Content in Serif (Gazette) */
-    --font-display: 'Bitter', Georgia, 'Times New Roman', serif;
-    --font-body: 'Bitter', Georgia, 'Times New Roman', serif;
-    --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
-    --font-mono: 'Special Elite', 'Courier New', monospace;
+    /* Fonts */
+    --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
 
     /* Radii */
     --radius-sm: 6px;
     --radius-md: 8px;
-    --radius-lg: 12px;
-    --radius-xl: 16px;
+    --radius-lg: 8px;
+    --radius-xl: 8px;
 
     /* Motion */
-    --transition-fast: 0.15s ease;
-    --transition-med: 0.25s ease;
+    --transition-fast: 120ms ease;
+    --transition-med: 200ms ease;
 
     /* Shadows */
-    --shadow-neu-pressed: inset 2px 2px 6px rgba(0, 0, 0, 0.6), inset -1px -1px 3px rgba(255, 220, 160, 0.03);
-    --shadow-neu-card: 0 8px 40px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 236, 200, 0.05) inset;
+    --shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+    --shadow-neu-pressed: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+    --shadow-neu-card: 0 1px 0 rgba(255, 255, 255, 0.04) inset;
 }
