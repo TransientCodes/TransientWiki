@@ -11,6 +11,17 @@ const serverEntryUrl = pathToFileURL(path.join(distRoot, 'server', 'entry-server
 const { getPrerenderRoutes, getSeo, getSitemapRoutes, render } = await import(serverEntryUrl);
 const template = await fs.readFile(templatePath, 'utf8');
 
+// LCP-Text rendert in Inter: kritische Schnitte preloaden. Die Dateinamen
+// sind gehasht, deshalb aus dem realen Build-Output ermittelt.
+const assetFiles = await fs.readdir(path.join(distRoot, 'assets'));
+const fontPreloads = assetFiles
+  .filter((file) => /^inter-latin-(400|700)-normal-[^.]+\.woff2$/.test(file))
+  .map(
+    (file) =>
+      `<link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/${file}">`,
+  )
+  .join('\n    ');
+
 function escapeHtml(value = '') {
   return String(value)
     .replace(/&/g, '&amp;')
@@ -31,6 +42,7 @@ function buildHead(seo) {
   const type = escapeHtml(seo.type);
 
   return [
+    fontPreloads,
     `<title>${title}</title>`,
     `<meta name="description" content="${description}">`,
     `<meta name="robots" content="${robots}">`,
