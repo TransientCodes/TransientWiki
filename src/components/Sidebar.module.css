@@ -192,9 +192,27 @@
         padding-bottom: 0.625rem;
     }
 
+    /* Footer kompakt (2 Spalten), damit die Navigation den Platz bekommt */
+    .footer {
+        padding: 0.625rem 1rem;
+    }
+
+    .footerLinks {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        margin-bottom: 0.5rem;
+    }
+
     .footerLink {
+        width: 50%;
         padding-top: 0.55rem;
         padding-bottom: 0.55rem;
+    }
+
+    .socialLinks {
+        margin-bottom: 0.5rem;
+        padding-top: 0;
     }
 
     .sidebar {

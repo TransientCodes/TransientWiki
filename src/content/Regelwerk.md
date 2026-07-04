@@ -1,5 +1,7 @@
 **Regelwerk TransientRealm.de**
 
+<div class="md-note"><strong>Inhalt:</strong> <a href="#1-allgemein">§1 Allgemein</a> · <a href="#2-discord-spezifische-regeln">§2 Discord-Regeln</a> · <a href="#3-minecraft-spezifische-regeln">§3 Minecraft-Regeln</a></div>
+
 # **§1 – Allgemein**
 
 *§1.1 Grundsätze*

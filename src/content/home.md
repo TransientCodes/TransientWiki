@@ -2,7 +2,19 @@
 
 Willkommen im offiziellen **TransientRealm Wiki**. Dieses deutschsprachige Minecraft-Server-Wiki erklärt die wichtigsten Systeme, Features und Progressionspfade verständlich und ohne unnötige Umwege.
 
+<div class="md-note"><strong>Mitspielen:</strong> Minecraft <strong>Java</strong> 26.1.2 · Server-Adresse <code>transientrealm.de</code> — <a href="/wiki/anderes/einfuehrung#auf-den-server-kommen">Verbindungs-Anleitung</a></div>
+
 Ob **Jobs**, **Quests**, **Citybuild**, **Siegel**, **Kisten** oder **Fraktionen** — zu jedem Server-System findest du hier eine klare Anleitung.
+
+---
+
+## Neu hier? So startest du
+
+1. **[Auf den Server kommen](/wiki/anderes/einfuehrung#auf-den-server-kommen)** — Java 26.1.2, Adresse `transientrealm.de`.
+2. **[Anfänger-Guide](/wiki/anfaenger-guide)** — die ersten Schritte: Spawn, Plot, erster Job.
+3. Danach gezielt vertiefen: **[Jobs & Berufe](/wiki/jobs/berufe)**, **[Citybuild](/wiki/anderes/citybuild)** oder **[Kulte & Fraktionen](/wiki/kult/kulte)**.
+
+Noch Fragen? Die **[FAQ](/wiki/faq)** beantwortet die häufigsten.
 
 ---
 
@@ -49,10 +61,4 @@ TransientRealm ist ein deutscher Minecraft-Server mit Fokus auf **Citybuild**, e
 
 ---
 
-## Neu hier? So startest du
-
-1. **[Anfänger-Guide](/wiki/anfaenger-guide)** — die ersten Schritte auf dem Server: Spawn, Plot, erster Job.
-2. **[Server-Systeme im Überblick](/wiki/server-systeme)** — verschaffe dir einen Überblick über alle Features.
-3. Danach gezielt vertiefen: **[Jobs & Berufe](/wiki/jobs/berufe)**, **[Citybuild](/wiki/anderes/citybuild)** oder **[Kulte & Fraktionen](/wiki/kult/kulte)**.
-
-Noch Fragen? Die **[FAQ](/wiki/faq)** beantwortet die häufigsten.
+Du willst den Gesamtüberblick? **[Alle Server-Systeme auf einen Blick](/wiki/server-systeme)**.

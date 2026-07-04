@@ -125,6 +125,53 @@
     transform: translateY(1px);
 }
 
+/* Tastatur-Direkteinstieg: unsichtbar, bis er Fokus bekommt */
+.skipLink {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    z-index: 30;
+    background: var(--color-bg-surface);
+    color: var(--color-text-primary);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--glass-border-accent);
+    border-top: none;
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    font-size: 0.875rem;
+}
+
+.skipLink:focus {
+    top: 0;
+}
+
+.content:focus {
+    outline: none;
+}
+
+.backTop {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 15;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(30, 23, 18, 0.92);
+    border: 1px solid var(--glass-border-accent);
+    border-radius: var(--radius-md);
+    color: var(--color-accent);
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    transition: color var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.backTop:hover {
+    background: var(--color-bg-surface-hover);
+    color: var(--color-accent-hover);
+}
+
 /* Dampfdruckleiste: Kupfer → Messing, wird zur Spitze hin heller */
 .progressBar {
     position: fixed;

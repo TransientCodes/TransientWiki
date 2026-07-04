@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Menu, Search as SearchIcon, X } from 'lucide-react';
+import { ArrowUp, Menu, Search as SearchIcon, X } from 'lucide-react';
 import styles from './Layout.module.css';
 import Sidebar from './Sidebar.jsx';
 import Search from './Search.jsx';
@@ -9,8 +9,14 @@ const Layout = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [searchKey, setSearchKey] = useState('Strg K');
   const contentRef = useRef(null);
+  const isFirstRoute = useRef(true);
   const location = useLocation();
+
+  useEffect(() => {
+    if (/Mac|iPhone|iPad/.test(navigator.platform)) setSearchKey('⌘ K');
+  }, []);
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -30,6 +36,13 @@ const Layout = () => {
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => setProgress(0));
     if (contentRef.current) contentRef.current.scrollTop = 0;
+    // Fokus nach SPA-Navigation auf den Inhalt setzen (Screenreader/Tastatur);
+    // beim ersten Render nicht, damit ein Hash-Deeplink ungestört scrollen kann.
+    if (isFirstRoute.current) {
+      isFirstRoute.current = false;
+    } else {
+      contentRef.current?.focus({ preventScroll: true });
+    }
     return () => window.cancelAnimationFrame(frame);
   }, [location.pathname]);
 
@@ -57,6 +70,9 @@ const Layout = () => {
 
   return (
     <div className={styles.container}>
+      <a href="#main-content" className={styles.skipLink}>
+        Zum Inhalt springen
+      </a>
       <div
         className={styles.progressBar}
         style={{ width: `${progress}%` }}
@@ -80,19 +96,36 @@ const Layout = () => {
         >
           <SearchIcon size={15} />
           <span className={styles.searchLabel}>Suchen</span>
-          <kbd className={styles.searchKbd}>/</kbd>
+          <kbd className={styles.searchKbd}>{searchKey}</kbd>
         </button>
       </header>
 
       <div className={styles.main}>
         <Sidebar isOpen={isSidebarOpen} onClose={closeSidebar} />
 
-        <main className={styles.content} ref={contentRef} onScroll={handleScroll}>
+        <main
+          className={styles.content}
+          ref={contentRef}
+          onScroll={handleScroll}
+          id="main-content"
+          tabIndex={-1}
+        >
           <div className={styles.contentInner}>
             <Outlet />
           </div>
         </main>
       </div>
+
+      {progress > 20 && (
+        <button
+          className={styles.backTop}
+          onClick={() => contentRef.current?.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Nach oben scrollen"
+          title="Nach oben"
+        >
+          <ArrowUp size={18} />
+        </button>
+      )}
 
       {isSearchOpen && <Search onClose={() => setIsSearchOpen(false)} />}
     </div>

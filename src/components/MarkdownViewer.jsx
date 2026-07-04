@@ -50,8 +50,12 @@ function makeHeading(HeadingTag) {
         {React.createElement(HeadingTag, { id: slug, ...props }, children)}
         <button
           className={styles.anchorLink}
-          aria-label="Zu diesem Abschnitt scrollen"
-          onClick={() => document.getElementById(slug)?.scrollIntoView({ behavior: 'smooth' })}
+          aria-label="Abschnitts-Link in Adresszeile setzen"
+          title="Link zu diesem Abschnitt"
+          onClick={() => {
+            window.history.replaceState(null, '', `#${slug}`);
+            document.getElementById(slug)?.scrollIntoView({ behavior: 'smooth' });
+          }}
         >
           <Hash size={14} />
         </button>

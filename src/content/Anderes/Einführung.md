@@ -6,6 +6,20 @@ Wenn du neu auf dem Server bist, solltest du diese Reihenfolge einhalten:
 
 ---
 
+## Auf den Server kommen
+
+TransientRealm ist ein reiner **Java-Edition**-Server — Bedrock (Handy, Konsole, Windows-Store-Version) wird nicht unterstützt.
+
+<div class="md-note"><strong>Server-Adresse:</strong> <code>transientrealm.de</code> · <strong>Version:</strong> Minecraft Java 26.1.2</div>
+
+1. Starte Minecraft **Java Edition** in Version **26.1.2**.
+2. Öffne **Mehrspieler** → **Server hinzufügen**.
+3. Trage als Serveradresse `transientrealm.de` ein, speichere und verbinde dich.
+
+Beim ersten Join landest du direkt am Spawn — dort geht es unten weiter.
+
+---
+
 ## 1. Spawn verstehen
 
 Am Spawn findest du die wichtigsten Startpunkte für deinen Einstieg:

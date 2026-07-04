@@ -2,6 +2,8 @@
 
 Neu auf TransientRealm? Dieser Guide bringt dich in wenigen Minuten ins Spiel — Spawn, Plot, erster Job, Quests und Farmwelt.
 
+<div class="md-note"><strong>Direkt loslegen:</strong> Minecraft <strong>Java</strong> 26.1.2 · Server-Adresse <code>transientrealm.de</code> — <a href="/wiki/anderes/einfuehrung#auf-den-server-kommen">so verbindest du dich</a></div>
+
 ## Deine ersten Schritte
 
 1. [Erste Schritte auf dem Server](/wiki/anderes/einfuehrung) — Ankommen, Spawn und Grundlagen.

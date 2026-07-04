@@ -213,6 +213,20 @@ const NAV_CATEGORIES = [
 // Kategorien ersetzt), aber als URL weiterhin erreichbar bleiben.
 const NAV_HIDDEN_ROUTES = new Set(['/wiki/anderes/allgemein']);
 
+const CATEGORY_BY_ROUTE = new Map();
+NAV_CATEGORIES.forEach((category) =>
+  category.routes.forEach((route) => CATEGORY_BY_ROUTE.set(route, category.name)),
+);
+
+// Sidebar-Kategorie einer Route (z. B. für Kontext in Suchtreffern);
+// Fallback ist die Ordner-Gruppe, Top-Level-Seiten haben keine.
+export function getCategoryForRoute(route, entry = null) {
+  return (
+    CATEGORY_BY_ROUTE.get(route) ??
+    (entry?.isNested ? entry.labels[0] : null)
+  );
+}
+
 export function getNavigationStructure() {
   const byRoute = new Map(CONTENT_ENTRIES.map((entry) => [entry.route, entry]));
   const toLink = (entry) => ({ name: entry.title, path: entry.route });
