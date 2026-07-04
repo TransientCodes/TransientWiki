@@ -132,27 +132,26 @@
     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
-/* Inline-Befehle: gedruckte Setzkasten-Optik auf Papier */
+/* Inline-Befehle: wie getippt — Typewriter auf Papier */
 .markdown code {
     font-family: var(--font-mono);
     background: rgba(70, 50, 25, 0.08);
-    padding: 0.15rem 0.45rem;
+    padding: 0.1rem 0.45rem;
     border-radius: var(--radius-sm);
-    font-size: 0.85em;
+    font-size: 0.9em;
     color: #7c4a12;
     border: 1px solid rgba(70, 50, 25, 0.25);
 }
 
-/* Code-Blöcke bleiben dunkle Maschinen-Inseln im Papier */
+/* Code-Blöcke: Typoskript-Kasten auf Papier */
 .markdown pre {
-    background: #1e1712;
-    color: #f2e9da;
+    background: rgba(255, 252, 242, 0.5);
+    color: var(--color-text-primary);
     padding: 1.5rem;
     border-radius: var(--radius-sm);
     overflow-x: auto;
     margin-bottom: 2rem;
-    border: 1px solid rgba(60, 42, 20, 0.5);
-    box-shadow: var(--shadow-neu-pressed);
+    border: 1px solid rgba(70, 50, 25, 0.35);
 }
 
 .markdown pre code {
@@ -164,14 +163,14 @@
     font-size: 0.9em;
 }
 
-/* Tabellen: dunkle Maschinen-Inseln im Papier — Sans, feste Dunkelwerte,
-   damit Minecraft-Chatfarben im Inhalt lesbar bleiben */
+/* Tabellen: gedruckte Zeitungstabelle — Sans, Hairlines, Sepia-Kopfbalken.
+   Minecraft-Chatfarben in Zellen bleiben dank der dunklen Chips lesbar. */
 .tableWrap {
     margin-bottom: 2rem;
     border-radius: var(--radius-sm);
-    border: 1px solid rgba(60, 42, 20, 0.5);
+    border: 1px solid rgba(70, 50, 25, 0.4);
     overflow-x: auto;
-    background: #1e1712;
+    background: rgba(255, 252, 242, 0.35);
 }
 
 .markdown table {
@@ -186,8 +185,8 @@
 .markdown td {
     padding: 0.875rem 1rem;
     text-align: left;
-    color: #cfc3b2;
-    border-bottom: 1px solid #322a1f;
+    color: var(--color-text-body);
+    border-bottom: 1px solid rgba(70, 50, 25, 0.22);
 }
 
 .markdown td {
@@ -195,13 +194,13 @@
 }
 
 .markdown th {
-    background: #241c15;
+    background: rgba(70, 50, 25, 0.1);
     font-family: var(--font-sans);
     font-weight: 600;
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #f2e9da;
+    color: var(--color-text-primary);
 }
 
 .markdown tr:last-child td {
@@ -209,19 +208,12 @@
 }
 
 .markdown tr:hover td {
-    background: rgba(223, 161, 69, 0.05);
-    color: #f2e9da;
+    background: rgba(70, 50, 25, 0.05);
+    color: var(--color-text-primary);
 }
 
-/* Inline-Code in dunklen Tabellen braucht helle Messing-Werte */
-.markdown td code,
-.markdown th code {
-    background: rgba(223, 161, 69, 0.1);
-    color: #eebd6d;
-    border-color: rgba(223, 161, 69, 0.22);
-}
-
-/* Dunkle Chips hinter farbigen Minecraft-Spans: bleiben auf Papier lesbar */
+/* Dunkle Druckplättchen hinter farbigen Minecraft-Spans:
+   halten Weiß/Gelb/Aqua auf Papier lesbar */
 .markdown [style*='color:'] {
     background: rgba(24, 18, 13, 0.92);
     border-radius: 4px;
